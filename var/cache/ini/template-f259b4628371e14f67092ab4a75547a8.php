@@ -1,8 +1,8 @@
 <?php
-// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 04:09:24 -0800
+// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 13:08:54 -0800
 $data = array(
 'rev' => 2,
-'created' => '2026-03-03T04:09:24-08:00',
+'created' => '2026-03-03T13:08:54-08:00',
 'charset' => "utf-8",
 'files' => array (0 => '/var/www/vhosts/portfolio.se7enx.com/public_html/hackernews.portfolio.se7enx.com/lib/ezutils/classes/../../../settings/template.ini',1 => 'extension/ezwebin/settings/template.ini.append.php',2 => 'extension/ezmultiupload/settings/template.ini.append.php',3 => 'extension/bcgooglesitemaps/settings/template.ini.append.php',4 => 'extension/swark/settings/template.ini.append.php',5 => 'settings/override/template.ini',
 ),

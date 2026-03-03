@@ -1,8 +1,8 @@
 <?php
 // URI:       design:setup/debug_toolbar.tpl
 // Filename:  design/standard/templates/setup/debug_toolbar.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_225072ce06e6143e9da3123434395d4e = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_5c6f56f34c7bd07a7ec5788e57bcda3c = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -18,7 +18,7 @@ $text .= '<div class="block debug-toolbar">
 
 <div class="element">
 <h3>Clear cache:</h3>';
-$oldRestoreIncludeArray_d30f846af7ca003dfa9e75301ba05c9f = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_9de0f7c3c508974ed23cc7c81889c06d = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -62,7 +62,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_d30f846af7ca003dfa9e75301ba05c9f;
+$restoreIncludeArray = $oldRestoreIncludeArray_9de0f7c3c508974ed23cc7c81889c06d;
 
 $text .= '</div>
 
@@ -101,7 +101,7 @@ while ( is_object( $var ) and method_exists( $var, 'templateValue' ) )
 $vars[$currentNamespace]['siteaccess'] = $var;
 unset( $var );
 $vars[$currentNamespace]['select_siteaccess'] = 'false';
-$oldRestoreIncludeArray_8d47828ce2131d43e330574e74c0f192 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_86fc598d5711a54185d73a1cc346f157 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -145,7 +145,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_8d47828ce2131d43e330574e74c0f192;
+$restoreIncludeArray = $oldRestoreIncludeArray_86fc598d5711a54185d73a1cc346f157;
 
 unset( $vars[$currentNamespace]['siteaccess'] );
 unset( $vars[$currentNamespace]['select_siteaccess'] );
@@ -154,6 +154,6 @@ $text .= '</div>
 
 </div>';
 
-$setArray = $oldSetArray_225072ce06e6143e9da3123434395d4e;
+$setArray = $oldSetArray_5c6f56f34c7bd07a7ec5788e57bcda3c;
 $tpl->Level--;
 ?>

@@ -1,8 +1,8 @@
 <?php
 // URI:       design/delta/templates/page_header.tpl
 // Filename:  design/delta/templates/page_header.tpl
-// Timestamp: 1769248627 (Sat Jan 24 1:57:07 PST 2026)
-$oldSetArray_75bb76be7338ccce53e1252619e21603 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_e9373fbcd7b0f6bc8321e3253f792791 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -28,7 +28,7 @@ $text .= '<!-- Header area: START -->
     </a>
 
     ';
-$oldRestoreIncludeArray_ac352ede4fde458d21ab26942151a59a = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_2a8e2251034c69b0cb75b92e56cc6978 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -72,13 +72,13 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_ac352ede4fde458d21ab26942151a59a;
+$restoreIncludeArray = $oldRestoreIncludeArray_2a8e2251034c69b0cb75b92e56cc6978;
 
 $text .= '  </div>
 
 </header>
 <!-- Header area: END -->';
 
-$setArray = $oldSetArray_75bb76be7338ccce53e1252619e21603;
+$setArray = $oldSetArray_e9373fbcd7b0f6bc8321e3253f792791;
 $tpl->Level--;
 ?>

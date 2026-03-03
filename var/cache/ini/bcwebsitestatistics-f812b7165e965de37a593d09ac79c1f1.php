@@ -1,8 +1,8 @@
 <?php
-// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 04:10:11 -0800
+// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 13:08:56 -0800
 $data = array(
 'rev' => 2,
-'created' => '2026-03-03T04:10:11-08:00',
+'created' => '2026-03-03T13:08:56-08:00',
 'charset' => "utf-8",
 'files' => array (0 => 'extension/bcwebsitestatistics/settings/bcwebsitestatistics.ini',1 => 'extension/bcwebsitestatistics/settings/bcwebsitestatistics.ini.append.php',2 => 'settings/override/bcwebsitestatistics.ini.append.php',
 ),

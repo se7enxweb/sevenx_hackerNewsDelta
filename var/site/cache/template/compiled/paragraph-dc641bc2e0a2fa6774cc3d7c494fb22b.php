@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/datatype/view/ezxmltags/paragraph.tpl
 // Filename:  extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/paragraph.tpl
-// Timestamp: 1706506832 (Sun Jan 28 21:40:32 PST 2024)
-$oldSetArray_ec9e510f395c6977d50b12d294e0f8b6 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_568fb122fbbf5558cf5479c53713acfb = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -180,6 +180,6 @@ unset( $if_cond );
 
 $text .= '</p>';
 
-$setArray = $oldSetArray_ec9e510f395c6977d50b12d294e0f8b6;
+$setArray = $oldSetArray_568fb122fbbf5558cf5479c53713acfb;
 $tpl->Level--;
 ?>

@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/datatype/view/ezxmltext.tpl
 // Filename:  design/standard/templates/content/datatype/view/ezxmltext.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_b4b07473df5c3c982362ee9111111cfe = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_8cb0812e6aac44b8e25022ab77d3f6b8 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -35,6 +35,6 @@ $text .= ( is_object( $var ) ? compiledFetchText( $tpl, $rootNamespace, $current
 unset( $var );
 
 
-$setArray = $oldSetArray_b4b07473df5c3c982362ee9111111cfe;
+$setArray = $oldSetArray_8cb0812e6aac44b8e25022ab77d3f6b8;
 $tpl->Level--;
 ?>

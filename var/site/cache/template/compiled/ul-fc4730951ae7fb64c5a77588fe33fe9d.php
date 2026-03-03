@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/datatype/view/ezxmltags/ul.tpl
 // Filename:  design/standard/templates/content/datatype/view/ezxmltags/ul.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_3a5a19856e29a93a032ee318e31f7245 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_d918453a6746a32ae2b4400cb80b75a3 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -77,6 +77,6 @@ $text .= '
 </ul>
 ';
 
-$setArray = $oldSetArray_3a5a19856e29a93a032ee318e31f7245;
+$setArray = $oldSetArray_d918453a6746a32ae2b4400cb80b75a3;
 $tpl->Level--;
 ?>

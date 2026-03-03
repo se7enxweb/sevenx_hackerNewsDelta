@@ -1,8 +1,8 @@
 <?php
 // URI:       design/delta/templates/page_head.tpl
 // Filename:  design/delta/templates/page_head.tpl
-// Timestamp: 1768736688 (Sun Jan 18 3:44:48 PST 2026)
-$oldSetArray_4318813eee922f1b2a95e4c909f2044f = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_20f91084f0ec3b4170a4c41e4c04274d = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -1666,7 +1666,7 @@ if ( $show )
 
 unset( $show );
 
-$oldRestoreIncludeArray_1c9d127adb543a5c23cc6ccaee11ec78 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_86baebf03902d68bb68a0e97145f2e37 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $currentNamespace ) and isset( $vars[$currentNamespace]['enable_help'] ) )
@@ -1736,7 +1736,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_1c9d127adb543a5c23cc6ccaee11ec78;
+$restoreIncludeArray = $oldRestoreIncludeArray_86baebf03902d68bb68a0e97145f2e37;
 
 }
 
@@ -1751,6 +1751,6 @@ unset( $vars[$currentNamespace]['enable_link'] );
 }
 
 
-$setArray = $oldSetArray_4318813eee922f1b2a95e4c909f2044f;
+$setArray = $oldSetArray_20f91084f0ec3b4170a4c41e4c04274d;
 $tpl->Level--;
 ?>

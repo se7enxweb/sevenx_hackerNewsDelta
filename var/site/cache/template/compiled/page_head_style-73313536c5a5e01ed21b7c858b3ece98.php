@@ -2,7 +2,7 @@
 // URI:       extension/sevenx_diggclone/design/digg/templates/page_head_style.tpl
 // Filename:  extension/sevenx_diggclone/design/digg/templates/page_head_style.tpl
 // Timestamp: 1727354611 (Thu Sep 26 5:43:31 PDT 2024)
-$oldSetArray_435af6577153dcbf7979011bd602be09 = isset( $setArray ) ? $setArray : array();
+$oldSetArray_6a66bff915e2aaf4b1b3c4436155d42f = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -180,6 +180,6 @@ $text .= '
 <!--[if lte IE 7]> <style type="text/css"> @import url(/extension/ezwebin/design/ezwebin/stylesheets/browsers/ie7lte.css); </style> <![endif]-->
 ';
 
-$setArray = $oldSetArray_435af6577153dcbf7979011bd602be09;
+$setArray = $oldSetArray_6a66bff915e2aaf4b1b3c4436155d42f;
 $tpl->Level--;
 ?>

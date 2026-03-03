@@ -1,8 +1,8 @@
 <?php
 // URI:       design/standard/templates/page_head_displaystyles.tpl
 // Filename:  design/standard/templates/page_head_displaystyles.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_c28fcb4b2ecc9ff9ed4eb4d7d9a227d4 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_ebcb819deea003aed5b29c45185cc0bd = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -44,6 +44,6 @@ unset( $var );
 
 $text .= ' { display: block; }</style>';
 
-$setArray = $oldSetArray_c28fcb4b2ecc9ff9ed4eb4d7d9a227d4;
+$setArray = $oldSetArray_ebcb819deea003aed5b29c45185cc0bd;
 $tpl->Level--;
 ?>

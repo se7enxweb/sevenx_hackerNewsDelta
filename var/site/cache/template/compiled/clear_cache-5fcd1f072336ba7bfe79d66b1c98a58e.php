@@ -1,8 +1,8 @@
 <?php
 // URI:       design/standard/templates/setup/clear_cache.tpl
 // Filename:  design/standard/templates/setup/clear_cache.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_da32979e970ded5ecd5f4cda2c55b9c9 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_5b45b8f33c063849a53d60e1c725c6d8 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -517,6 +517,6 @@ $text .= '</form>';
 unset( $vars[$currentNamespace]['selected_cache_type'] );
 unset( $vars[$currentNamespace]['caches_list'] );
 
-$setArray = $oldSetArray_da32979e970ded5ecd5f4cda2c55b9c9;
+$setArray = $oldSetArray_5b45b8f33c063849a53d60e1c725c6d8;
 $tpl->Level--;
 ?>

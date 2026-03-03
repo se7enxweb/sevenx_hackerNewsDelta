@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/datatype/view/ezxmltags/header.tpl
 // Filename:  design/standard/templates/content/datatype/view/ezxmltags/header.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_7837361bf1b3e3683781735a359e3b54 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_883190c3b4be0215a4ef1ae5371d9790 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -578,6 +578,6 @@ else
     $namespace .= ':sw';
 unset( $vars[$namespace]['match'] );
 
-$setArray = $oldSetArray_7837361bf1b3e3683781735a359e3b54;
+$setArray = $oldSetArray_883190c3b4be0215a4ef1ae5371d9790;
 $tpl->Level--;
 ?>

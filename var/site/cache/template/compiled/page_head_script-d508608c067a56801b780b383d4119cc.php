@@ -2,7 +2,7 @@
 // URI:       extension/sevenx_diggclone/design/digg/templates/page_head_script.tpl
 // Filename:  extension/sevenx_diggclone/design/digg/templates/page_head_script.tpl
 // Timestamp: 1726778603 (Thu Sep 19 13:43:23 PDT 2024)
-$oldSetArray_7b923872fb0a4c13c7fdb2792035b7b8 = isset( $setArray ) ? $setArray : array();
+$oldSetArray_04852c484f65ff48a0a3ea25984dc069 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -124,6 +124,6 @@ $text .= ( is_object( $var ) ? compiledFetchText( $tpl, $rootNamespace, $current
 unset( $var );
 
 
-$setArray = $oldSetArray_7b923872fb0a4c13c7fdb2792035b7b8;
+$setArray = $oldSetArray_04852c484f65ff48a0a3ea25984dc069;
 $tpl->Level--;
 ?>

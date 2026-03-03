@@ -1,8 +1,8 @@
 <?php
 // URI:       design/delta/templates/page_footer.tpl
 // Filename:  design/delta/templates/page_footer.tpl
-// Timestamp: 1769416680 (Mon Jan 26 0:38:00 PST 2026)
-$oldSetArray_fd0747190ed9e7914c50eebcb6841d40 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_a9023305e5dc0c8d33f6428f4aea89cf = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -334,6 +334,6 @@ $text .= '
 
 ';
 
-$setArray = $oldSetArray_fd0747190ed9e7914c50eebcb6841d40;
+$setArray = $oldSetArray_a9023305e5dc0c8d33f6428f4aea89cf;
 $tpl->Level--;
 ?>

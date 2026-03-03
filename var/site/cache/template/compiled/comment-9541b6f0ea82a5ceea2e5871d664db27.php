@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/collectedinfo/comment.tpl
 // Filename:  design/delta/templates/content/collectedinfo/comment.tpl
-// Timestamp: 1768808564 (Sun Jan 18 23:42:44 PST 2026)
-$oldSetArray_1301e19012037cebd3c247921fd08b4a = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_b49d1c95712b576d3d66510ae72c9dab = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -2142,6 +2142,6 @@ $text .= ' class="" style="text-decoration: underline;">Vote history report</a>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>';
 
-$setArray = $oldSetArray_1301e19012037cebd3c247921fd08b4a;
+$setArray = $oldSetArray_b49d1c95712b576d3d66510ae72c9dab;
 $tpl->Level--;
 ?>

@@ -1,8 +1,8 @@
 <?php
 // URI:       design:content/datatype/view/ezxmltags/separator.tpl
 // Filename:  extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/separator.tpl
-// Timestamp: 1706506832 (Sun Jan 28 21:40:32 PST 2024)
-$oldSetArray_6bba9a4c81c14ae31737ddb54f3bdd92 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_4c734e09185889ce1173e078ead90c87 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -18,6 +18,6 @@ $text .= '<div class="separator">
     <div class="separator-design"></div>
 </div>';
 
-$setArray = $oldSetArray_6bba9a4c81c14ae31737ddb54f3bdd92;
+$setArray = $oldSetArray_4c734e09185889ce1173e078ead90c87;
 $tpl->Level--;
 ?>

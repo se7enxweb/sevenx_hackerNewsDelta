@@ -1,8 +1,8 @@
 <?php
 // URI:       design/delta/templates/navigator/google.tpl
 // Filename:  design/delta/templates/navigator/google.tpl
-// Timestamp: 1769250493 (Sat Jan 24 2:28:13 PST 2026)
-$oldSetArray_ae7315c316450a58dba3ae9593f4b776 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_1381106b90485ab6930b232706c540f1 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -1794,6 +1794,6 @@ unset( $vars[$currentNamespace]['right_max'] );
 }
 
 
-$setArray = $oldSetArray_ae7315c316450a58dba3ae9593f4b776;
+$setArray = $oldSetArray_1381106b90485ab6930b232706c540f1;
 $tpl->Level--;
 ?>

@@ -1,8 +1,8 @@
 <?php
 // URI:       design:pagelayout.tpl
 // Filename:  design/delta/templates/pagelayout.tpl
-// Timestamp: 1769248953 (Sat Jan 24 2:02:33 PST 2026)
-$oldSetArray_967d73172a6a828d13469f15826e1749 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_48b1b03efb8120f58ab1fe4fff4213de = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -461,7 +461,7 @@ unset( $fe_variable_stack_37115bd9a194d05c37e57428f3785070_2 );
 
 // foreach ends
 $text .= '  ';
-$oldRestoreIncludeArray_bdbe69d20f11c64e7b3e525d0cbd9a54 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_19039b38c0eb9f6a9ecfa61798bd07eb = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -505,7 +505,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_bdbe69d20f11c64e7b3e525d0cbd9a54;
+$restoreIncludeArray = $oldRestoreIncludeArray_19039b38c0eb9f6a9ecfa61798bd07eb;
 
 $text .= '
   ';
@@ -964,7 +964,7 @@ unset( $if_cond );
 
 $text .= '
   ';
-$oldRestoreIncludeArray_e6ea529a0a0609df69eaec3a16deb14c = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_839835fbcac585208dcd49b026d6a2c7 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -1008,7 +1008,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_e6ea529a0a0609df69eaec3a16deb14c;
+$restoreIncludeArray = $oldRestoreIncludeArray_839835fbcac585208dcd49b026d6a2c7;
 
 $text .= '  <!-- google fonts  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1017,7 +1017,7 @@ $text .= '  <!-- google fonts  -->
   
   <!-- custom styles -->
   ';
-$oldRestoreIncludeArray_dc40462047b817d3787104cf66894b8b = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_e491dfd8d3931e4a12effec1c4c587fc = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -1061,10 +1061,10 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_dc40462047b817d3787104cf66894b8b;
+$restoreIncludeArray = $oldRestoreIncludeArray_e491dfd8d3931e4a12effec1c4c587fc;
 
 $text .= '  ';
-$oldRestoreIncludeArray_1e61e5c5d243eca2bb6ce29bee5e9fee = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_db4012c6d67c170c0c88e2e17bd4decd = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -1108,7 +1108,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_1e61e5c5d243eca2bb6ce29bee5e9fee;
+$restoreIncludeArray = $oldRestoreIncludeArray_db4012c6d67c170c0c88e2e17bd4decd;
 
 $text .= '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7402149281256266"
     crossorigin="anonymous"></script>
@@ -1124,7 +1124,7 @@ $text .= '  <script async src="https://pagead2.googlesyndication.com/pagead/js/a
 
   <!-- Header area: START -->
   ';
-$oldRestoreIncludeArray_1a2ac35488dd0dcca75e3e4e06192a70 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_29178d56e71aef03b4427e42bb4bb522 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $currentNamespace ) and isset( $vars[$currentNamespace]['current_user'] ) )
@@ -1181,7 +1181,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_1a2ac35488dd0dcca75e3e4e06192a70;
+$restoreIncludeArray = $oldRestoreIncludeArray_29178d56e71aef03b4427e42bb4bb522;
 
 $text .= '  <!-- Header area: END -->
 
@@ -1189,11 +1189,11 @@ $text .= '  <!-- Header area: END -->
     <!--
     var ezpRoot = "';
 unset( $var );
-unset( $namedParameters9bd0e095c84d3945ae4cc797e8d93c24 );
-$namedParameters9bd0e095c84d3945ae4cc797e8d93c24 = array();
-$namedParameters9bd0e095c84d3945ae4cc797e8d93c24['charlist'] = '/';
-$var = SwarkRTrimOperator::execute( '/', $namedParameters9bd0e095c84d3945ae4cc797e8d93c24 );
-unset( $namedParameters9bd0e095c84d3945ae4cc797e8d93c24 );
+unset( $namedParametersf2f527de735800a83b11d3829f99d07a );
+$namedParametersf2f527de735800a83b11d3829f99d07a = array();
+$namedParametersf2f527de735800a83b11d3829f99d07a['charlist'] = '/';
+$var = SwarkRTrimOperator::execute( '/', $namedParametersf2f527de735800a83b11d3829f99d07a );
+unset( $namedParametersf2f527de735800a83b11d3829f99d07a );
 if (! isset( $var ) ) $var = NULL;
 while ( is_object( $var ) and method_exists( $var, 'templateValue' ) )
     $var = $var->templateValue();
@@ -1203,11 +1203,11 @@ unset( $var );
 $text .= '";
     var ezpFilesRoot = "';
 unset( $var );
-unset( $namedParametersfbc472feb8c42eb4db0e859f25422b7c );
-$namedParametersfbc472feb8c42eb4db0e859f25422b7c = array();
-$namedParametersfbc472feb8c42eb4db0e859f25422b7c['charlist'] = '/';
-$var = SwarkRTrimOperator::execute( '/', $namedParametersfbc472feb8c42eb4db0e859f25422b7c );
-unset( $namedParametersfbc472feb8c42eb4db0e859f25422b7c );
+unset( $namedParameters76ecc84a0e0c823679ea284d4aa16405 );
+$namedParameters76ecc84a0e0c823679ea284d4aa16405 = array();
+$namedParameters76ecc84a0e0c823679ea284d4aa16405['charlist'] = '/';
+$var = SwarkRTrimOperator::execute( '/', $namedParameters76ecc84a0e0c823679ea284d4aa16405 );
+unset( $namedParameters76ecc84a0e0c823679ea284d4aa16405 );
 if (! isset( $var ) ) $var = NULL;
 while ( is_object( $var ) and method_exists( $var, 'templateValue' ) )
     $var = $var->templateValue();
@@ -1621,7 +1621,7 @@ while ( is_object( $if_cond ) and method_exists( $if_cond, 'templateValue' ) )
 if ( $if_cond )
 {
 $text .= '      ';
-$oldRestoreIncludeArray_a82cf1411aab74286c77909d08528fea = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_6ebf6042e0d67af140aee368725a6977 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -1665,7 +1665,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_a82cf1411aab74286c77909d08528fea;
+$restoreIncludeArray = $oldRestoreIncludeArray_6ebf6042e0d67af140aee368725a6977;
 
 $text .= '    ';
 }
@@ -1919,7 +1919,7 @@ $text .= '
         <!-- Path area: START -->
         <div id="path">
           ';
-$oldRestoreIncludeArray_23590e6bef5c6ccc5c252b5e73c6944c = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_292a2c0129b55e480d8a1016b4e18c4f = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -1963,7 +1963,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_23590e6bef5c6ccc5c252b5e73c6944c;
+$restoreIncludeArray = $oldRestoreIncludeArray_292a2c0129b55e480d8a1016b4e18c4f;
 
 $text .= '        </div>
         <!-- Path area: END -->
@@ -2054,7 +2054,7 @@ $text .= '
 
   <!-- Footer area: START -->
   ';
-$oldRestoreIncludeArray_3f7b26aa1462e881e4b493e80e3bf466 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_de2f3b64928798f43f450eff5c9f6bc3 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( !isset( $dKeys ) )
@@ -2098,7 +2098,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_3f7b26aa1462e881e4b493e80e3bf466;
+$restoreIncludeArray = $oldRestoreIncludeArray_de2f3b64928798f43f450eff5c9f6bc3;
 
 $text .= '  
   <!-- Scroll To Top::Start -->
@@ -2194,6 +2194,6 @@ $text .= '
 
 </html>';
 
-$setArray = $oldSetArray_967d73172a6a828d13469f15826e1749;
+$setArray = $oldSetArray_48b1b03efb8120f58ab1fe4fff4213de;
 $tpl->Level--;
 ?>

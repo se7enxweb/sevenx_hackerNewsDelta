@@ -1,8 +1,8 @@
 <?php
 // URI:       design:error/kernel/1.tpl
 // Filename:  design/delta/templates/error/kernel/1.tpl
-// Timestamp: 1769263860 (Sat Jan 24 6:11:00 PST 2026)
-$oldSetArray_413e7cbae7023c22f6553a7f2532e352 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_7adec5b0d4f7ee92612bed6dbd197098 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -202,6 +202,6 @@ $text .= '
 
 ';
 
-$setArray = $oldSetArray_413e7cbae7023c22f6553a7f2532e352;
+$setArray = $oldSetArray_7adec5b0d4f7ee92612bed6dbd197098;
 $tpl->Level--;
 ?>

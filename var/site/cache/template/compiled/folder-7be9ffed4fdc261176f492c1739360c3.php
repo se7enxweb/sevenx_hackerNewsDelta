@@ -1,8 +1,8 @@
 <?php
 // URI:       design:node/view/full.tpl
 // Filename:  design/delta/override/templates/full/folder.tpl
-// Timestamp: 1769791327 (Fri Jan 30 8:42:07 PST 2026)
-$oldSetArray_de17f93c1a5c7b9dba53505e8b4b5e2d = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_9c639679f6256e4113092f524b3f2759 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -18,9 +18,9 @@ $node = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( "node"
 if ( is_object( $node ) )
 $object = $node->attribute( 'object' );
 if ( isset( $object ) && is_object( $object ) )
-$nod_de17f93c1a5c7b9dba53505e8b4b5e2d = $object->attribute( 'data_map' );
+$nod_9c639679f6256e4113092f524b3f2759 = $object->attribute( 'data_map' );
 else
-$nod_de17f93c1a5c7b9dba53505e8b4b5e2d = false;
+$nod_9c639679f6256e4113092f524b3f2759 = false;
 unset( $node, $object );
 
 $text .= '
@@ -632,7 +632,7 @@ $text .= '            ';
 unset( $if_cond );
 unset( $if_cond1 );
 unset( $if_cond2 );
-$if_cond2 = $nod_de17f93c1a5c7b9dba53505e8b4b5e2d;
+$if_cond2 = $nod_9c639679f6256e4113092f524b3f2759;
 if ( !$if_cond2 )
 {
 unset( $if_cond2 );
@@ -655,7 +655,7 @@ if (! isset( $if_cond1 ) ) $if_cond1 = NULL;
 while ( is_object( $if_cond1 ) and method_exists( $if_cond1, 'templateValue' ) )
     $if_cond1 = $if_cond1->templateValue();
 unset( $if_cond2 );
-$if_cond2 = $nod_de17f93c1a5c7b9dba53505e8b4b5e2d;
+$if_cond2 = $nod_9c639679f6256e4113092f524b3f2759;
 if ( !$if_cond2 )
 {
 unset( $if_cond2 );
@@ -780,7 +780,7 @@ $text .= '
         ';
 // if begins
 unset( $if_cond );
-$if_cond = $nod_de17f93c1a5c7b9dba53505e8b4b5e2d;
+$if_cond = $nod_9c639679f6256e4113092f524b3f2759;
 if ( !$if_cond )
 {
 unset( $if_cond );
@@ -2574,7 +2574,7 @@ $text .= '	  </div>
     	    
 
             ';
-$oldRestoreIncludeArray_b185e05cc629546f9cb2b263e9664a3c = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_6dab8e60e64bee56f8522282cf273087 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $namespace ) and isset( $vars[$namespace]['page_uri'] ) )
@@ -2693,7 +2693,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_b185e05cc629546f9cb2b263e9664a3c;
+$restoreIncludeArray = $oldRestoreIncludeArray_6dab8e60e64bee56f8522282cf273087;
 
 $text .= '    </div>
 </div>
@@ -2703,6 +2703,6 @@ $text .= '    </div>
 </div>
 ';
 
-$setArray = $oldSetArray_de17f93c1a5c7b9dba53505e8b4b5e2d;
+$setArray = $oldSetArray_9c639679f6256e4113092f524b3f2759;
 $tpl->Level--;
 ?>

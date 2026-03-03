@@ -1,8 +1,8 @@
 <?php
 // URI:       design:user/login.tpl
 // Filename:  design/delta/templates/user/login.tpl
-// Timestamp: 1768805888 (Sun Jan 18 22:58:08 PST 2026)
-$oldSetArray_f63ce8e02c8a9c10bc2968e1da2610bf = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_be7d47b6875ef42790856211ae2a5d3e = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -440,6 +440,6 @@ $text .= '          </form>
 
 ';
 
-$setArray = $oldSetArray_f63ce8e02c8a9c10bc2968e1da2610bf;
+$setArray = $oldSetArray_be7d47b6875ef42790856211ae2a5d3e;
 $tpl->Level--;
 ?>

@@ -1,8 +1,8 @@
 <?php
 // URI:       design:infocollector/collectionlist.tpl
 // Filename:  design/delta/templates/infocollector/collectionlist.tpl
-// Timestamp: 1768769119 (Sun Jan 18 12:45:19 PST 2026)
-$oldSetArray_c23f455aeb465271b4a9a19639ba0de8 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_5137f485e6aaee7207cf8f1c6f1d1f8f = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -648,7 +648,7 @@ $text .= '<div class="block">
 $text .= '
 
 <div class="context-toolbar">';
-$oldRestoreIncludeArray_b83236b2fef9932ab16a79bd110048d8 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_adb6ae4d3d20ebf88e78f196495f2d59 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $namespace ) and isset( $vars[$namespace]['page_uri'] ) )
@@ -775,7 +775,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_b83236b2fef9932ab16a79bd110048d8;
+$restoreIncludeArray = $oldRestoreIncludeArray_adb6ae4d3d20ebf88e78f196495f2d59;
 
 $text .= '
 <button class="btn btn-primary" style="margin-bottom: 0.8rem;" onclick="javascript:history.back()">Back</button>
@@ -798,6 +798,6 @@ $text .= '
 </form>
 ';
 
-$setArray = $oldSetArray_c23f455aeb465271b4a9a19639ba0de8;
+$setArray = $oldSetArray_5137f485e6aaee7207cf8f1c6f1d1f8f;
 $tpl->Level--;
 ?>

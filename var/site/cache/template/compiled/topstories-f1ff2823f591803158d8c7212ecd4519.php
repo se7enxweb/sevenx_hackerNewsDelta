@@ -1,8 +1,8 @@
 <?php
 // URI:       design:node/view/full.tpl
 // Filename:  design/delta/override/templates/full/topstories.tpl
-// Timestamp: 1769369593 (Sun Jan 25 11:33:13 PST 2026)
-$oldSetArray_a5d62a9f6aa254f3f9bf440bda893698 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547739 (Tue Mar 3 6:22:19 PST 2026)
+$oldSetArray_9f572c0cd83cc57c72c361ab876fdbdb = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -18,9 +18,9 @@ $node = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( "node"
 if ( is_object( $node ) )
 $object = $node->attribute( 'object' );
 if ( isset( $object ) && is_object( $object ) )
-$nod_a5d62a9f6aa254f3f9bf440bda893698 = $object->attribute( 'data_map' );
+$nod_9f572c0cd83cc57c72c361ab876fdbdb = $object->attribute( 'data_map' );
 else
-$nod_a5d62a9f6aa254f3f9bf440bda893698 = false;
+$nod_9f572c0cd83cc57c72c361ab876fdbdb = false;
 unset( $node, $object );
 
 $text .= '
@@ -1726,8 +1726,8 @@ if ( $if_cond )
 $text .= '  ';
 unset( $var );
 unset( $var1 );
-unset( $namedParametersc7cb2d6bf39ac57f072a68d69607d61b );
-$namedParametersc7cb2d6bf39ac57f072a68d69607d61b = array();
+unset( $namedParameterse50c6c5c9b6413fc58bda90ca9bc7bf5 );
+$namedParameterse50c6c5c9b6413fc58bda90ca9bc7bf5 = array();
 unset( $var2 );
 unset( $var2 );
 $var2 = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( 'childrenNodes', $vars[$rootNamespace] ) ) ? $vars[$rootNamespace]['childrenNodes'] : null;
@@ -1736,7 +1736,7 @@ while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
 while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
-$namedParametersc7cb2d6bf39ac57f072a68d69607d61b['flags'] = 'SORT_NUMERIC';
+$namedParameterse50c6c5c9b6413fc58bda90ca9bc7bf5['flags'] = 'SORT_NUMERIC';
 unset( $var2 );
 unset( $var2 );
 unset( $var2 );
@@ -1746,9 +1746,9 @@ while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
 while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
-$var1 = SwarkARSortOperator::execute( $var2, $namedParametersc7cb2d6bf39ac57f072a68d69607d61b );
+$var1 = SwarkARSortOperator::execute( $var2, $namedParameterse50c6c5c9b6413fc58bda90ca9bc7bf5 );
 unset( $var2 );
-unset( $namedParametersc7cb2d6bf39ac57f072a68d69607d61b );
+unset( $namedParameterse50c6c5c9b6413fc58bda90ca9bc7bf5 );
 if (! isset( $var1 ) ) $var1 = NULL;
 while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
@@ -1774,8 +1774,8 @@ else
 {
 $text .= '  ';
 unset( $var );
-unset( $namedParametersbfb763dc76d629524693598d79b6c14d );
-$namedParametersbfb763dc76d629524693598d79b6c14d = array();
+unset( $namedParametersd1bd6d23bea38c70c2cacf3436b3ef1f );
+$namedParametersd1bd6d23bea38c70c2cacf3436b3ef1f = array();
 unset( $var1 );
 unset( $var1 );
 $var1 = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( 'childrenNodes', $vars[$rootNamespace] ) ) ? $vars[$rootNamespace]['childrenNodes'] : null;
@@ -1784,7 +1784,7 @@ while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
 while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
-$namedParametersbfb763dc76d629524693598d79b6c14d['flags'] = 'SORT_NUMERIC';
+$namedParametersd1bd6d23bea38c70c2cacf3436b3ef1f['flags'] = 'SORT_NUMERIC';
 unset( $var1 );
 unset( $var1 );
 unset( $var1 );
@@ -1794,9 +1794,9 @@ while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
 while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
-$var = SwarkARSortOperator::execute( $var1, $namedParametersbfb763dc76d629524693598d79b6c14d );
+$var = SwarkARSortOperator::execute( $var1, $namedParametersd1bd6d23bea38c70c2cacf3436b3ef1f );
 unset( $var1 );
-unset( $namedParametersbfb763dc76d629524693598d79b6c14d );
+unset( $namedParametersd1bd6d23bea38c70c2cacf3436b3ef1f );
 if (! isset( $var ) ) $var = NULL;
 while ( is_object( $var ) and method_exists( $var, 'templateValue' ) )
     $var = $var->templateValue();
@@ -2166,8 +2166,8 @@ $text .= '  ';
 unset( $var );
 unset( $var1 );
 unset( $var2 );
-unset( $namedParameters03181202b512b9444e12dc4f3ac833f9 );
-$namedParameters03181202b512b9444e12dc4f3ac833f9 = array();
+unset( $namedParameters5fb85b412ac25e7d84bf650eb47dd9e9 );
+$namedParameters5fb85b412ac25e7d84bf650eb47dd9e9 = array();
 unset( $var3 );
 unset( $var3 );
 $var3 = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( 'childrenNodesFinal', $vars[$rootNamespace] ) ) ? $vars[$rootNamespace]['childrenNodesFinal'] : null;
@@ -2176,7 +2176,7 @@ while ( is_object( $var3 ) and method_exists( $var3, 'templateValue' ) )
     $var3 = $var3->templateValue();
 while ( is_object( $var3 ) and method_exists( $var3, 'templateValue' ) )
     $var3 = $var3->templateValue();
-$namedParameters03181202b512b9444e12dc4f3ac833f9['flags'] = 'SORT_NUMERIC';
+$namedParameters5fb85b412ac25e7d84bf650eb47dd9e9['flags'] = 'SORT_NUMERIC';
 unset( $var3 );
 unset( $var3 );
 unset( $var3 );
@@ -2186,9 +2186,9 @@ while ( is_object( $var3 ) and method_exists( $var3, 'templateValue' ) )
     $var3 = $var3->templateValue();
 while ( is_object( $var3 ) and method_exists( $var3, 'templateValue' ) )
     $var3 = $var3->templateValue();
-$var2 = SwarkARSortOperator::execute( $var3, $namedParameters03181202b512b9444e12dc4f3ac833f9 );
+$var2 = SwarkARSortOperator::execute( $var3, $namedParameters5fb85b412ac25e7d84bf650eb47dd9e9 );
 unset( $var3 );
-unset( $namedParameters03181202b512b9444e12dc4f3ac833f9 );
+unset( $namedParameters5fb85b412ac25e7d84bf650eb47dd9e9 );
 if (! isset( $var2 ) ) $var2 = NULL;
 while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
@@ -2220,8 +2220,8 @@ else
 $text .= '  ';
 unset( $var );
 unset( $var1 );
-unset( $namedParametersbdd1a48369fac0d62598c369ba9bd320 );
-$namedParametersbdd1a48369fac0d62598c369ba9bd320 = array();
+unset( $namedParameterse66f31f1fcc4b5d0164ce5bcde4c8562 );
+$namedParameterse66f31f1fcc4b5d0164ce5bcde4c8562 = array();
 unset( $var2 );
 unset( $var2 );
 $var2 = ( array_key_exists( $rootNamespace, $vars ) and array_key_exists( 'childrenNodesFinal', $vars[$rootNamespace] ) ) ? $vars[$rootNamespace]['childrenNodesFinal'] : null;
@@ -2230,7 +2230,7 @@ while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
 while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
-$namedParametersbdd1a48369fac0d62598c369ba9bd320['flags'] = 'SORT_NUMERIC';
+$namedParameterse66f31f1fcc4b5d0164ce5bcde4c8562['flags'] = 'SORT_NUMERIC';
 unset( $var2 );
 unset( $var2 );
 unset( $var2 );
@@ -2240,9 +2240,9 @@ while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
 while ( is_object( $var2 ) and method_exists( $var2, 'templateValue' ) )
     $var2 = $var2->templateValue();
-$var1 = SwarkARSortOperator::execute( $var2, $namedParametersbdd1a48369fac0d62598c369ba9bd320 );
+$var1 = SwarkARSortOperator::execute( $var2, $namedParameterse66f31f1fcc4b5d0164ce5bcde4c8562 );
 unset( $var2 );
-unset( $namedParametersbdd1a48369fac0d62598c369ba9bd320 );
+unset( $namedParameterse66f31f1fcc4b5d0164ce5bcde4c8562 );
 if (! isset( $var1 ) ) $var1 = NULL;
 while ( is_object( $var1 ) and method_exists( $var1, 'templateValue' ) )
     $var1 = $var1->templateValue();
@@ -2295,7 +2295,7 @@ if ( $if_cond )
 $text .= '              ';
 // if begins
 unset( $if_cond );
-$if_cond = $nod_a5d62a9f6aa254f3f9bf440bda893698;
+$if_cond = $nod_9f572c0cd83cc57c72c361ab876fdbdb;
 if ( !$if_cond )
 {
 unset( $if_cond );
@@ -2412,7 +2412,7 @@ $text .= '
             ';
 // if begins
 unset( $if_cond );
-$if_cond = $nod_a5d62a9f6aa254f3f9bf440bda893698;
+$if_cond = $nod_9f572c0cd83cc57c72c361ab876fdbdb;
 if ( !$if_cond )
 {
 unset( $if_cond );
@@ -2523,7 +2523,7 @@ $text .= '
             ';
 // if begins
 unset( $if_cond );
-$if_cond = $nod_a5d62a9f6aa254f3f9bf440bda893698;
+$if_cond = $nod_9f572c0cd83cc57c72c361ab876fdbdb;
 if ( !$if_cond )
 {
 unset( $if_cond );
@@ -2562,7 +2562,7 @@ $text .= '              <div class="content-view-children float-break">
                 
 
                 ';
-$oldRestoreIncludeArray_1b970f3ed3dffa9a8fdb9b73fd5cc8c8 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_dc6d069bb6b22b25afaede57d68f98d4 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $namespace ) and isset( $vars[$namespace]['page_uri'] ) )
@@ -2700,7 +2700,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_1b970f3ed3dffa9a8fdb9b73fd5cc8c8;
+$restoreIncludeArray = $oldRestoreIncludeArray_dc6d069bb6b22b25afaede57d68f98d4;
 
 $text .= '
 
@@ -7700,7 +7700,7 @@ $text .= '"
 
             
             ';
-$oldRestoreIncludeArray_7c285a305f759088206db33d32cf562b = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
+$oldRestoreIncludeArray_e7720fe55e6defb851c40dbbe570d9d1 = isset( $restoreIncludeArray ) ? $restoreIncludeArray : array();
 $restoreIncludeArray = array();
 
 if ( isset( $namespace ) and isset( $vars[$namespace]['page_uri'] ) )
@@ -7838,7 +7838,7 @@ foreach ( $restoreIncludeArray as $element )
     }
     $vars[$element[0]][$element[1]] = $element[2];
 }
-$restoreIncludeArray = $oldRestoreIncludeArray_7c285a305f759088206db33d32cf562b;
+$restoreIncludeArray = $oldRestoreIncludeArray_e7720fe55e6defb851c40dbbe570d9d1;
 
 $text .= '
             ';
@@ -7859,6 +7859,6 @@ $text .= '          </div>
   </div>
 </div>';
 
-$setArray = $oldSetArray_a5d62a9f6aa254f3f9bf440bda893698;
+$setArray = $oldSetArray_9f572c0cd83cc57c72c361ab876fdbdb;
 $tpl->Level--;
 ?>

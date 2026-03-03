@@ -1,8 +1,8 @@
 <?php
 // URI:       design/standard/templates/setup/quick_settings.tpl
 // Filename:  design/standard/templates/setup/quick_settings.tpl
-// Timestamp: 1768752118 (Sun Jan 18 8:01:58 PST 2026)
-$oldSetArray_a34571073e6fbf9cd8cf6e430e050fd5 = isset( $setArray ) ? $setArray : array();
+// Timestamp: 1772547738 (Tue Mar 3 6:22:18 PST 2026)
+$oldSetArray_01e98f12d2cae66dcb2bf10c54b1290c = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -1678,6 +1678,6 @@ unset( $vars[$currentNamespace]['ui_context'] );
 $text .= '</form>';
 unset( $vars[$currentNamespace]['settings_list'] );
 
-$setArray = $oldSetArray_a34571073e6fbf9cd8cf6e430e050fd5;
+$setArray = $oldSetArray_01e98f12d2cae66dcb2bf10c54b1290c;
 $tpl->Level--;
 ?>

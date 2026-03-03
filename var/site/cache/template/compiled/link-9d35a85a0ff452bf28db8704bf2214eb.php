@@ -2,7 +2,7 @@
 // URI:       extension/sevenx_diggclone/design/digg/templates/link.tpl
 // Filename:  extension/sevenx_diggclone/design/digg/templates/link.tpl
 // Timestamp: 1726778603 (Thu Sep 19 13:43:23 PDT 2024)
-$oldSetArray_19f1c26ee7c1688082c544d62b374034 = isset( $setArray ) ? $setArray : array();
+$oldSetArray_34cc88f02535187be6daa312cd688b40 = isset( $setArray ) ? $setArray : array();
 $setArray = array();
 $tpl->Level++;
 if ( $tpl->Level > 40 )
@@ -250,6 +250,6 @@ unset( $vars[$currentNamespace]['enable_print'] );
 }
 
 
-$setArray = $oldSetArray_19f1c26ee7c1688082c544d62b374034;
+$setArray = $oldSetArray_34cc88f02535187be6daa312cd688b40;
 $tpl->Level--;
 ?>
