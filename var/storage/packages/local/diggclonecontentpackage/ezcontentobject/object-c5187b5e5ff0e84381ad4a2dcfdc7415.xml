@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="852" name="example.com is a test domain that is fun to use in psudo code settings" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Tue, 24 Sep 2024 12:35:46 GMT" ezremote:modified="Tue, 15 Oct 2024 13:56:05 GMT" remote_id="c5187b5e5ff0e84381ad4a2dcfdc7415" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 15 Oct 2024 13:55:34 GMT" ezremote:modified="Tue, 15 Oct 2024 13:56:05 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="example.com is a test domain that is fun to use in psudo code settings">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8205" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>example.com is a test domain that is fun to use in psudo code settings</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8206" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8207" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="c984d06aafbecf6bc55569f964148ea3" is-valid="1" last-checked="0" created="1727181170" modified="1727181170">https%3A%2F%2Fexample.com</url>
+          <text>example.com</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8591" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8208" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>internet standards are fun gaming</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8209" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8213" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8210" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8211" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8212" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8215" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8214" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8723" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9797" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="64fcdc8a28d4c468dfcb392ba287406d" name="example.com is a test domain that is fun to use in psudo code settings" node-id="800" remote-id="74f5882816f59fa9efaba65f343fc03d" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

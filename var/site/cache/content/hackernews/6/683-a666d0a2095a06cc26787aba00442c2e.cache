@@ -1,0 +1,165 @@
+a:11:{s:7:"content";s:7052:"
+
+
+
+
+
+<!-- Article -->
+<ul class="article-list">
+    <li class="article-item">
+        <article class="article">
+            <form method="post" action="/contextual/action" name="digg683" id="digg683">
+  <input type="hidden" name="ContentNodeID" value="683" />
+  <input type="hidden" name="ContentObjectID" value="708" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/software/kracker-org-for-the-win" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation683').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/683"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8694" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8694" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation683"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>            <div>
+                <h2 class="article-title">
+                    <a href="https://kracker.org">kracker.org provides the best results at the lowest possible operation cost</a>
+                    <a href="https://kracker.org"
+                        class="article-source">(kracker.org)</a>
+                </h2>
+                <div class="article-meta">
+                    <span class="article-score">3 points</span>
+                    by
+                    <a
+                        class="link article-author" href="/users/administrator-users/admin">admin</a>
+
+                                        <span class="article-time">
+                        527
+                            days
+                         ago on
+                        2024/09/21 @ 09:19 pm
+                    </span>
+                    <br>
+                    category:
+                    <a href="/c/software">
+                        software
+                    </a>
+                    |
+                    <a href="/c/software/kracker-org-for-the-win#report" class="link">
+                        report
+                    </a>
+                    |
+                    <a href="/c/software/kracker-org-for-the-win#comments" class="link">
+                        0
+                        comments
+                    </a>
+                </div>
+            </div>
+        </article>
+    </li>
+</ul>
+    <div class="">
+        
+<p>Checkout my new site! It offers streaming music videos with tons of theme music to jam out with online.</p>    </div>    <div class="attribute-long">
+        
+<p>My New site is built on eZ Publish 6 the same technology that powers Digg [Sigma]. It&#039;s very fast, incredibly reliable and easy to learn and use on a daily basis of getting real work done.</p>    </div>
+
+            <div class="attribute-image">
+                                                    <figure class="figure">
+            
+    
+        
+    
+                <img src="/var/site/storage/images/digg/c/images/ez-publish-6-open-source-cms-banner-2024-09-21-1337/6957-1-eng-US/ez-publish-6-open-source-cms-banner-2024-09-21-1337_large.jpg" width="360" height="202"  style="border: 0px;" alt="eZ Publish 6 is Developed for General Use By 7x" title="eZ Publish 6 is Developed for General Use By 7x" />    
+    
+    
+                    <figcaption class="figure-caption">
+            
+<p>eZ Publish 6 is Developed for General Use By 7x</p>        </figcaption>
+    </figure><br />
+                        
+                            <div class="caption">
+                    
+<p>eZ Publish 6 powers the web!</p>                </div>
+                    </div>
+    
+<div class="news-details" style="margin-top: 0.31rem;">
+    <a href="/about/moderation" class="form-label" style="font-weight: bolder; text-color: #000000"
+        id="report">Moderation</a>
+                            <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9778[]" value="spam"
+                       >
+                spam
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9778[]" value="offtopic"
+                       >
+                off-topic
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9778[]" value="inappropriate"
+                       >
+                inappropriate
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9778[]" value="poorquality"
+                       >
+                poor quality
+            </div>
+                <form method="post" action="/contextual/action" name="diggs683" id="diggs683">
+
+        <input class="button" type="submit" style="display:none;" id="ActionCollectInformationModeration"
+            name="ActionCollectInformation" value="Moderate Post" />
+        <a class="btn btn-primary"
+            onClick="document.getElementById('ActionCollectInformationModeration').click(); return false;"
+            href="#">Moderate this story</a>
+    </form>
+</div>
+            <div class="border-rounded" style="padding-top:1rem;">
+            <h2 id="comments">Comments</h2>
+            <div class="content-view-children">
+                            </div>
+                        <form method="post" action="/content/action">
+                <input type="hidden" name="ClassIdentifier" value="comment" />
+                <input type="hidden" name="NodeID" value="683" />
+                <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+                <input class="btn btn-primary button new_comment" type="submit" name="NewButton"
+                    value="New comment" />
+            </form>
+            </div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:8:"software";s:3:"url";s:22:"/content/view/full/703";s:9:"url_alias";s:10:"c/software";s:7:"node_id";s:3:"703";}i:4;a:4:{s:4:"text";s:24:"kracker.org for the win!";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"683";}}s:10:"title_path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:8:"software";s:3:"url";s:22:"/content/view/full/703";s:9:"url_alias";s:10:"c/software";s:7:"node_id";s:3:"703";}i:4;a:3:{s:4:"text";s:24:"kracker.org for the win!";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"683";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"708";s:7:"node_id";s:3:"683";s:14:"parent_node_id";s:3:"703";s:8:"class_id";s:2:"47";s:16:"class_identifier";s:5:"story";s:9:"remote_id";s:32:"5ca02e32b9886cfc67290342a2e1a834";s:14:"node_remote_id";s:32:"d13563282fa3f3c6e97e08a279933721";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"5";s:9:"url_alias";s:34:"c/software/kracker-org-for-the-win";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"683";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:2:"48";s:23:"parent_class_identifier";s:8:"category";s:21:"parent_node_remote_id";s:32:"c9bba88b63a5776b6b5dfb4e79c939dd";s:23:"parent_object_remote_id";s:32:"d5ba65a46fe8024072cc0fd2291dfe39";}s:13:"template_list";a:8:{i:0;s:46:"design/delta/override/templates/full/story.tpl";i:1;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:88:"extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:4;s:72:"design/standard/templates/content/datatype/view/ezobjectrelationlist.tpl";i:5;s:47:"design/delta/override/templates/embed/image.tpl";i:6;s:82:"extension/sevenx_diggclone/design/digg/templates/content/datatype/view/ezimage.tpl";i:7;s:72:"design/delta/templates/content/datatype/collect/sckenhancedselection.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

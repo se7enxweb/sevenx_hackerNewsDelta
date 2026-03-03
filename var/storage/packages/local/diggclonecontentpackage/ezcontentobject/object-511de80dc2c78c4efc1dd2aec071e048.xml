@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="259" name="signup" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="32" ezremote:published="Fri, 20 Sep 2024 02:38:03 GMT" ezremote:modified="Sat, 21 Sep 2024 02:34:50 GMT" remote_id="511de80dc2c78c4efc1dd2aec071e048" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Sat, 21 Sep 2024 02:34:36 GMT" ezremote:modified="Sat, 21 Sep 2024 02:34:50 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="signup">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1730" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>signup</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1731" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1732" ezremote:identifier="location" name="Location" type="ezurl">
+          <url original-url-md5="f941ee613f208d84140a3bc3c2a61499" is-valid="1" last-checked="0" created="1726798278" modified="1726798278">%2Fuser%2Fregister</url>
+          <text>signup</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1733" ezremote:identifier="open_in_new_window" name="Open in new window" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1734" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="signup" node-id="260" remote-id="8d61593f74f7fe193c26c7c70cd5c89f" sort-field="published" sort-order="0" priority="30000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

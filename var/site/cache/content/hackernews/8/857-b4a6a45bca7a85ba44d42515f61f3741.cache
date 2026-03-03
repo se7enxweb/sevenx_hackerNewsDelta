@@ -1,0 +1,145 @@
+a:11:{s:7:"content";s:6233:"
+
+
+
+
+
+<!-- Article -->
+<ul class="article-list">
+    <li class="article-item">
+        <article class="article">
+            <form method="post" action="/contextual/action" name="digg857" id="digg857">
+  <input type="hidden" name="ContentNodeID" value="857" />
+  <input type="hidden" name="ContentObjectID" value="987" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation857').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/857"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_9772" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_9772" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation857"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>            <div>
+                <h2 class="article-title">
+                    <a href="https://www.theverge.com/c/24209615/digg-internet-web-2-homepage-2004-kevin-rose-interview">How Digg helped invent the social internet aka digg web 2 2024 interview with the kevin rose</a>
+                    <a href="https://www.theverge.com/c/24209615/digg-internet-web-2-homepage-2004-kevin-rose-interview"
+                        class="article-source">(www.theverge.com)</a>
+                </h2>
+                <div class="article-meta">
+                    <span class="article-score">10 points</span>
+                    by
+                    <a
+                        class="link article-author" href="/users/members/graham">graham</a>
+
+                                        <span class="article-time">
+                        504
+                            days
+                         ago on
+                        2024/10/15 @ 06:22 am
+                    </span>
+                    <br>
+                    category:
+                    <a href="/c/technology">
+                        technology
+                    </a>
+                    |
+                    <a href="/c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose#report" class="link">
+                        report
+                    </a>
+                    |
+                    <a href="/c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose#comments" class="link">
+                        0
+                        comments
+                    </a>
+                </div>
+            </div>
+        </article>
+    </li>
+</ul>
+    <div class="">
+        
+<p>Great Read. Love the depth and the summary at the end of the interview article. What do you think is missing on digg.one?</p>    </div>
+
+    
+<div class="news-details" style="margin-top: 0.31rem;">
+    <a href="/about/moderation" class="form-label" style="font-weight: bolder; text-color: #000000"
+        id="report">Moderation</a>
+                            <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9812[]" value="spam"
+                       >
+                spam
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9812[]" value="offtopic"
+                       >
+                off-topic
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9812[]" value="inappropriate"
+                       >
+                inappropriate
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9812[]" value="poorquality"
+                       >
+                poor quality
+            </div>
+                <form method="post" action="/contextual/action" name="diggs857" id="diggs857">
+
+        <input class="button" type="submit" style="display:none;" id="ActionCollectInformationModeration"
+            name="ActionCollectInformation" value="Moderate Post" />
+        <a class="btn btn-primary"
+            onClick="document.getElementById('ActionCollectInformationModeration').click(); return false;"
+            href="#">Moderate this story</a>
+    </form>
+</div>
+            <div class="border-rounded" style="padding-top:1rem;">
+            <h2 id="comments">Comments</h2>
+            <div class="content-view-children">
+                            </div>
+                        <form method="post" action="/content/action">
+                <input type="hidden" name="ClassIdentifier" value="comment" />
+                <input type="hidden" name="NodeID" value="857" />
+                <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+                <input class="btn btn-primary button new_comment" type="submit" name="NewButton"
+                    value="New comment" />
+            </form>
+            </div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:10:"technology";s:3:"url";s:22:"/content/view/full/704";s:9:"url_alias";s:12:"c/technology";s:7:"node_id";s:3:"704";}i:4;a:4:{s:4:"text";s:92:"How Digg helped invent the social internet aka digg web 2 2024 interview with the kevin rose";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"857";}}s:10:"title_path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:10:"technology";s:3:"url";s:22:"/content/view/full/704";s:9:"url_alias";s:12:"c/technology";s:7:"node_id";s:3:"704";}i:4;a:3:{s:4:"text";s:92:"How Digg helped invent the social internet aka digg web 2 2024 interview with the kevin rose";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"857";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"987";s:7:"node_id";s:3:"857";s:14:"parent_node_id";s:3:"704";s:8:"class_id";s:2:"47";s:16:"class_identifier";s:5:"story";s:9:"remote_id";s:32:"932f924682fa1e3c006be66a3915a3ab";s:14:"node_remote_id";s:32:"5551001583f89630d6e6665cbc56508e";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"5";s:9:"url_alias";s:105:"c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"857";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:2:"48";s:23:"parent_class_identifier";s:8:"category";s:21:"parent_node_remote_id";s:32:"54df0b71ec028314418a058beadc92f0";s:23:"parent_object_remote_id";s:32:"f8423ff4fbc7326799913d4601eda78f";}s:13:"template_list";a:5:{i:0;s:46:"design/delta/override/templates/full/story.tpl";i:1;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:88:"extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:4;s:72:"design/delta/templates/content/datatype/collect/sckenhancedselection.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

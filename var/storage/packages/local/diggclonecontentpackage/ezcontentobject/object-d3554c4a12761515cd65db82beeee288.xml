@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="706" name="First Post!" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="17" ezremote:published="Sun, 22 Sep 2024 01:14:40 GMT" ezremote:modified="Sun, 22 Sep 2024 01:14:40 GMT" remote_id="d3554c4a12761515cd65db82beeee288" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 22 Sep 2024 01:14:24 GMT" ezremote:modified="Sun, 22 Sep 2024 01:14:40 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="First Post!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6997" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>First Post!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6998" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Graham Brookins</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6999" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Woot</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="6015ce2ef6b1d86ae32adcb67f667455" name="First Post!" node-id="681" remote-id="5062ca33ed56da0387af4f0e39cf6988" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

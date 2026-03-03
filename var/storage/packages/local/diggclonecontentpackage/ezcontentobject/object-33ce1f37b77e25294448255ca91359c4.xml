@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="945" name="Digg [Sigma] Open Source Releases As DiggClone" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="17" ezremote:published="Mon, 14 Oct 2024 09:26:41 GMT" ezremote:modified="Mon, 14 Oct 2024 09:26:41 GMT" remote_id="33ce1f37b77e25294448255ca91359c4" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 14 Oct 2024 09:25:52 GMT" ezremote:modified="Mon, 14 Oct 2024 09:26:41 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Digg [Sigma] Open Source Releases As DiggClone">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9339" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Digg [Sigma] Open Source Releases As DiggClone</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9340" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Graham Brookins</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9341" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Project homepage: https://clone.digg.one/</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="3d6d1093276e3fea31e883b357a4188c" name="Digg [Sigma] Open Source Releases As DiggClone" node-id="836" remote-id="9358c33e9f1ecb4d8815edceabef889c" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

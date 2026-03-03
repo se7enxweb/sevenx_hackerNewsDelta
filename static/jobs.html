@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs - Hacker News Delta</title>
+
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header::Start -->
+    <header class="header-main">
+      <div class="container">
+        <button
+          type="button"
+          class="btn hamburger-btn"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            width="20"
+            height="20"
+          >
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </button>
+        <h1 class="brand-logo">
+          <a href="./index.html">
+            <span class="brand-logo-lg">
+              Hacker News <span class="text-accent">Delta</span>
+            </span>
+            <span class="brand-logo-sm">
+              HN <span class="text-accent">Delta</span>
+            </span>
+          </a>
+        </h1>
+        <nav class="nav">
+          <ul class="nav-left">
+            <li><a href="./news.html">new</a></li>
+            <li><a href="./past.html">past</a></li>
+            <li><a href="./comments.html">comments</a></li>
+            <li><a href="./ask.html">ask</a></li>
+            <li><a href="./show.html">show</a></li>
+            <li><a href="./jobs.html" aria-current="page">jobs</a></li>
+            <li><a href="./submit.html">submit</a></li>
+          </ul>
+          <ul class="nav-right">
+            <li>
+              <button type="button" class="dark-mode-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="icon-sun"
+                >
+                  <path
+                    d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                  class="icon-moon"
+                >
+                  <path
+                    d="M11.3807 2.01886C9.91573 3.38768 9 5.3369 9 7.49999C9 11.6421 12.3579 15 16.5 15C18.6631 15 20.6123 14.0843 21.9811 12.6193C21.6613 17.8537 17.3149 22 12 22C6.47715 22 2 17.5228 2 12C2 6.68514 6.14629 2.33869 11.3807 2.01886Z"
+                  ></path>
+                </svg>
+              </button>
+            </li>
+            <li><a href="./login.html">login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header::End -->
+
+    <!-- Main::Start -->
+    <main class="main">
+      <section class="section article-section">
+        <div class="container">
+          <h2 class="section-title">
+            These are jobs at YC startups. See more at
+            <a href="https://se7enx.com" class="link">https://se7enx.com</a>.
+          </h2>
+          <!-- Article List -->
+          <ul class="article-list">
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">5.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >Understanding Event-Driven Architectures</a
+                    >
+                    <a href="#" class="article-source">(cloudpatterns.net)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">6 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">12.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Building CLI Tools Users Love</a>
+                    <a href="#" class="article-source">(terminalcraft.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">13 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">13.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">How Compilers Optimize Your Code</a>
+                    <a href="#" class="article-source">(compilerbits.org)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">14 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">14.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >Managing State in Large Frontend Apps</a
+                    >
+                    <a href="#" class="article-source">(frontendscale.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">15 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">15.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Observability Beyond Metrics</a>
+                    <a href="#" class="article-source">(tracinghub.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">16 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">16.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">The Future of Serverless Computing</a>
+                    <a href="#" class="article-source">(cloudnext.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">17 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">6.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >What We Learned Migrating to Kubernetes</a
+                    >
+                    <a href="#" class="article-source">(devopslog.com)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">7 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">7.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Inside the JavaScript Engine</a>
+                    <a href="#" class="article-source">(jsinternals.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">8 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">8.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Designing APIs That Age Well</a>
+                    <a href="#" class="article-source">(apidesign.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">9 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">9.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">From Monolith to Microservices</a>
+                    <a href="#" class="article-source">(archdigest.com)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">10 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">10.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Debugging Distributed Systems</a>
+                    <a href="#" class="article-source">(reliability.fm)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">11 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">11.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">The Hidden Cost of Technical Debt</a>
+                    <a href="#" class="article-source">(cleanarch.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">12 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">1.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">The Rise of Code</a>
+                    <a href="#" class="article-source">(theriseofcode.com)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">2 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">2.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Why Rust Is Gaining Momentum</a>
+                    <a href="#" class="article-source">(systemsweekly.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">3 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">3.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >Scaling PostgreSQL to Millions of Users</a
+                    >
+                    <a href="#" class="article-source">(dbinsights.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">4 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">4.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >A Practical Guide to Web Accessibility</a
+                    >
+                    <a href="#" class="article-source">(inclusiveweb.org)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">5 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">17.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html">Writing Fast and Safe Go Services</a>
+                    <a href="#" class="article-source">(gopherlabs.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">18 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">18.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >Data Modeling for Real-World Systems</a
+                    >
+                    <a href="#" class="article-source">(datashapes.io)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">19 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">19.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >Lessons Learned from a Failed Startup</a
+                    >
+                    <a href="#" class="article-source">(founderstory.net)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">20 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="article-item">
+              <article class="article">
+                <span class="article-rank">20.</span>
+                <button type="button" class="article-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+                  </svg>
+                </button>
+                <div>
+                  <h2 class="article-title">
+                    <a href="./item.html"
+                      >The Art of Writing Maintainable Tests</a
+                    >
+                    <a href="#" class="article-source">(testingcraft.dev)</a>
+                  </h2>
+                  <div class="article-meta">
+                    <span class="article-time">21 hours ago</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+
+          <!-- Pagination -->
+          <nav class="pagination" aria-label="Article list pagination">
+            <ul class="pagination-list">
+              <li class="pagination-item">
+                <button class="pagination-btn" disabled>Prev</button>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn active">1</button>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn">2</button>
+              </li>
+
+              <li class="pagination-item">
+                <span class="pagination-ellipsis">…</span>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn">8</button>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn">9</button>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn">10</button>
+              </li>
+
+              <li class="pagination-item">
+                <button class="pagination-btn">Next</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+    <!-- Main::End -->
+
+    <!-- Footer::Start -->
+    <footer class="footer-main">
+      <div class="container">
+        <nav class="nav">
+          <ul>
+            <li><a href="./guidelines.html">Guidlines</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="./security.html">Security</a></li>
+            <li><a href="./lists.html">Lists</a></li>
+            <li><a href="./legal.html">Legal</a></li>
+            <li><a href="#">Apply to YC</a></li>
+            <li><a href="mailto:info@se7enx.com">Contact</a></li>
+          </ul>
+        </nav>
+        <form method="post" class="search-box">
+          <label for="search" class="form-label"> Search: </label>
+          <input type="text" id="search" name="search" class="form-control" />
+        </form>
+      </div>
+    </footer>
+    <!-- Footer::End -->
+
+    <!-- Scroll To Top::Start -->
+    <button
+      type="button"
+      class="scroll-to-top"
+      id="scrollToTop"
+      aria-label="Scroll to top"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M13.0001 22.0003L11.0002 22.0004L11.0002 5.82845L7.05044 9.77817L5.63623 8.36396L12.0002 2L18.3642 8.36396L16.9499 9.77817L13.0002 5.8284L13.0001 22.0003Z"
+        ></path>
+      </svg>
+    </button>
+    <!-- Scroll To Top::End -->
+
+    <!-- Settings::Start -->
+    <div class="settings-dock">
+      <button
+        class="settings-btn"
+        type="button"
+        id="openSettings"
+        aria-label="Open site settings"
+        data-toggle="modal"
+        data-target="#settingsModal"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          width="20"
+          height="20"
+        >
+          <path
+            d="M8.68637 4.00008L11.293 1.39348C11.6835 1.00295 12.3167 1.00295 12.7072 1.39348L15.3138 4.00008H19.0001C19.5524 4.00008 20.0001 4.4478 20.0001 5.00008V8.68637L22.6067 11.293C22.9972 11.6835 22.9972 12.3167 22.6067 12.7072L20.0001 15.3138V19.0001C20.0001 19.5524 19.5524 20.0001 19.0001 20.0001H15.3138L12.7072 22.6067C12.3167 22.9972 11.6835 22.9972 11.293 22.6067L8.68637 20.0001H5.00008C4.4478 20.0001 4.00008 19.5524 4.00008 19.0001V15.3138L1.39348 12.7072C1.00295 12.3167 1.00295 11.6835 1.39348 11.293L4.00008 8.68637V5.00008C4.00008 4.4478 4.4478 4.00008 5.00008 4.00008H8.68637ZM6.00008 6.00008V9.5148L3.5148 12.0001L6.00008 14.4854V18.0001H9.5148L12.0001 20.4854L14.4854 18.0001H18.0001V14.4854L20.4854 12.0001L18.0001 9.5148V6.00008H14.4854L12.0001 3.5148L9.5148 6.00008H6.00008ZM12.0001 16.0001C9.79094 16.0001 8.00008 14.2092 8.00008 12.0001C8.00008 9.79094 9.79094 8.00008 12.0001 8.00008C14.2092 8.00008 16.0001 9.79094 16.0001 12.0001C16.0001 14.2092 14.2092 16.0001 12.0001 16.0001ZM12.0001 14.0001C13.1047 14.0001 14.0001 13.1047 14.0001 12.0001C14.0001 10.8955 13.1047 10.0001 12.0001 10.0001C10.8955 10.0001 10.0001 10.8955 10.0001 12.0001C10.0001 13.1047 10.8955 14.0001 12.0001 14.0001Z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <!-- Settings::End -->
+
+    <!-- Modals:End -->
+    <div class="modal-backdrop" id="settingsModal" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="settingsTitle"
+      >
+        <header class="modal-header">
+          <h2 class="modal-title" id="settingsTitle">Site Settings</h2>
+          <button
+            type="button"
+            class="modal-close"
+            id="closeSettings"
+            aria-label="Close settings"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </header>
+
+        <div class="modal-body">
+          <section class="settings-section">
+            <div class="form-group">
+              <label for="fontSizeSelect" class="form-label">Font Size:</label>
+              <select id="fontSizeSelect" class="form-control">
+                <option value="0.75">75%</option>
+                <option value="0.875">87.5%</option>
+                <option value="1">100%</option>
+                <option value="1.25">125%</option>
+                <option value="1.5" selected>150%</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="themeSelect" class="form-label">Theme:</label>
+              <select id="themeSelect" class="form-control">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="system">System Default</option>
+              </select>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Modals::End -->
+
+    <!-- JavaScript -->
+    <script src="../js/scripts.js" defer></script>
+  </body>
+</html>

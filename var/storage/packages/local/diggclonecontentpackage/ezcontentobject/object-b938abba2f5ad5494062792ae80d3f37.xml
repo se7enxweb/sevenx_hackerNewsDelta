@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="938" name="Sole" ezremote:section_id="1" ezremote:owner_id="863" ezremote:class_id="31" ezremote:published="Thu, 10 Oct 2024 02:21:38 GMT" ezremote:modified="Thu, 10 Oct 2024 02:21:38 GMT" remote_id="b938abba2f5ad5494062792ae80d3f37" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 10 Oct 2024 02:21:05 GMT" ezremote:modified="Thu, 10 Oct 2024 02:21:37 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Sole">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9285" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Sole</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9286" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9287" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="68f487c19189ede3eee3df355cdf42e0" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9288" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>Sole</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9289" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9290" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9291" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="Sole" node-id="832" remote-id="7b0e81acc02743afee6e25c238fc3263" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

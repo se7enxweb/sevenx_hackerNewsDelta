@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="864" name="bug report" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="49" ezremote:published="Wed, 25 Sep 2024 05:47:49 GMT" ezremote:modified="Wed, 23 Oct 2024 02:46:12 GMT" remote_id="cf5b4238f1d6fd298010ede8b1717929" class_remote_id="6f274e6653cf4029a6152ac9fe79d78a" ezremote:class_identifier="bug_report_form" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 02:46:10 GMT" ezremote:modified="Wed, 23 Oct 2024 02:46:12 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="bug report">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8485" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>bug report</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8486" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Please leave feedback</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Be specific</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">On what page did you experience the problem</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8487" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8488" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Please describe the problem</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8489" ezremote:identifier="message" name="Message" type="eztext">
+          <text>On what page did you experience the problem?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8490" ezremote:identifier="email" name="Email" type="ezemail">
+          <email></email>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8491" ezremote:identifier="recipient" name="Recipient" type="ezemail">
+          <email>info@digg.one</email>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8492" ezremote:identifier="captcha" name="Captcha" type="recaptcha">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8493" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Big report form</title>
+            <keywords/>
+            <description>Submitted bug reports help us improve the digg.one engine</description>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" name="bug report" node-id="805" remote-id="78cc7740de6118581bb606f57f835425" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

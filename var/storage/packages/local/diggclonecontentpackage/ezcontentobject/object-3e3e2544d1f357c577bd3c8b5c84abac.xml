@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4615" name="Quantum leap movie" ezremote:section_id="1" ezremote:owner_id="4612" ezremote:class_id="17" ezremote:published="Sat, 19 Oct 2024 14:12:45 GMT" ezremote:modified="Sat, 19 Oct 2024 14:12:45 GMT" remote_id="3e3e2544d1f357c577bd3c8b5c84abac" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sat, 19 Oct 2024 14:12:03 GMT" ezremote:modified="Sat, 19 Oct 2024 14:12:45 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Quantum leap movie">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37563" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Quantum leap movie</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37564" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>4loveofdogs </text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37565" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Me too!!</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="c676981d3e14e197b48c6792f2bc6e4b" name="Quantum leap movie" node-id="4496" remote-id="a9d3480af9652aa895d30b3ca4cd4ac2" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

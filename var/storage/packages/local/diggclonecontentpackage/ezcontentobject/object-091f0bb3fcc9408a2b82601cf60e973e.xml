@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="912" name="Terracons Logo" ezremote:section_id="1" ezremote:owner_id="863" ezremote:class_id="31" ezremote:published="Mon, 07 Oct 2024 09:05:40 GMT" ezremote:modified="Tue, 08 Oct 2024 18:31:02 GMT" remote_id="091f0bb3fcc9408a2b82601cf60e973e" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 18:31:00 GMT" ezremote:modified="Tue, 08 Oct 2024 18:31:02 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Terracons Logo">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9008" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Terracons Logo</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9009" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9010" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="12260036df7d1af5d7de5aca386bea9d" alternative-text="Terracons"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9011" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9012" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9013" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9190" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="Terracons Logo" node-id="819" remote-id="28762999106c8cb29a0b931c2d92534b" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

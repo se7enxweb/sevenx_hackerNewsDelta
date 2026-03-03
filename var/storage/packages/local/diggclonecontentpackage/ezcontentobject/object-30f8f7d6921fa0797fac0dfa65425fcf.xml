@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="926" name="7x Website Hosting Delivers Result Online!" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Tue, 08 Oct 2024 00:27:14 GMT" ezremote:modified="Tue, 08 Oct 2024 00:27:14 GMT" remote_id="30f8f7d6921fa0797fac0dfa65425fcf" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 00:21:58 GMT" ezremote:modified="Tue, 08 Oct 2024 00:27:14 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="7x Website Hosting Delivers Result Online!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9155" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>7x Website Hosting Delivers Result Online!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9156" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9157" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="f038d6f3c36049d109f775544ee6648e" is-valid="1" last-checked="0" created="1726959825" modified="1726959825">https%3A%2F%2Fmy.se7enx.com</url>
+          <text>7x Website Hosting Store</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9164" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="19e1330ab50dc986e51d8d7cc3d236f2" is-valid="1" last-checked="0" created="1728347234" modified="1728347234">https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTB2lRYbNdXI</url>
+          <text>Sole &amp; DJ Pain 1 - The World Ain't Mine</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9158" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>We offer light speed page view times and reliable service that just delivers your website presence night or day rain or shine helping you connect with new customer sales.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9159" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9163" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9160" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9161" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="50882ce8304c307e3fd4429129f8839c"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9162" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9166" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9165" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9167" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9808" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="c9bba88b63a5776b6b5dfb4e79c939dd" name="7x Website Hosting Delivers Result Online!" node-id="830" remote-id="3c4e0d7c8d312b27a6629a31d5622a72" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

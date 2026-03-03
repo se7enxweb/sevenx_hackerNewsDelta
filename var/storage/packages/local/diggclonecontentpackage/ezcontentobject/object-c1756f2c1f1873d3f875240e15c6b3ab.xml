@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="701" name="eZ Publish 6 Open Source CMS Banner 2024.09.21.1337" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="31" ezremote:published="Sat, 21 Sep 2024 21:44:51 GMT" ezremote:modified="Tue, 08 Oct 2024 18:30:08 GMT" remote_id="c1756f2c1f1873d3f875240e15c6b3ab" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 18:30:01 GMT" ezremote:modified="Tue, 08 Oct 2024 18:30:08 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="eZ Publish 6 Open Source CMS Banner 2024.09.21.1337">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6955" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>eZ Publish 6 Open Source CMS Banner 2024.09.21.1337</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6956" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>eZ Publish 6 is Developed for General Use By 7x</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6957" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="26fe88bd52c88377fe5bc8d65504d15d" alternative-text="eZ Publish 6 is Developed for General Use By 7x"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6958" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>eZ Publish, Developer Friendly, General Use, Website Building CMS System, Made by 7x</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6959" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6960" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9182" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="eZ Publish 6 Open Source CMS Banner 2024.09.21.1337" node-id="675" remote-id="af1156ce377208f5ab488e0c3469972d" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

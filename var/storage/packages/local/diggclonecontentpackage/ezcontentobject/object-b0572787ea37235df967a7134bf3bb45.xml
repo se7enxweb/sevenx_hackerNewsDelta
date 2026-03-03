@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="894" name="Digg.One Promotion Banner" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sat, 28 Sep 2024 03:26:04 GMT" ezremote:modified="Sat, 28 Sep 2024 03:26:04 GMT" remote_id="b0572787ea37235df967a7134bf3bb45" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sat, 28 Sep 2024 03:22:11 GMT" ezremote:modified="Sat, 28 Sep 2024 03:26:04 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Digg.One Promotion Banner">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8884" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Digg.One Promotion Banner</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8885" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8886" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="885401262ff25ace4baa38c7103984f7" is-valid="1" last-checked="0" created="1727493884" modified="1727493884">https%3A%2F%2Fwww.instagram.com%2Fp%2FDAcexYsP6Ag%2F%3Figsh%3DMXVrdW0xOG11eTdjdw%3D%3D</url>
+          <text>Instagram Digg.One Banner </text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8893" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="8ee3ac80010394cacd17445a05d3f352" is-valid="1" last-checked="0" created="1727493964" modified="1727493964">https%3A%2F%2Fyoutu.be%2FepBbuk7x1sI%3Fsi%3DFym7G-nk5jRKYbXf</url>
+          <text>Modest Mouse - 3rd Planet</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8887" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Just sharing the new promotion banner</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8888" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Share with your friend and vote for your favorites!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8892" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8889" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8890" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="afe4a9668751586b0c94934ab4777f90"/>
+              <relation-item priority="2" contentobject-remote-id="5737104133665cc151092aa3c42c92a0"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8891" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8895" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8894" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8896" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9802" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="f354c78998b957b9a98f00572149b3ff" name="Digg.One Promotion Banner" node-id="817" remote-id="1fd3860deac67703ef241f1404bbee48" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

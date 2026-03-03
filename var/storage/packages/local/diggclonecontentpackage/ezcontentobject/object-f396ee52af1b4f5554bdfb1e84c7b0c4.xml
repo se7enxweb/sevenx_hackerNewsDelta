@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="702" name="7x is Open Source Website Building Platform Experts - Call us today!blish 6 Open Source CMS Banner 2024.09.21.1337" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="31" ezremote:published="Sat, 21 Sep 2024 21:49:07 GMT" ezremote:modified="Tue, 08 Oct 2024 18:30:30 GMT" remote_id="f396ee52af1b4f5554bdfb1e84c7b0c4" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 18:30:11 GMT" ezremote:modified="Tue, 08 Oct 2024 18:30:30 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="7x is Open Source Website Building Platform Experts - Call us today!blish 6 Open Source CMS Banner 2024.09.21.1337">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6961" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>7x is Open Source Website Building Platform Experts - Call us today!blish 6 Open Source CMS Banner 2024.09.21.1337</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6962" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09 7x</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6963" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5718dea185e004ca7a9cae6947d7d63f" alternative-text="7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09y 7x"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6964" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>7x Maintains eZ Publish 6.x, New Features Daily, Help Drive Adoption, 2024.09, 7x</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6965" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6966" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9183" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="7x is Open Source Website Building Platform Experts - Call us today!blish 6 Open Source CMS Banner 2024.09.21.1337" node-id="676" remote-id="728617b8c483a9bbaa1a8ff8ae79ac2c" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

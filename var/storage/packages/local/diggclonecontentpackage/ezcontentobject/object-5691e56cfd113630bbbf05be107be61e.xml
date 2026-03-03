@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="948" name="users" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="32" ezremote:published="Mon, 14 Oct 2024 10:35:08 GMT" ezremote:modified="Mon, 14 Oct 2024 10:35:28 GMT" remote_id="5691e56cfd113630bbbf05be107be61e" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Mon, 14 Oct 2024 10:35:23 GMT" ezremote:modified="Mon, 14 Oct 2024 10:35:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="users">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9346" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>users</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9347" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Users on Digg.one Signup today it's eZ!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9348" ezremote:identifier="location" name="Location" type="ezurl">
+          <url original-url-md5="0bd4a78e18d3ef37e66efa79ea0ee7f4" is-valid="1" last-checked="0" created="1728902100" modified="1728902100">%2Fusers%2Fmembers</url>
+          <text>users</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9349" ezremote:identifier="open_in_new_window" name="Open in new window" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9350" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="cdf4080e04a31f98f9bb2ec038735779" name="users" node-id="844" remote-id="36f2ea8cf0dd359742efde3474d484e4" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

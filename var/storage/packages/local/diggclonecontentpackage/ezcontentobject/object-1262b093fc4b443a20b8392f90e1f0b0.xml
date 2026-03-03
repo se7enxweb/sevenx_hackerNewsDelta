@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="944" name="Digg Clone Extension to eZ Publish (DiggClone::HomePage Dependencies)" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="17" ezremote:published="Mon, 14 Oct 2024 06:48:40 GMT" ezremote:modified="Mon, 14 Oct 2024 06:48:40 GMT" remote_id="1262b093fc4b443a20b8392f90e1f0b0" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 14 Oct 2024 06:48:02 GMT" ezremote:modified="Mon, 14 Oct 2024 06:48:40 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Digg Clone Extension to eZ Publish (DiggClone::HomePage Dependencies)">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9336" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Digg Clone Extension to eZ Publish (DiggClone::HomePage Dependencies)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9337" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Graham Brookins</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9338" ezremote:identifier="message" name="Message" type="eztext">
+          <text>https://github.com/se7enxweb/sevenx_diggclone</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="3d6d1093276e3fea31e883b357a4188c" name="Digg Clone Extension to eZ Publish (DiggClone::HomePage Dependencies)" node-id="835" remote-id="65bed16dfee5e6d504076e3da34d7786" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

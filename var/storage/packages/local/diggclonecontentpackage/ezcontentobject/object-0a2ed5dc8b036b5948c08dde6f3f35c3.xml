@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="262" name="sitemap" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="32" ezremote:published="Fri, 20 Sep 2024 02:47:06 GMT" ezremote:modified="Sat, 21 Sep 2024 01:09:43 GMT" remote_id="0a2ed5dc8b036b5948c08dde6f3f35c3" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Sat, 21 Sep 2024 01:09:37 GMT" ezremote:modified="Sat, 21 Sep 2024 01:09:43 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="sitemap">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1761" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>sitemap</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1762" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1763" ezremote:identifier="location" name="Location" type="ezurl">
+          <url original-url-md5="9b492048041e95b32de08bafc86d759b" is-valid="1" last-checked="0" created="1712112542" modified="1712112542">%2Fcontent%2Fview%2Fsitemap%2F2</url>
+          <text>sitemap</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1764" ezremote:identifier="open_in_new_window" name="Open in new window" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1765" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="cdf4080e04a31f98f9bb2ec038735779" name="sitemap" node-id="263" remote-id="fdf4b718232b6c23997c16028a2e0107" sort-field="path" sort-order="1" priority="9990"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

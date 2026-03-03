@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="705" name="Get the 7x Advantage in your business website! Get help from the experts!" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sat, 21 Sep 2024 23:07:03 GMT" ezremote:modified="Mon, 21 Oct 2024 07:02:18 GMT" remote_id="69c3cb6cd156bda5a438a6702cb1d97f" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="12">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="12" ezremote:status="1" ezremote:created="Mon, 21 Oct 2024 07:01:41 GMT" ezremote:modified="Mon, 21 Oct 2024 07:02:18 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Get the 7x Advantage in your business website! Get help from the experts!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6985" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Get the 7x Advantage in your business website! Get help from the experts!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6986" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6987" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="f038d6f3c36049d109f775544ee6648e" is-valid="1" last-checked="0" created="1726959825" modified="1726959825">https%3A%2F%2Fmy.se7enx.com</url>
+          <text>my.se7enx.com</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8556" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6988" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We provide cost effective .. Web Design|</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">A pioneering digital agency, crafting captivating web experiences through cutting-edge design and development. We're your trusted heroes in the online realm.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Empower your digital journey with our comprehensive range of expert services. From web design to hosting, we've got you covered.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6989" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We provide enterprise web design and software development services to customers worldwide from North America.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We specialize in solving complex web content management problems using content management systems like eZ Publish, WordPress, Plone, and the best in class tools.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We are enterprise content management integrators, implementing the eZ Publish enterprise content management system on behalf of other organizations, businesses, nonprofit groups and local governments.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Reach out and <link target="_self" href="https://se7enx.com/">contact us</link> to request a demo or with your questions.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6993" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>7x, Hosting, Website, Design, Development, Creation, Building, Build It Faster!</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6990" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6991" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="f396ee52af1b4f5554bdfb1e84c7b0c4"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6992" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">7x</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6995" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6994" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8688" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9777" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="54df0b71ec028314418a058beadc92f0" name="Get the 7x Advantage in your business website! Get help from the experts!" node-id="680" remote-id="5695b25a172715071c0180d97eb9570a" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

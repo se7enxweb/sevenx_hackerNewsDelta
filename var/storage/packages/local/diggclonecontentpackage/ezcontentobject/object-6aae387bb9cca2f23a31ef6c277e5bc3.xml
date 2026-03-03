@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="69" name="about" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Thu, 29 Feb 2024 12:03:36 GMT" ezremote:modified="Wed, 23 Oct 2024 10:13:33 GMT" remote_id="6aae387bb9cca2f23a31ef6c277e5bc3" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="14">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="14" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 10:10:03 GMT" ezremote:modified="Wed, 23 Oct 2024 10:13:33 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="about">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="282" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>about</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="283" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="284" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <section>
+              <section>
+                <header>about digg: frequently asked questions</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Today we are supporting a new kind of Digg. A digg you may remember that supports user summited votes or diggs daily activity to promote news stories submitted to the home page.</paragraph>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">You might remember this implementation of <link target="_self" href="http://web.archive.org/web/20051102024325/http://www.digg.com/">digg</link>.com under kevin rose startup days (as <custom name="underline">digg api v1 + v2</custom> but <emphasize>absolutely not the v3 rewrite)</emphasize> and how it <strong>empowered</strong> the user who <strong>decides</strong> what stories <custom name="underline">make it to the homepage</custom> via user submitted votes or diggs daily promoting the good in the news submitted. Well sir we are bringing it back!</paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="285" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ol>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Digg is a technology news website that combines social bookmarking, blogging, RSS, and non-hierarchical editorial control. With digg, users submit stories for review, but rather than allow an editor to decide which stories go on the homepage, the users do.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Once a story is submitted by a user it is instantly posted in the <link href="/all/upcomming">digg area queue</link>. This is a temporary holding place where stories wait to be promoted to the homepage. To help promote stories to the homepage, simply visit the digg area and digg stories you think are cool. Once a story has received enough diggs, it is instantly promoted. Should the story not receive enough diggs, or is reported, it eventually falls out of the digg area queue. Digg works because a large group of people actively promote good stories to the homepage. Since this site's content is user-driven, it is up to YOU to contribute.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Submitting stories is easy. Simply click on "<link href="/c">submit a story</link>" in the page header and enter the URL of the story you would like to submit. Then fill out a title, description, and category for the story. Should you encounter a potential duplicate, <custom name="underline">please</custom> digg the <emphasize>original story</emphasize> and <strong>do not submit a duplicate entry</strong>.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>In Re-implementation Development</strong>: There are currently two types of digg news you can add to your website, digg homepage news and digg user news. If you would like to add the latest digg homepage stories to your website simply click "<link href="http://web.archive.org/web/20051102021118/http://digg.com/jshomepageedit">add digg news</link>" on the digg homepage right navigation. To add digg user news, (your latest diggs, or someone else's) visit the user's profile you would like to add (digg.com/users/username) and click "add this feed" in the digging history navigation.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> (Above) In Re-implementation Progress</strong>: There are currently two types of digg news you can add to your website, digg homepage news and digg user news. To add digg user news, (your latest stories submitted, or someone else's) visit the user's profile you would like to add (digg.one/users/members/{username}/submitted) and review their stories submitted. This content is dynamically made available via a ATOM feed upon user signup at (https://digg.one/rss/feed/user-submitted-{username). This feed is now available when viewing a user profile /users/members/{username}, simply click the Orange Feed Icon Link.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Completed</strong> Digg Category ATOM Feeds: There are now currently four types of digg news you can add to your website, digg homepage news, digg upcomming news, digg category news by topic and digg user news. To add digg user news. Available on each category page, look for the Orange Feed Icon Link on each category page. they can also be found at digg.one/rss/feed/category-name</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Pending Re-implementation</strong>: Digg currently supports single click blog posting to Typepad, Blogger, Live Journal, Moveable Type, and Wordpress. To blog any story within digg, simply click "blog story".</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>In Re-implementation Development</strong>: Every time you digg, submit, or comment on a story it is bookmarked and stored within digg and displayed your user profile. To visit your user profile, click your username on the top navigation or enter any user's address manually: digg.com/users/username.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Pending Re-implementation</strong>: Ever want to group multiple friend's RSS feeds together? With digg friends you can now track all your friend's diggs/stories/comments under one place. Visit the "friends" tab under your user profile to add and remove friends.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>In Re-implementation Development: </strong>Digg gives moderation control back to the community. Should you run across any stories with bad links, irrelevant content, or duplicate entries, please report them using the "problem" report feature.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Pending Re-implementation</strong>: Next to each comment is a small "x" which allows users to block other user's comments. If you've accidentally blocked someone and wish to unblock them, you can do so in your personal profile account settings.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">To contact us, please visit our <link href="http://web.archive.org/web/20051102021118/http://digg.com/contact">contact page</link>.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Use our <link href="/rss/feed/digg">atom feed</link> in your favorite rss reader and keep up with our latest news.</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Our website supports the open source movement to ensure software freedoms in technology continue to thrive. Visit the <link href="https://clone.digg.one">DiggClone Project Homepage</link> to learn how you can build your own copy of this website yourself and in time contribute features back to Digg and DiggClone Software Stacks.</paragraph>
+                </li>
+              </ol>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="287" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>About</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="288" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="about" node-id="71" remote-id="e74472eaa56fc0f7523ddb60a5290a33" sort-field="priority" sort-order="0" priority="10000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

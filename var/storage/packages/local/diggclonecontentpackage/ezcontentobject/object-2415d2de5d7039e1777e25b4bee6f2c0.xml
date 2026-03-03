@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="914" name="eZ Publish 6 makes building portals quick and efficient" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Mon, 07 Oct 2024 13:25:36 GMT" ezremote:modified="Mon, 21 Oct 2024 15:53:18 GMT" remote_id="2415d2de5d7039e1777e25b4bee6f2c0" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Mon, 21 Oct 2024 15:52:39 GMT" ezremote:modified="Mon, 21 Oct 2024 15:53:18 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="eZ Publish 6 makes building portals quick and efficient">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9027" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>eZ Publish 6 makes building portals quick and efficient</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9028" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9029" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="bb592d664b037fd0caf88fe5636e8548" is-valid="1" last-checked="0" created="1726954734" modified="1726954734">https%3A%2F%2Fezpublish.se7enx.com</url>
+          <text>eZ Publish Project Portal</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9036" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="908a7d06ebe52a788527f082644e57c9" is-valid="1" last-checked="0" created="1728307536" modified="1728307536">https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3V9OwTIicgE</url>
+          <text>MC Chris - Dengar's Dumptruck</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9030" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Visit the eZ Publish Project Portal to learn more about eZ Publish and take advantage of our resources for building web applications and website portals.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9031" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9035" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9032" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9033" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="c1756f2c1f1873d3f875240e15c6b3ab"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9034" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9038" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9037" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9039" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9804" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="164f38a74b2823b8bc98cee0f4efd844" name="eZ Publish 6 makes building portals quick and efficient" node-id="821" remote-id="9f5d2b415914f508e45ddb3aa9a0930c" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

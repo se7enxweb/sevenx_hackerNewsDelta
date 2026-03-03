@@ -1,0 +1,1090 @@
+a:11:{s:7:"content";s:37820:"
+
+
+
+
+
+<!-- Article -->
+<ul class="article-list">
+    <li class="article-item">
+        <article class="article">
+            <form method="post" action="/contextual/action" name="digg685" id="digg685">
+  <input type="hidden" name="ContentNodeID" value="685" />
+  <input type="hidden" name="ContentObjectID" value="718" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/news" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation685').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/685"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8695" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8695" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation685"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>            <div>
+                <h2 class="article-title">
+                    <a href="https://github.com/se7enxweb/sevenx_digg">Digg Sigma is now digg.one and available on GitHub for free downloads</a>
+                    <a href="https://github.com/se7enxweb/sevenx_digg"
+                        class="article-source">(github.com)</a>
+                </h2>
+                <div class="article-meta">
+                    <span class="article-score">4 points</span>
+                    by
+                    <a
+                        class="link article-author" href="/users/administrator-users/admin">admin</a>
+
+                                        <span class="article-time">
+                        527
+                            days
+                         ago on
+                        2024/09/22 @ 06:11 am
+                    </span>
+                    <br>
+                    category:
+                    <a href="/c/news">
+                        news
+                    </a>
+                    |
+                    <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads#report" class="link">
+                        report
+                    </a>
+                    |
+                    <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads#comments" class="link">
+                        3
+                        comments
+                    </a>
+                </div>
+            </div>
+        </article>
+    </li>
+</ul>
+    <div class="">
+        
+<p>Digg Sigma is now digg.one and the software powering this platform is open source under the GNU GPLv2 (or later version) license and available on GitHub!</p>    </div>
+
+            <div class="attribute-image">
+                                                    <figure class="figure">
+            
+    
+        
+    
+                <img src="/var/site/storage/images/digg/c/images/digg/7119-2-eng-US/digg_large.webp" width="360" height="148"  style="border: 0px;" alt="Digg" title="Digg" />    
+    
+    
+                    <figcaption class="figure-caption">
+            
+<p>Digg</p>        </figcaption>
+    </figure><br />
+                        
+                    </div>
+    
+<div class="news-details" style="margin-top: 0.31rem;">
+    <a href="/about/moderation" class="form-label" style="font-weight: bolder; text-color: #000000"
+        id="report">Moderation</a>
+                            <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9779[]" value="spam"
+                       >
+                spam
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9779[]" value="offtopic"
+                       >
+                off-topic
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9779[]" value="inappropriate"
+                       >
+                inappropriate
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9779[]" value="poorquality"
+                       >
+                poor quality
+            </div>
+                <form method="post" action="/contextual/action" name="diggs685" id="diggs685">
+
+        <input class="button" type="submit" style="display:none;" id="ActionCollectInformationModeration"
+            name="ActionCollectInformation" value="Moderate Post" />
+        <a class="btn btn-primary"
+            onClick="document.getElementById('ActionCollectInformationModeration').click(); return false;"
+            href="#">Moderate this story</a>
+    </form>
+</div>
+            <div class="border-rounded" style="padding-top:1rem;">
+            <h2 id="comments">Comments</h2>
+            <div class="content-view-children">
+                                    
+
+<li class="comment-item" style="margin-left: 0rem;">
+  <form method="post" action="/contextual/action" name="digg836" id="digg836">
+  <input type="hidden" name="ContentNodeID" value="836" />
+  <input type="hidden" name="ContentObjectID" value="945" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation836').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/836"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354297" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354297" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation836"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-sigma-open-source-releases-as-diggclone">
+          Digg [Sigma] Open Source Releases As DiggClone
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          3 points
+        </span> by
+        
+        
+                <a class="comment-author" href="/users/members/graham">
+          Graham Brookins        </a>
+	                <span class="comment-time">
+          505 days ago on
+          2024/10/14 @ 02:26 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>Project homepage: <a href="https://clone.digg.one/" title="https://clone.digg.one/">https://clone.digg.one/</a></p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="836" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>                                    
+
+<li class="comment-item" style="margin-left: 0rem;">
+  <form method="post" action="/contextual/action" name="digg835" id="digg835">
+  <input type="hidden" name="ContentNodeID" value="835" />
+  <input type="hidden" name="ContentObjectID" value="944" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation835').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/835"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354296" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354296" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation835"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies">
+          Digg Clone Extension to eZ Publish (DiggClone::HomePage Dependencies)
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          4 points
+        </span> by
+        
+        
+                <a class="comment-author" href="/users/members/graham">
+          Graham Brookins        </a>
+	                <span class="comment-time">
+          505 days ago on
+          2024/10/13 @ 11:48 pm
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p><a href="https://github.com/se7enxweb/sevenx_diggclone" title="https://github.com/se7enxweb/sevenx_diggclone">https://github.com/se7enxweb/sevenx_diggclone</a></p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="835" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+                                            
+
+<li class="comment-item" style="margin-left: 1rem;">
+  <form method="post" action="/contextual/action" name="digg6670" id="digg6670">
+  <input type="hidden" name="ContentNodeID" value="6670" />
+  <input type="hidden" name="ContentObjectID" value="49557" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6670').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6670"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>:</label>
+                  There are no options.
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6670"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/second-life-2-x">
+          Second Life 2.x
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          0 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">7x Tester</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:16 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>Second Life 2.x</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6670" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>                
+        
+
+                                                                          
+
+<li class="comment-item" style="margin-left: 1rem;">
+  <form method="post" action="/contextual/action" name="digg6671" id="digg6671">
+  <input type="hidden" name="ContentNodeID" value="6671" />
+  <input type="hidden" name="ContentObjectID" value="49558" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6671').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6671"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354368" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354368" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6671"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01/second-life-3-x">
+          Second Life 3.x
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          1 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">SNL 1.0</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:17 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>Second Life ;)</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6671" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+                                            
+
+<li class="comment-item" style="margin-left: 3rem;">
+  <form method="post" action="/contextual/action" name="digg6672" id="digg6672">
+  <input type="hidden" name="ContentNodeID" value="6672" />
+  <input type="hidden" name="ContentObjectID" value="49559" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6672').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6672"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6672"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01/second-life-3-x/test-me-now">
+          test me now
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          1 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">john smith</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:21 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>you know this is the way ...<br />
+<br />
+//smith</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6672" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>            
+        
+  
+</li>                
+        
+
+                                                          
+
+<li class="comment-item" style="margin-left: 1rem;">
+  <form method="post" action="/contextual/action" name="digg6669" id="digg6669">
+  <input type="hidden" name="ContentNodeID" value="6669" />
+  <input type="hidden" name="ContentObjectID" value="49551" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6669').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6669"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354318" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354318" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6669"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01">
+          Test 2026.01
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          5 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">John Smith</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 12:39 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>I sell to both sides of the street ...<br />
+//smith</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6669" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+                                            
+
+<li class="comment-item" style="margin-left: 2rem;">
+  <form method="post" action="/contextual/action" name="digg6672" id="digg6672">
+  <input type="hidden" name="ContentNodeID" value="6672" />
+  <input type="hidden" name="ContentObjectID" value="49559" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6672').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6672"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6672"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01/second-life-3-x/test-me-now">
+          test me now
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          1 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">john smith</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:21 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>you know this is the way ...<br />
+<br />
+//smith</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6672" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>                
+        
+
+                                                                          
+
+<li class="comment-item" style="margin-left: 2rem;">
+  <form method="post" action="/contextual/action" name="digg6671" id="digg6671">
+  <input type="hidden" name="ContentNodeID" value="6671" />
+  <input type="hidden" name="ContentObjectID" value="49558" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6671').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6671"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354368" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354368" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6671"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01/second-life-3-x">
+          Second Life 3.x
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          1 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">SNL 1.0</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:17 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>Second Life ;)</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6671" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+                                            
+
+<li class="comment-item" style="margin-left: 3rem;">
+  <form method="post" action="/contextual/action" name="digg6672" id="digg6672">
+  <input type="hidden" name="ContentNodeID" value="6672" />
+  <input type="hidden" name="ContentObjectID" value="49559" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6672').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6672"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354372" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6672"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/digg-clone-extension-to-ez-publish-diggclone-homepage-dependencies/test-2026-01/second-life-3-x/test-me-now">
+          test me now
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          1 points
+        </span> by
+        
+        
+                  <span class="comment-author" style="text-underline: none;">john smith</span>
+	                <span class="comment-time">
+          43 days ago on
+          2026/01/19 @ 02:21 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p>you know this is the way ...<br />
+<br />
+//smith</p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="6672" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>            
+        
+  
+</li>            
+        
+  
+</li>            
+        
+  
+</li>                                    
+
+<li class="comment-item" style="margin-left: 0rem;">
+  <form method="post" action="/contextual/action" name="digg686" id="digg686">
+  <input type="hidden" name="ContentNodeID" value="686" />
+  <input type="hidden" name="ContentObjectID" value="720" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation686').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/686"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354286" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354286" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation686"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>  <div>
+    <div class="comment-header">
+      <h3 class="comment-header-title">
+        <a href="/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads/7x-digg-one-software-downloads">
+          7x Digg.One Software Downloads
+        </a>
+      </h3>
+      <p>
+        <span class="article-score">
+          3 points
+        </span> by
+        
+        
+                <a class="comment-author" href="/users/members/graham">
+          Graham Brookins        </a>
+	                <span class="comment-time">
+          527 days ago on
+          2024/09/22 @ 06:14 am
+        </span>
+      </p>
+    </div>
+    <div class="comment-body">
+      <p><a href="https://github.com/se7enxweb/sevenx_digg" title="https://github.com/se7enxweb/sevenx_digg">https://github.com/se7enxweb/sevenx_digg</a></p>
+    </div>
+    <div class="comment-actions">
+            <form method="post" action="/content/action">
+        <input type="hidden" name="ClassIdentifier" value="comment" />
+        <input type="hidden" name="NodeID" value="686" />
+        <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+        <input class="btn btn-sm" type="submit" name="NewButton"
+          value="Reply to comment" />
+      </form>
+          </div>
+  </div>
+  
+
+
+    
+  
+  
+          
+  
+</li>                            </div>
+                        <form method="post" action="/content/action">
+                <input type="hidden" name="ClassIdentifier" value="comment" />
+                <input type="hidden" name="NodeID" value="685" />
+                <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+                <input class="btn btn-primary button new_comment" type="submit" name="NewButton"
+                    value="New comment" />
+            </form>
+            </div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:4:"news";s:3:"url";s:22:"/content/view/full/688";s:9:"url_alias";s:6:"c/news";s:7:"node_id";s:3:"688";}i:4;a:4:{s:4:"text";s:69:"Digg Sigma is now digg.one and available on GitHub for free downloads";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"685";}}s:10:"title_path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:4:"news";s:3:"url";s:22:"/content/view/full/688";s:9:"url_alias";s:6:"c/news";s:7:"node_id";s:3:"688";}i:4;a:3:{s:4:"text";s:69:"Digg Sigma is now digg.one and available on GitHub for free downloads";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"685";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"718";s:7:"node_id";s:3:"685";s:14:"parent_node_id";s:3:"688";s:8:"class_id";s:2:"47";s:16:"class_identifier";s:5:"story";s:9:"remote_id";s:32:"9d38a0d9c3c4a88f2b65a7648ead3e55";s:14:"node_remote_id";s:32:"3d6d1093276e3fea31e883b357a4188c";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"5";s:9:"url_alias";s:76:"c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"685";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:2:"48";s:23:"parent_class_identifier";s:8:"category";s:21:"parent_node_remote_id";s:32:"f354c78998b957b9a98f00572149b3ff";s:23:"parent_object_remote_id";s:32:"f9adb8da28dfd62d5e5fa11b29bd4070";}s:13:"template_list";a:9:{i:0;s:46:"design/delta/override/templates/full/story.tpl";i:1;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:88:"extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:4;s:72:"design/standard/templates/content/datatype/view/ezobjectrelationlist.tpl";i:5;s:47:"design/delta/override/templates/embed/image.tpl";i:6;s:82:"extension/sevenx_diggclone/design/digg/templates/content/datatype/view/ezimage.tpl";i:7;s:72:"design/delta/templates/content/datatype/collect/sckenhancedselection.tpl";i:8;s:48:"design/delta/override/templates/line/comment.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

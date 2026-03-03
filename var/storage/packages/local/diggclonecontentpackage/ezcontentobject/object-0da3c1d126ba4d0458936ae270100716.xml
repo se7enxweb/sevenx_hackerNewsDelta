@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="4624" name="Run Away - Lil Xan (Feat. Lil Tracy)" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sun, 20 Oct 2024 18:51:16 GMT" ezremote:modified="Mon, 21 Oct 2024 13:20:00 GMT" remote_id="0da3c1d126ba4d0458936ae270100716" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 21 Oct 2024 13:19:45 GMT" ezremote:modified="Mon, 21 Oct 2024 13:20:00 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Run Away - Lil Xan (Feat. Lil Tracy)">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37640" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Run Away - Lil Xan (Feat. Lil Tracy)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37641" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37642" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="b5f16fc811515fa535958868e6dc1ded" is-valid="1" last-checked="0" created="1729450276" modified="1729450276">https%3A%2F%2Fmusic.youtube.com%2Fwatch%3Fv%3DCfJ2OyJiY1g%26si%3DXplgDiVU0jBq3JaK</url>
+          <text>Run Away - Lil Xan (Feat. Lil Tracy)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37643" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="b5f16fc811515fa535958868e6dc1ded" is-valid="1" last-checked="0" created="1729450276" modified="1729450276">https%3A%2F%2Fmusic.youtube.com%2Fwatch%3Fv%3DCfJ2OyJiY1g%26si%3DXplgDiVU0jBq3JaK</url>
+          <text>Run Away - Lil Xan (Feat. Lil Tracy)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="37644" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Loving yous a curse …</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <custom name="youtube" custom:video="https://www.youtube.com/embed/CfJ2OyJiY1g" custom:videoWidth="208" custom:videoHeight="400"/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37645" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37646" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37647" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37648" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37649" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37650" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>0</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37651" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37652" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37653" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="1deda091b31e901d67dede83abd40636" name="Run Away - Lil Xan (Feat. Lil Tracy)" node-id="4501" remote-id="e97cea46a2446338c9e5c9f3c118ff54" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,165 @@
+a:11:{s:7:"content";s:8008:"
+
+
+
+
+
+<!-- Article -->
+<ul class="article-list">
+    <li class="article-item">
+        <article class="article">
+            <form method="post" action="/contextual/action" name="digg680" id="digg680">
+  <input type="hidden" name="ContentNodeID" value="680" />
+  <input type="hidden" name="ContentObjectID" value="705" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation680').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/680"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8688" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8688" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation680"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>            <div>
+                <h2 class="article-title">
+                    <a href="https://my.se7enx.com">Get the 7x Advantage in your business website! Get help from the experts!</a>
+                    <a href="https://my.se7enx.com"
+                        class="article-source">(my.se7enx.com)</a>
+                </h2>
+                <div class="article-meta">
+                    <span class="article-score">8 points</span>
+                    by
+                    <a
+                        class="link article-author" href="/users/administrator-users/admin">admin</a>
+
+                                        <span class="article-time">
+                        528
+                            days
+                         ago on
+                        2024/09/21 @ 04:07 pm
+                    </span>
+                    <br>
+                    category:
+                    <a href="/c/technology">
+                        technology
+                    </a>
+                    |
+                    <a href="/c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts#report" class="link">
+                        report
+                    </a>
+                    |
+                    <a href="/c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts#comments" class="link">
+                        0
+                        comments
+                    </a>
+                </div>
+            </div>
+        </article>
+    </li>
+</ul>
+    <div class="">
+        
+<p>We provide cost effective .. Web Design</p><p>A pioneering digital agency, crafting captivating web experiences through cutting-edge design and development. We&#039;re your trusted heroes in the online realm.</p><p>Empower your digital journey with our comprehensive range of expert services. From web design to hosting, we&#039;ve got you covered.</p>    </div>    <div class="attribute-long">
+        
+<p>We provide enterprise web&nbsp;design and software development services to customers worldwide from North America.</p><p>We specialize in solving complex web content management problems using content management systems like&nbsp;eZ Publish,&nbsp;WordPress, Plone, and the best in class tools.</p><p>We are enterprise content management integrators, implementing the eZ Publish enterprise content management system on behalf of other organizations, businesses, nonprofit groups and local governments.</p><p>Reach out and&nbsp;<a href="https://se7enx.com/" target="_self">contact us</a>&nbsp;to request a demo or with your&nbsp;questions.</p>    </div>
+
+            <div class="attribute-image">
+                                                    <figure class="figure">
+            
+    
+        
+    
+                <img src="/var/site/storage/images/digg/c/images/7x-is-open-source-website-building-platform-experts-call-us-today-blish-6-open-source-cms-banner-2024-09-21-1337/6963-1-eng-US/7x-is-open-source-website-building-platform-experts-call-us-today-blish-6-open-source-cms-banner-2024-09-21-1337_large.jpg" width="360" height="202"  style="border: 0px;" alt="7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09y 7x" title="7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09y 7x" />    
+    
+    
+                    <figcaption class="figure-caption">
+            
+<p>7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09 7x</p>        </figcaption>
+    </figure><br />
+                        
+                            <div class="caption">
+                    
+<p>7x</p>                </div>
+                    </div>
+    
+<div class="news-details" style="margin-top: 0.31rem;">
+    <a href="/about/moderation" class="form-label" style="font-weight: bolder; text-color: #000000"
+        id="report">Moderation</a>
+                            <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9777[]" value="spam"
+                       >
+                spam
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9777[]" value="offtopic"
+                       >
+                off-topic
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9777[]" value="inappropriate"
+                       >
+                inappropriate
+            </div>
+                    <div class="form-check form-row">
+                <input class="form-check-input" type="radio" name="ContentObjectAttribute_sckenhancedselection_selection_9777[]" value="poorquality"
+                       >
+                poor quality
+            </div>
+                <form method="post" action="/contextual/action" name="diggs680" id="diggs680">
+
+        <input class="button" type="submit" style="display:none;" id="ActionCollectInformationModeration"
+            name="ActionCollectInformation" value="Moderate Post" />
+        <a class="btn btn-primary"
+            onClick="document.getElementById('ActionCollectInformationModeration').click(); return false;"
+            href="#">Moderate this story</a>
+    </form>
+</div>
+            <div class="border-rounded" style="padding-top:1rem;">
+            <h2 id="comments">Comments</h2>
+            <div class="content-view-children">
+                            </div>
+                        <form method="post" action="/content/action">
+                <input type="hidden" name="ClassIdentifier" value="comment" />
+                <input type="hidden" name="NodeID" value="680" />
+                <input type="hidden" name="ContentLanguageCode" value="eng-US" />
+                <input class="btn btn-primary button new_comment" type="submit" name="NewButton"
+                    value="New comment" />
+            </form>
+            </div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:10:"technology";s:3:"url";s:22:"/content/view/full/704";s:9:"url_alias";s:12:"c/technology";s:7:"node_id";s:3:"704";}i:4;a:4:{s:4:"text";s:73:"Get the 7x Advantage in your business website! Get help from the experts!";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"680";}}s:10:"title_path";a:5:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:10:"technology";s:3:"url";s:22:"/content/view/full/704";s:9:"url_alias";s:12:"c/technology";s:7:"node_id";s:3:"704";}i:4;a:3:{s:4:"text";s:73:"Get the 7x Advantage in your business website! Get help from the experts!";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"680";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"705";s:7:"node_id";s:3:"680";s:14:"parent_node_id";s:3:"704";s:8:"class_id";s:2:"47";s:16:"class_identifier";s:5:"story";s:9:"remote_id";s:32:"69c3cb6cd156bda5a438a6702cb1d97f";s:14:"node_remote_id";s:32:"5695b25a172715071c0180d97eb9570a";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"5";s:9:"url_alias";s:84:"c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"680";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:2:"48";s:23:"parent_class_identifier";s:8:"category";s:21:"parent_node_remote_id";s:32:"54df0b71ec028314418a058beadc92f0";s:23:"parent_object_remote_id";s:32:"f8423ff4fbc7326799913d4601eda78f";}s:13:"template_list";a:9:{i:0;s:46:"design/delta/override/templates/full/story.tpl";i:1;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:88:"extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:4;s:66:"design/standard/templates/content/datatype/view/ezxmltags/link.tpl";i:5;s:72:"design/standard/templates/content/datatype/view/ezobjectrelationlist.tpl";i:6;s:47:"design/delta/override/templates/embed/image.tpl";i:7;s:82:"extension/sevenx_diggclone/design/digg/templates/content/datatype/view/ezimage.tpl";i:8;s:72:"design/delta/templates/content/datatype/collect/sckenhancedselection.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

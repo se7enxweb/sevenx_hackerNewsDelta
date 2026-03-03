@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="708" name="kracker.org for the win!" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sun, 22 Sep 2024 04:19:54 GMT" ezremote:modified="Thu, 26 Sep 2024 01:43:47 GMT" remote_id="5ca02e32b9886cfc67290342a2e1a834" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 26 Sep 2024 01:43:45 GMT" ezremote:modified="Thu, 26 Sep 2024 01:43:46 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="kracker.org for the win!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7012" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>kracker.org provides the best results at the lowest possible operation cost</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7013" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text>kracker.org for the win!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7014" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="7eef3eb39a3a39c80d8bc45d12d6714f" is-valid="1" last-checked="0" created="1726956830" modified="1726956830">https%3A%2F%2Fkracker.org</url>
+          <text>kracker.org</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8562" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7015" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Checkout my new site! It offers streaming music videos with tons of theme music to jam out with online.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7016" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>My New site is built on eZ Publish 6 the same technology that powers Digg [Sigma]. It's very fast, incredibly reliable and easy to learn and use on a daily basis of getting real work done.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7020" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>incubator, music, artist, talent, producer, director, gnu, youtube, mtv, my summer working theme music, 7x, kracker.org</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7017" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7018" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="c1756f2c1f1873d3f875240e15c6b3ab"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7019" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>eZ Publish 6 powers the web!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7022" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7021" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8694" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9778" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="c9bba88b63a5776b6b5dfb4e79c939dd" name="kracker.org for the win!" node-id="683" remote-id="d13563282fa3f3c6e97e08a279933721" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="983" name="license" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="1" ezremote:published="Tue, 15 Oct 2024 06:33:00 GMT" ezremote:modified="Tue, 15 Oct 2024 06:37:33 GMT" remote_id="fc537581c4add1c789af1c168c083278" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 15 Oct 2024 06:36:32 GMT" ezremote:modified="Tue, 15 Oct 2024 06:37:33 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-US" object_name="license">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9732" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>license</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9733" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9734" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>digg.one content license</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="9735" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>All content on digg.one is licensed under the "Creative Commons Attribution-ShareAlike 4.0 International" License (<link href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</link>).<embed align="right" view="embed" size="large" custom:offset="0" custom:limit="5" object_remote_id="4c10a4d9771c5ca1123f1df60cb6d59a"/></paragraph>
+            <paragraph>All users who post any content on digg.one do so using the above license terms.</paragraph>
+            <paragraph>This includes stories, images, comments, diggs, undiggs and all other content created by use of digg.one.</paragraph>
+            <section>
+              <section>
+                <header>Digg License is CC BY-SA 4.0</header>
+                <paragraph>Which means the following:</paragraph>
+              </section>
+            </section>
+            <section>
+              <header>Attribution-ShareAlike 4.0 International</header>
+              <paragraph>CC BY-SA 4.0</paragraph>
+              <section>
+                <header>Deed</header>
+              </section>
+              <section>
+                <header>Canonical URL</header>
+                <paragraph>
+                  <link href="https://creativecommons.org/licenses/by-sa/4.0/"> https://creativecommons.org/licenses/by-sa/4.0/ </link>
+                  <link href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"> See the legal code </link>
+                </paragraph>
+              </section>
+              <section>
+                <header>You are free to:</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ol>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> Share </strong> — copy and redistribute the material in any medium or format for any purpose, even commercially.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> Adapt </strong> — remix, transform, and build upon the material for any purpose, even commercially.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">The licensor cannot revoke these freedoms as long as you follow the license terms.</paragraph>
+                    </li>
+                  </ol>
+                </paragraph>
+              </section>
+              <section>
+                <header>Under the following terms:</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ol>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> Attribution </strong> — You must give <link xhtml:id="src-appropriate-credit" anchor_name="ref-appropriate-credit" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> appropriate credit </link> , provide a link to the license, and <link xhtml:id="src-indicate-changes" anchor_name="ref-indicate-changes" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> indicate if changes were made </link> . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> ShareAlike </strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the <link xhtml:id="src-same-license" anchor_name="ref-same-license" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> same license </link> as the original.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong> No additional restrictions </strong> — You may not apply legal terms or <link xhtml:id="src-technological-measures" anchor_name="ref-technological-measures" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> technological measures </link> that legally restrict others from doing anything the license permits.</paragraph>
+                    </li>
+                  </ol>
+                </paragraph>
+              </section>
+              <section>
+                <header>
+                  <strong>Notices:</strong>
+                </header>
+                <paragraph>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable <link xhtml:id="src-exception-or-limitation" anchor_name="ref-exception-or-limitation" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> exception or limitation </link> .</paragraph>
+                <paragraph>No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as <link xhtml:id="src-publicity-privacy-or-moral-rights" anchor_name="ref-publicity-privacy-or-moral-rights" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> publicity, privacy, or moral rights </link> may limit how you use the material.</paragraph>
+              </section>
+              <section>
+                <header>Notice</header>
+                <paragraph>This deed highlights only some of the key features and terms of the actual license. It is not a license and has no legal value. You should carefully review all of the terms and conditions of the actual license before using the licensed material.</paragraph>
+                <paragraph>Creative Commons is not a law firm and does not provide legal services. Distributing, displaying, or linking to this deed or the license that it summarizes does not create a lawyer-client or any other relationship.</paragraph>
+                <paragraph>Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.</paragraph>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <link href="https://creativecommons.org/about/"> Learn more about our work </link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <strong> <link href="https://creativecommons.org/share-your-work/cclicenses/"> Learn more about CC Licensing </link> </strong>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <link href="https://creativecommons.org/donate/"> Support our work </link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <link href="https://creativecommons.org/choose/"> Use the license for your own material. </link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <link href="https://creativecommons.org/licenses/list.en"> Licenses List </link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <link href="https://creativecommons.org/publicdomain/list.en"> Public Domain List </link>
+                      </paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+              <section>
+                <header>Footnotes</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-appropriate-credit" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> appropriate credit </strong> — If supplied, you must provide the name of the creator and attribution parties, a copyright notice, a license notice, a disclaimer notice, and a link to the material. CC licenses prior to Version 4.0 also require you to provide the title of the material if supplied, and may have other slight differences.</line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="Detailed_attribution_comparison_chart" href="https://wiki.creativecommons.org/License_Versions"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-indicate-changes" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> indicate if changes were made </strong> — In 4.0, you must indicate if you modified the material and retain an indication of previous modifications. In 3.0 and earlier license versions, the indication of changes is only required if you create a derivative.</line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="This_is_a_good_attribution_for_material_you_modified_slightly" href="https://wiki.creativecommons.org/Best_practices_for_attribution"> Marking guide </link>
+                            </paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="Modifications_and_adaptations_must_be_marked_as_such" href="https://wiki.creativecommons.org/License_Versions"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-same-license" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> same license </strong> — You may also use a license listed as compatible at <link href="https://creativecommons.org/compatiblelicenses"> https://creativecommons.org/compatiblelicenses </link></line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="if-i-derive-or-adapt-material-offered-under-a-creative-commons-license-which-cc-licenses-can-i-use" href="https://creativecommons.org/faq/"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-technological-measures" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> technological measures </strong> — The license prohibits application of effective technological measures, defined with reference to Article 11 of the WIPO Copyright Treaty.</line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="Application_of_effective_technological_measures_by_users_of_CC-licensed_works_prohibited" href="https://wiki.creativecommons.org/License_Versions"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-exception-or-limitation" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> exception or limitation </strong> — The rights of users under exceptions and limitations, such as fair use and fair dealing, are not affected by the CC licenses.</line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link anchor_name="Do_Creative_Commons_licenses_affect_exceptions_and_limitations_to_copyright.2C_such_as_fair_dealing_and_fair_use.3F" href="https://wiki.creativecommons.org/Frequently_Asked_Questions"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <line><link anchor_name="src-publicity-privacy-or-moral-rights" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> return to reference </link> <strong> publicity, privacy, or moral rights </strong> — You may need to get additional permissions before using the material as you intend.</line>
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <link href="https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees"> More info </link>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9736" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9737" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9738" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e74472eaa56fc0f7523ddb60a5290a33" name="license" node-id="853" remote-id="1b5d581c733b64f6d8a4c30adc3304b1" sort-field="path" sort-order="1" priority="90000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

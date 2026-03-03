@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="992" name="videos" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="48" ezremote:published="Tue, 15 Oct 2024 14:16:25 GMT" ezremote:modified="Tue, 22 Oct 2024 22:10:56 GMT" remote_id="dda0a4f243b10f69729f8170450cb715" class_remote_id="cb90222e2556196e8516ad54cc86cdc1" ezremote:class_identifier="category" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 22 Oct 2024 22:10:44 GMT" ezremote:modified="Tue, 22 Oct 2024 22:10:56 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="videos">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9844" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>videos</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9845" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9846" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9847" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9848" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9849" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9850" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9851" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="be73a7f524ee590b88729bba0b352efb" name="videos" node-id="862" remote-id="90f43fcfd0ab1e9ddb7aeee8a2bbf1a6" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

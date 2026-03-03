@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="469" name="images" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Sat, 21 Sep 2024 18:39:36 GMT" ezremote:modified="Tue, 08 Oct 2024 21:19:35 GMT" remote_id="e1b535ce6026d99278aed7f4ceb8b03a" class_remote_id="cb90222e2556196e8516ad54cc86cdc1" ezremote:class_identifier="category" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="6" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 21:19:24 GMT" ezremote:modified="Tue, 08 Oct 2024 21:19:35 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="images">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4176" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Story Images</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9205" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text>images</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4178" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Images category for Image uploads. Upload your images before you submit your story where you will select your already uploaded images.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9206" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4180" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4181" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4182" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9207" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="be73a7f524ee590b88729bba0b352efb" name="images" node-id="828" remote-id="71c7420e5f9025137dbf62e67dad0ba0" sort-field="path" sort-order="1" priority="1800"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

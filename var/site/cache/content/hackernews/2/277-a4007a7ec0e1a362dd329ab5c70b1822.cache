@@ -1,0 +1,544 @@
+a:11:{s:7:"content";s:18585:"
+  
+
+
+
+
+      
+                
+                
+                
+                
+          
+          
+          
+          
+          
+        
+
+
+
+<div class="border-box">
+  <div class="border-tl">
+    <div class="border-tr">
+      <div class="border-tc"></div>
+    </div>
+  </div>
+  <div class="border-ml">
+    <div class="border-mr">
+      <div class="border-mc float-break">
+
+        <div class="content-view-full">
+          <div class="class-category">
+
+            
+            
+
+            
+
+                                      
+            
+            <div class="category-atom-feed">
+              
+              
+
+
+
+
+                              <div class="content-view-children float-break">
+                  <div class="section-header">
+                    <h2 class="section-title alt">
+                      Direction:
+                      <a
+                        style="text-decoration: underline;" href="/all/(dir)/1"
+                        class="link">upcoming</a> and
+                      <a style="text-decoration: underline;" href="/all/(dir)/0">top</a> or go
+                      back to read the <a class="link" href="/">home page</a>
+                    </h2>
+                                        <a href="/rss/feed/all" title="ATOM Feed. all's category stories via dynamic ATOM Feed. Subscribe to this rss feed for notifications of new content from this category." class="rss-icon">
+                      <img src="/extension/sevenx_diggclone/design/digg/images/logos/brands/rss_feed_page_icon.png" alt="ATOM Feed. all's category stories via dynamic ATOM Feed. Subscribe to this rss feed for notifications of new content from this category."
+                        title="ATOM Feed. all's category stories via dynamic ATOM Feed. Subscribe to this rss feed for notifications of new content from this category." width="24" height="24" />
+                    </a>
+                  </div>
+
+
+                                                      
+
+    
+      <nav class="pagination" aria-label="Article list pagination">
+        <ul class="pagination-list">
+
+          
+
+
+                    
+          <li class="pagination-item previous">
+            <a href="/all/(offset)/20/(dir)/1"
+              class="pagination-btn">
+              Prev
+            </a>
+          </li>
+          
+          
+                                  <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(dir)/1">1</a>
+            </li>
+                                              <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(offset)/10/(dir)/1">2</a>
+            </li>
+                                              <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(offset)/20/(dir)/1">3</a>
+            </li>
+                      
+          <li class="pagination-item">
+            <button class="pagination-btn active current">
+              4
+            </button>
+          </li>
+
+          
+          
+          
+          </li>
+
+          
+                    
+
+
+          </div>
+
+
+        
+                                      
+                                                                                                                      
+                                                                                                                                      
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">3.</span>      <form method="post" action="/contextual/action" name="digg6698" id="digg6698">
+  <input type="hidden" name="ContentNodeID" value="6698" />
+  <input type="hidden" name="ContentObjectID" value="49609" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/jobs/dolores-in-atque-lab" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6698').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6698"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354827" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354827" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6698"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/jobs/dolores-in-atque-lab">Enim est cum eius il</a><a
+            href="/Facilis do dolor har" class="article-source"
+            style="word-wrap: anywhere;">()</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            0 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/amin">amin</a>
+
+                    <span class="article-time">38 days ago on
+            2026/01/24 @ 06:46 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/jobs">
+            jobs
+          </a>
+          |
+          <a href="/c/jobs/dolores-in-atque-lab#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/jobs/dolores-in-atque-lab#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                                                
+                        
+                                                                                                                        <div class="separator">
+    <div class="separator-design"></div>
+</div>                                                                                                  
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">2.</span>      <form method="post" action="/contextual/action" name="digg6690" id="digg6690">
+  <input type="hidden" name="ContentNodeID" value="6690" />
+  <input type="hidden" name="ContentObjectID" value="49582" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/web-services" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6690').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6690"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354602" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354602" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6690"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/web-services/reliable-web-services-for-growing-businesses">Reliable Web Services for Growing Businesses</a><a
+            href="https://asushost.co.ke/" class="article-source"
+            style="word-wrap: anywhere;">(asushost.co.ke)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            1 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/vincent-opar">vincent-opar</a>
+
+                    <span class="article-time">43 days ago on
+            2026/01/19 @ 10:23 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/web-services">
+            web services
+          </a>
+          |
+          <a href="/c/web-services/reliable-web-services-for-growing-businesses#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/web-services/reliable-web-services-for-growing-businesses#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                                                
+                        
+                                                                                                                        <div class="separator">
+    <div class="separator-design"></div>
+</div>                                                                                                  
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">1.</span>      <form method="post" action="/contextual/action" name="digg6688" id="digg6688">
+  <input type="hidden" name="ContentNodeID" value="6688" />
+  <input type="hidden" name="ContentObjectID" value="49581" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/programming" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6688').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6688"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354588" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354588" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6688"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/programming/expert-programming-software-development">Expert Programming &amp; Software Development</a><a
+            href="https://vincentopar.com/" class="article-source"
+            style="word-wrap: anywhere;">(vincentopar.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            2 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/vincent-opar">vincent-opar</a>
+
+                    <span class="article-time">43 days ago on
+            2026/01/19 @ 10:19 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/programming">
+            programming
+          </a>
+          |
+          <a href="/c/programming/expert-programming-software-development#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/programming/expert-programming-software-development#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                                                
+                        
+                                                                                                                        <div class="separator">
+    <div class="separator-design"></div>
+</div>                                                                                                  
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">0.</span>      <form method="post" action="/contextual/action" name="digg6696" id="digg6696">
+  <input type="hidden" name="ContentNodeID" value="6696" />
+  <input type="hidden" name="ContentObjectID" value="49603" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/software" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6696').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6696"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354757" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354757" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6696"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/software/jquery-4-0-released">jQuery 4.0 Released</a><a
+            href="https://blog.jquery.com/2026/01/17/jquery-4-0-0/" class="article-source"
+            style="word-wrap: anywhere;">(blog.jquery.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            5 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/kracker">kracker</a>
+
+                    <span class="article-time">40 days ago on
+            2026/01/22 @ 12:42 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/software">
+            software
+          </a>
+          |
+          <a href="/c/software/jquery-4-0-released#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/software/jquery-4-0-released#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                                                
+                        
+                                                                                                                                      
+                </div>
+
+                <div class="notice-more" style="padding-top: 1rem;">
+                  Looking for more? Try submitting a new story to Hacker News Delta's <a href="/c">categories</a> section
+                which will apear in the <a href="/all/(dir)/1">upcoming</a> section for voting to begin!
+              </div>
+
+              
+                              
+
+    
+      <nav class="pagination" aria-label="Article list pagination">
+        <ul class="pagination-list">
+
+          
+
+
+                    
+          <li class="pagination-item previous">
+            <a href="/all/(offset)/20/(dir)/1"
+              class="pagination-btn">
+              Prev
+            </a>
+          </li>
+          
+          
+                                  <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(dir)/1">1</a>
+            </li>
+                                              <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(offset)/10/(dir)/1">2</a>
+            </li>
+                                              <li class="pagination-item other"><a class="pagination-btn"
+                href="/all/(offset)/20/(dir)/1">3</a>
+            </li>
+                      
+          <li class="pagination-item">
+            <button class="pagination-btn active current">
+              4
+            </button>
+          </li>
+
+          
+          
+          
+          </li>
+
+          
+                    
+
+
+          </div>
+
+
+        
+                    
+                          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="border-bl">
+      <div class="border-br">
+        <div class="border-bc"></div>
+      </div>
+    </div>
+</div>";s:15:"view_parameters";a:6:{s:6:"offset";s:2:"30";s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;s:3:"dir";s:1:"1";}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:3:"all";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"277";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:3:{s:4:"text";s:3:"all";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"277";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"280";s:7:"node_id";s:3:"277";s:14:"parent_node_id";s:3:"710";s:8:"class_id";s:2:"48";s:16:"class_identifier";s:8:"category";s:9:"remote_id";s:32:"04cc840c93d5d7c1b459338a97e05e40";s:14:"node_remote_id";s:32:"44766a0fe9077ead295f9d3cb648fa69";s:6:"offset";i:30;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:3:"all";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"277";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:2:"24";s:23:"parent_class_identifier";s:9:"frontpage";s:21:"parent_node_remote_id";s:32:"1df6de7fbc5693808df13d5ab350bcc9";s:23:"parent_object_remote_id";s:32:"8a9c9c761004866fb458d89910f52bee";}s:13:"template_list";a:5:{i:0;s:50:"design/delta/override/templates/full/upcomming.tpl";i:1;s:43:"design/delta/templates/navigator/google.tpl";i:2;s:46:"design/delta/override/templates/line/story.tpl";i:3;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:4;s:88:"extension/ezwebin/design/ezwebin/templates/content/datatype/view/ezxmltags/separator.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

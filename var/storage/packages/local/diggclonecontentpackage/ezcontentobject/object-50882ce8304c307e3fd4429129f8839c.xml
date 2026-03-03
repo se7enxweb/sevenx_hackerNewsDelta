@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="925" name="7x Website Hosting" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="31" ezremote:published="Tue, 08 Oct 2024 00:21:24 GMT" ezremote:modified="Tue, 08 Oct 2024 18:42:48 GMT" remote_id="50882ce8304c307e3fd4429129f8839c" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Tue, 08 Oct 2024 18:42:18 GMT" ezremote:modified="Tue, 08 Oct 2024 18:42:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="7x Website Hosting">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9149" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>7x Website Hosting</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9150" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>7x Website Application Hosting is Groundbreaking! Try Today!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9151" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="aea958b05b147b86b310cf0bf6a73e3c" alternative-text="7x Website Application Hosting is Groundbreaking!"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9152" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9153" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9154" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9191" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="7x Website Hosting" node-id="829" remote-id="a9b22985a2c72f557e38b751ed501523" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

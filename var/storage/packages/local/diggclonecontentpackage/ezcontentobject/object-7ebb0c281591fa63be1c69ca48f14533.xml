@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="720" name="7x Digg.One Software Downloads" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="17" ezremote:published="Sun, 22 Sep 2024 13:14:19 GMT" ezremote:modified="Sun, 22 Sep 2024 13:14:19 GMT" remote_id="7ebb0c281591fa63be1c69ca48f14533" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 22 Sep 2024 13:13:45 GMT" ezremote:modified="Sun, 22 Sep 2024 13:14:19 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="7x Digg.One Software Downloads">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7123" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>7x Digg.One Software Downloads</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7124" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Graham Brookins</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7125" ezremote:identifier="message" name="Message" type="eztext">
+          <text>https://github.com/se7enxweb/sevenx_digg</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="3d6d1093276e3fea31e883b357a4188c" name="7x Digg.One Software Downloads" node-id="686" remote-id="83fd48c7c55edfc08b25395bd6c3ae51" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

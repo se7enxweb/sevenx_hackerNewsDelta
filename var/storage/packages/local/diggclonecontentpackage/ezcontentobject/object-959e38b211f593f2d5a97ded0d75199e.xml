@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="982" name="rest" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="1" ezremote:published="Tue, 15 Oct 2024 06:18:41 GMT" ezremote:modified="Tue, 15 Oct 2024 07:12:24 GMT" remote_id="959e38b211f593f2d5a97ded0d75199e" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 15 Oct 2024 07:10:06 GMT" ezremote:modified="Tue, 15 Oct 2024 07:12:24 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="rest">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9725" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>rest</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9726" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9727" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>
+              <strong>about digg rest api: frequently asked questions about using digg via ReST web services api via your favorite client software package.</strong>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9728" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>We are preparing to provide full example usage instructions for reading and writing content to digg.one via our brand new rest web services api for headless content access and usage.</paragraph>
+            <section>
+              <header>API Documentation for digg.one ReST v1 Web Services (2024.10)</header>
+              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                <ul>
+                  <li>
+                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><link href="https://doc.ezpublishlegacy.se7enx.com/eZ-Publish/Technical-manual/6.x/Features/Rest-API/Resources/Services/List-of-services/Content-list-service.html">Read Only Listing API</link> Documentation</paragraph>
+                  </li>
+                </ul>
+              </paragraph>
+              <section>
+                <header>Endpoints</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><custom name="underline">/api/ezp/v1/content/node/710/list/limit/45</custom>?oauth_token=<emphasize>3v2v094c32049xx38204sad83240dd23d</emphasize></paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+                <paragraph><custom name="underline">Note</custom>: Vendor 7x, Product eZ Publish CMS <link href="https://doc.ezpublishlegacy.se7enx.com/eZ-Publish/Technical-manual/6.x/Features/Rest-API.html">REST API General Use Services</link> Documentation</paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9729" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9730" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9731" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e74472eaa56fc0f7523ddb60a5290a33" name="rest" node-id="852" remote-id="b02da7a93b8263096673036e70d7d586" sort-field="path" sort-order="1" priority="45000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

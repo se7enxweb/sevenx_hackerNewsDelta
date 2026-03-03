@@ -1,0 +1,153 @@
+{* User Diggs Folder - Full view *}
+
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
+{def $childNodes = array()}
+
+{* include uri='design:parts/page_header_google_ads.tpl' *}
+
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
+
+<div class="content-view-full">
+    <div class="class-folder">
+    	 {* include uri='design:parts/page_nav_sidebar.tpl' current_node=$node *}
+
+	 <div class="attribute-short">
+	 <h1>Voted on Stories</h1>
+	 </div>
+
+        <div class="attribute-header">
+            {*<h2>{$node.data_map.user_account.content.login|wash}</h2> *}
+            <h3>From {$node.parent.data_map.first_name.content|wash} {$node.parent.data_map.last_name.content|wash}</h3> aka {$node.parent.data_map.user_account.content.login|wash}
+        </div>
+        <p class="date">
+             Joined: {$node.object.published|l10n(shortdatetime)}
+        </p>
+
+	{* def $rssfeedlist = fetch( 'rssfeeds', 'subtree_list', hash( 'node_id', $node.node_id, 'max_depth', 1 ) )
+	     $rssfeed = $rssfeedlist.0
+     	     $has_rssfeed = is_object( $rssfeed )}
+	<div class="">
+
+	{if $has_rssfeed}
+	     {def $rssfeed_uri = $rssfeed.access_url
+	          $rssfeed_alt_text = concat( "ATOM Feed. ", $node.name,"'s"," user submited stories via user driven ATOM Feed. Subscribe to this rss feed for notifications of new content from this user.")
+	     $rssfeed_url = concat( '/rss/feed/', $rssfeed_uri )}
+	     <div id="rssBanner">
+	         <a href={$rssfeed_url|ezurl} title="{$rssfeed_alt_text}"><img id="rssIconImage" src={"logos/brands/rss_feed_page_icon.png"|ezimage} alt="{$rssfeed_alt_text}" title="{$rssfeed_alt_text}" /></a>
+	     </div>
+	{/if *}
+
+        {* if $node.object.data_map.signature.has_content}
+        <div class="attribute-short">
+            {attribute_view_gui attribute=$node.data_map.signature}
+        </div>
+        {/if *}
+
+        {if $node.parent.object.data_map.image.has_content}
+        <div class="attribute-profile-image">
+            {attribute_view_gui attribute=$node.parent.data_map.image image_class="large"}
+        </div>
+        {/if}
+
+	{*if eq( ezini( 'folder', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+            {if $node.object.data_map.short_description.has_content}
+                <div class="attribute-short">
+                    {attribute_view_gui attribute=$node.data_map.short_description}
+                </div>
+            {/if}
+        {/if *}
+
+
+        {if cond( is_set( $node.object.data_map.description ), $node.object.data_map.description.has_content )}
+            <div class="attribute-long">
+                {attribute_view_gui attribute=$node.data_map.description}
+            </div>
+        {/if}
+
+        {def $fetch_limit = 260
+             $page_limit = 10
+             $classes = array( 'story', 'youtube_video', 'instagram_video' )
+             $children = array()
+             $children_count = ''
+             $stories=false
+             $total_count=0
+             $total_diggs=0
+             $userID=$node.parent.object.id}
+
+            {* if le( $node.depth, '3')}
+                {set $classes=array( 'link','category','article', 'folder', 'image', 'user' )}
+            {/if}
+	    
+            {if and( $node.parent.node_id|eq( 12 ), le( $node.depth, '4' ) )}
+                {set $classes=array( 'story', 'youtube_video', 'instagram_video' )}
+            {/if *}
+
+            {* if and( $node.node_id|eq( 12 ), le( $node.depth, '3') )}
+                {set $classes=array( 'link', 'article', 'folder', 'image', 'user' )}
+            {/if *}
+
+	    {def $parent_node_id=687}
+
+	    {set $children=fetch( 'content', 'list', hash( 'parent_node_id', $parent_node_id,
+                            'offset', $view_parameters.offset,
+                            'class_filter_type', 'include',
+                            'class_filter_array', $classes,
+                            'depth', 10,
+                            'sort_by', array( 'published', false() ),
+                            'limit', $page_limit ) )
+                            $children_count=fetch( content, 'list_count', hash( 'parent_node_id', $parent_node_id,
+                            'class_filter_type', 'include',
+                            'class_filter_array', $classes,
+			    'depth', 10) )}
+
+    {foreach $children as $index => $child}
+     {* <b>{$index}</b> *}
+     {set $total_count=dugg( $child.object.id, $userID )
+          $total_diggs=$total_count}
+     {set $childNodes=$childNodes|append( array( $total_diggs, $child ) )}
+     {if $index|eq($fetch_limit)}{break}{/if}
+    {/foreach}
+    {* set $childNodes=$childNodes|arsort(SORT_NUMERIC) *}
+
+    {if $childNodes|count}
+    <div class="" style="padding-top: 0.72rem;">
+    <h2><a href={$node.url_alias|ezurl()}>Voted on Stories</a></h2>
+    </div>
+    <div class="content-view-children float-break">
+
+    {foreach $childNodes as $index => $child}
+        {if $child.0|eq( true() )}
+            {* $child|dump() *}
+	    {node_view_gui view=line content_node=$child[1] current_node=$node}
+	{/if}
+        {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
+    {/foreach}
+    </div>    
+
+
+{*
+            <div class="content-view-children gallery-items-main">
+                {foreach $children as $child }
+                    {node_view_gui view='line' content_node=$child}
+                {/foreach}
+            </div>
+*}
+            {include name=navigator
+                     uri='design:navigator/google.tpl'
+                     page_uri=$node.url_alias
+                     item_count=$childNodes|count
+                     view_parameters=$view_parameters
+                     item_limit=$page_limit}
+
+        {*/if*}
+    </div>
+</div>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
+</div>

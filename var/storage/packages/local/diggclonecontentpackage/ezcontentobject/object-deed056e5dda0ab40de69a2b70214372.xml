@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4623" name="credits" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="1" ezremote:published="Sun, 20 Oct 2024 17:31:22 GMT" ezremote:modified="Tue, 22 Oct 2024 17:20:21 GMT" remote_id="deed056e5dda0ab40de69a2b70214372" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="6" ezremote:status="1" ezremote:created="Tue, 22 Oct 2024 17:19:51 GMT" ezremote:modified="Tue, 22 Oct 2024 17:20:21 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="credits">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37633" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>credits</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37634" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37635" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Credits for digg, digg.one and diggClone</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37636" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">I was directly inspired by the exact same words from Kevin Rose during their recent reunion podcast video reunion released on YouTube. </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <line>(Citation required) #1 : https://youtu.be/Cd7vhmaKP6E?si=pCkykTLAxhRmvywz&amp;t=236</line>
+              <line>(Citation required) #2 : https://www.youtube.com/watch?v=eQNBcIPSROs</line>
+            </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Only I have no way to obtain a digg.com premium domain like Kevin could.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">I only have software that resembles the plone software features that I can only imagine might have been used for a python based implementation of the core digg web application API required back in the day (2005).</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">I only have the heart to try to reimplement the code required to deliver the same or similar end user features as expected or experienced using the site directly for extended periods of time as I had as a huge fan of every thing that Kevin Rose had accomplished in such a short period of time.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">I only have the drive to keep working to deliver the best possible features to our end users in terms of reliability, usability, experience, quality and cutting edge design. </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Digg is now something that others can enjoy again with our implementation now available at https://digg.one .one and https://clone.digg.one </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Try it today and upvote a few stories. Interesting? Try submitting a few stories and track them on digg.one/users/members/(your-username)/submitted pages.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We are trying to explain ourselves and of course we obviously give massive amounts of credit directly back to Kevin Rose, Alex Albrecht, Digg v1, Diggnation and free internet points. </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We wouldn’t be here today without standing on the shoulders of the giants of the world. We are free software at our core. Open source is in our hearts. And giving you the encouragement to stand up and thank someone who might not care yet your still want to support even indirectly and independently.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Others are here for the free open libre software to power their own digg.one internet web service application. </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Join the diggClone Project to get started quickly with your own copy of the free software package that powers digg.one .one web services.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37637" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37638" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>credit, credits, roll that credits theme song!</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37639" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e74472eaa56fc0f7523ddb60a5290a33" name="credits" node-id="4500" remote-id="978114be61618a385c3584137983bb1c" sort-field="path" sort-order="1" priority="10000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

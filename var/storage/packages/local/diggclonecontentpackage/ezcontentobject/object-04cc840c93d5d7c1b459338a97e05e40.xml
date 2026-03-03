@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="280" name="all" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Fri, 20 Sep 2024 13:08:44 GMT" ezremote:modified="Tue, 22 Oct 2024 23:59:35 GMT" remote_id="04cc840c93d5d7c1b459338a97e05e40" class_remote_id="cb90222e2556196e8516ad54cc86cdc1" ezremote:class_identifier="category" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="9">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="9" ezremote:status="1" ezremote:created="Tue, 22 Oct 2024 23:59:33 GMT" ezremote:modified="Tue, 22 Oct 2024 23:59:35 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="all">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1899" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>all</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7448" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1901" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7449" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1903" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1904" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1905" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8416" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="all" node-id="277" remote-id="44766a0fe9077ead295f9d3cb648fa69" sort-field="path" sort-order="1" priority="100000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

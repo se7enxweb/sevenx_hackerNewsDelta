@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="756" name="stories" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Tue, 24 Sep 2024 09:22:27 GMT" ezremote:modified="Wed, 23 Oct 2024 05:33:48 GMT" remote_id="7b950134371fabdea4b46cf806f94c0d" class_remote_id="cb90222e2556196e8516ad54cc86cdc1" ezremote:class_identifier="category" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="15">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="15" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 05:32:40 GMT" ezremote:modified="Wed, 23 Oct 2024 05:33:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="stories">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7427" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>stories</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7428" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7429" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to Digg [Sigma] the social networking news website where the news is user submitted and moderated. Start by creating a account and then voting for your favorite stories on <link href="/all">/all</link>/<link href="/all/upcoming">upcoming</link>, advanced users should submit news stories for others to digg.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Instructions</strong>: <link href="/user/register">Signup</link> or <link href="/user/login">login</link> and then <strong><emphasize>navigate to a sub </emphasize></strong><custom name="underline"><link node_remote_id="be73a7f524ee590b88729bba0b352efb">category</link></custom> to be able to submit your own unique news story for others to digg (vote) with their diggs!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7430" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7431" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7432" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="7433" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8434" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Digg - The social news and networking website for everyone</title>
+            <keywords/>
+            <description>Digg Sigma is the evolution of the social news and networking website digg.one! Digg our stories and submit your own!</description>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="stories" node-id="707" remote-id="38686710c93d6c0ddc6b6a345c85bef9" sort-field="path" sort-order="1" priority="20000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

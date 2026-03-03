@@ -1,0 +1,13 @@
+{* Feedback form - Line view *}
+
+<div class="content-view-line generic-content-item">
+    <div class="class-feedback-form">
+
+        <h3 class="generic-content-title" style="text-transform: capitalize;"><a href={$node.url_alias|ezurl} class="link">{$node.name|wash()}</a></h3>
+
+        <div class="attribute-short">
+                {attribute_view_gui attribute=$node.data_map.description}
+        </div>
+
+    </div>
+</div>

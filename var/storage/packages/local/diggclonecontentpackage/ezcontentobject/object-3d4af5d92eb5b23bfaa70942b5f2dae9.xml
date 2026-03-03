@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="92" name="contact" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 29 Feb 2024 12:03:51 GMT" ezremote:modified="Tue, 22 Oct 2024 23:57:09 GMT" remote_id="3d4af5d92eb5b23bfaa70942b5f2dae9" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="9">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="9" ezremote:status="1" ezremote:created="Tue, 22 Oct 2024 23:57:08 GMT" ezremote:modified="Tue, 22 Oct 2024 23:57:09 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="contact">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="429" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>contact</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="430" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="431" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="info@se7enx.com"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="432" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">We are a new site feel free to ask questions via this form.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="433" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Please feel free to reach out to Digg Sigma founder Graham Brookins any time through the following contact methods.</paragraph>
+            <section>
+              <header>Email</header>
+              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">For best results please email me at: <link href="mailto:info@digg.one">info@digg.one</link></paragraph>
+            </section>
+            <section>
+              <header>General Feedback</header>
+              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">For your general questions use our <link object_remote_id="59df97cc0bbe755f42e02e5fde9a9c3b">contact form</link>.</paragraph>
+            </section>
+            <section>
+              <header>Page Bug Reports</header>
+              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">For your bug reports use our <link object_remote_id="cf5b4238f1d6fd298010ede8b1717929">bug report form</link>.</paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="434" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="435" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="436" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="437" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="438" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="439" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="440" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="441" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="contact" node-id="94" remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" sort-field="path" sort-order="1" priority="9970"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

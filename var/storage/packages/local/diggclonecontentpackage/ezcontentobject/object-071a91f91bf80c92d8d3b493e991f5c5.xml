@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="951" name="eZ Publish CMS Rest API Documentation" ezremote:section_id="1" ezremote:owner_id="863" ezremote:class_id="17" ezremote:published="Mon, 14 Oct 2024 12:41:20 GMT" ezremote:modified="Mon, 14 Oct 2024 12:41:20 GMT" remote_id="071a91f91bf80c92d8d3b493e991f5c5" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 14 Oct 2024 12:41:12 GMT" ezremote:modified="Mon, 14 Oct 2024 12:41:20 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="eZ Publish CMS Rest API Documentation">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9356" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>eZ Publish CMS Rest API Documentation</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9357" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>the kracker</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9358" ezremote:identifier="message" name="Message" type="eztext">
+          <text>eZ Publish CMS Rest API Documentation,&#13;
+https://doc.ezpublishlegacy.se7enx.com/eZ-Publish/Technical-manual/6.x/Features/Rest-API.html</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="5e9dc0e6021d06d1309faa4ee1c8ac14" name="eZ Publish CMS Rest API Documentation" node-id="846" remote-id="d69e332a1aa05e4ae9771ca679387a60" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

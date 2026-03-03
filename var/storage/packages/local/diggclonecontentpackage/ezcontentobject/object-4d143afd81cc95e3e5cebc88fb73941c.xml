@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="984" name="terms" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="1" ezremote:published="Tue, 15 Oct 2024 06:34:10 GMT" ezremote:modified="Tue, 15 Oct 2024 06:34:10 GMT" remote_id="4d143afd81cc95e3e5cebc88fb73941c" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 15 Oct 2024 06:33:47 GMT" ezremote:modified="Tue, 15 Oct 2024 06:34:10 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="terms">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9739" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>terms of use</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9740" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text>terms</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9741" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>terms of use of digg</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9742" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>-</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9743" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9744" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9745" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e74472eaa56fc0f7523ddb60a5290a33" name="terms" node-id="854" remote-id="adc2fac6528778b3a5ea7687f2d94d01" sort-field="path" sort-order="1" priority="80000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

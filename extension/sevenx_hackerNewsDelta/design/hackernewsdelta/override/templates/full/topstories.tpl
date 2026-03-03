@@ -1,0 +1,308 @@
+{* Category - Upcoming View Template - Full view *}
+
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
+{def $fetch_limit = 260
+     $page_limit = 35
+     $page_limit_navigator = 35
+     $classes = array( 'story', 'youtube_video', 'instagram_video' )
+     $children = array()
+     $childrenNodes = array()
+     $childNodes = array()
+     $children_count = 0
+     $childrenNodesFinal = array()
+     $child=false()
+     $total_count=0
+     $total_diggs=0
+     $parent_node_id=$node.node_id
+     $start=0
+     $startOffset=0
+     $counterFinal=0
+     $min_votes=3
+}
+
+{if $view_parameters.offset}
+  {if $view_parameters.offset|eq( 6 )}
+    {* winner! your offset by 0 *}
+    {set $start=0}
+    {set $startOffset=12}
+  {else}
+    {* winner! your offset by {$view_parameters.offset} *}
+    {set $start=$view_parameters.offset}
+    {set $startOffset=$view_parameters.offset|sum( 6 )}
+  {/if}
+{/if}
+
+{* $view_parameters|attribute(show,1) *}
+
+{if gt( $node.depth, '3')}
+  {set $classes=array( 'story', 'youtube_video', 'instagram_video' )}
+{/if}
+
+
+{if $node.node_id|eq( 687 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 277 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 709 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 707 )}
+  {set $parent_node_id=687}
+{/if}
+
+
+{def $startDateTimestamp=currentdate()|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)|sub(604800)
+     $endDateTimestamp=currentdate()}
+
+{*
+    $parent_node_id
+    $classes.0|attribute(show,1)
+					    array( 'attribute' false(), 382 ),
+                                                          array( 'priority', false() ),
+                                                 'offset', $view_parameters.offset,
+*}
+{* set $children=fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                 'class_filter_type', 'exclude',
+                                                 'class_filter_array', $classes,
+      						 'sort_by', array( 'attribute', false(), 382 ),
+                                                 'limit', $fetch_limit ) ) *}
+
+{* $start - *}
+{* $startOffset *}
+{*					       'attribute_filter', array( array( 'published', '>=', $startDateTimestamp ),
+					                                  array( 'published', '<', $endDateTimestamp ) ), *}
+{set $children=fetch( 'content', 'list', hash( 'parent_node_id', $parent_node_id,
+                                               'offset', $startOffset,
+					       'depth', 10,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', $classes,
+					       'sort_by', array( 
+                                                          array( 'published', false() ) ),
+                                               'limit', $page_limit ) )
+     $children_count=fetch( content, 'list_count', hash( 'parent_node_id', $parent_node_id,
+                                                         'depth', 10,
+                                                         'class_filter_type', 'include',
+                                                         'class_filter_array', $classes ) )}
+
+
+{* $children|attribute(show,1) *}
+{* $children_count|attribute(show,1) *}
+
+{foreach $children as $index => $child}
+  {* <b>{$index}</b> *}
+  {set $total_count=fetch( 'contextual', 'collected_digg_info_count_list', hash( 'object_attribute_id', $child.data_map.diggs.id ) )
+             $total_diggs=$total_count[0]}
+
+  {if $total_diggs|ge($min_votes)}
+    {set $childrenNodes=$childrenNodes|append( array( $total_diggs, $child ) )}
+  {/if}
+
+{*if $index|eq($fetch_limit)}{break}{/if *}
+{/foreach}
+
+{if $view_parameters.dir|eq(1)}
+  {set $childrenNodes=$childrenNodes|arsort(SORT_NUMERIC)|reverse}
+{else}
+  {set $childrenNodes=$childrenNodes|arsort(SORT_NUMERIC)}
+{/if}
+
+{set $children_count=$childrenNodes|count}
+
+{for $start to $childrenNodes|count as $index}
+  {if $view_parameters.offset}
+    {if $view_parameters.offset|is_integer|not}
+      {* $counterFinal *}
+      {set $child=$childrenNodes[$counterFinal]
+            	         $childrenNodesFinal=$childrenNodesFinal|append( array( $child[$counterFinal].0, $child ) )}
+      {* $child|attribute(show,1) *}
+    {/if}
+  {else}
+    {if $index|le($page_limit_navigator)}
+      {* $counterFinal *}
+      {set $child=$childrenNodes[$counterFinal]
+            	             $childrenNodesFinal=$childrenNodesFinal|append( array( $child[$counterFinal].0, $child ) )}
+    {/if}
+  {/if}
+  {set $counterFinal=$counterFinal|sum(1)}
+{/for}
+
+{if $view_parameters.dir|eq(1)}
+  {set $childrenNodesFinal=$childrenNodesFinal|arsort(SORT_NUMERIC)|reverse|array_values}
+{else}
+  {set $childrenNodesFinal=$childrenNodesFinal|arsort(SORT_NUMERIC)|array_values}
+{/if}
+
+{* $childrenNodesFinal|attribute(show,2) *}
+
+{* $childrenNodesFinal[0]|attribute(show,1})
+{$childrenNodesFinal[0][1]|attribute(show,1) *}
+
+{* $children_count|attribute(show,1) *}
+
+{* include uri='design:parts/page_header_google_ads.tpl' *}
+
+<div class="border-box">
+  <div class="border-tl">
+    <div class="border-tr">
+      <div class="border-tc"></div>
+    </div>
+  </div>
+  <div class="border-ml">
+    <div class="border-mr">
+      <div class="border-mc float-break">
+
+        <div class="content-view-full">
+          <div class="class-category">
+
+            {* <b> {if $node.depth|gt(2)}submit{else}nosubmit-{$node.depth}{/if} </b><hr /> *}
+            {* <div class="attribute-header">
+            <h1>{attribute_view_gui attribute=$node.data_map.name}</h1>
+        </div> *}
+
+            {* include uri='design:parts/page_nav_sidebar.tpl' current_node=$node *}
+
+            {if eq( ezini( 'folder', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+              {if $node.object.data_map.short_description.has_content}
+                <div class="attribute-short">
+                  <h2 class="section-title alt">
+                    {attribute_view_gui attribute=$node.data_map.short_description}
+                  </h2>
+                </div>
+              {/if}
+            {/if}
+
+            {if $node.object.data_map.description.has_content}
+              <div class="attribute-long"> style="--border-accent: hsl(var(--color-orange-500)); border-top: 1px solid
+              var(--border-accent); margin-top:0.234rem;">
+                {attribute_view_gui attribute=$node.data_map.description}
+              </div>
+            {/if}
+
+            {if $node.object.data_map.show_children.data_int}
+              <div class="content-view-children float-break">
+                {* <div class="direction-control">Direction: *}
+                {*
+	     <a href={concat($node.url_alias,'/(dir)/1')|ezurl}>down</a> and <a href={concat($node.url_alias,'/(dir)/0')|ezurl}>up</a>
+	  *}
+                {*
+	          <a href={concat($node.url_alias,'/(dir)/1')|ezurl}>upcoming</a> and <a href={concat($node.url_alias,'/(dir)/0')|ezurl}>top</a></div> *}
+
+                {include name=navigator
+                  uri='design:navigator/google.tpl'
+                  page_uri=concat( $node.parent.url_alias )
+                  item_count=$children_count|sum(10)
+                  view_parameters=$view_parameters
+                  item_limit=$page_limit_navigator}
+
+
+                {if gt( $node.depth, '1')}
+                  {if $children_count}
+                    {* $childrenNodesFinal[0]|attribute(show,2) *}
+                    {for 0 to $fetch_limit as $index}
+                      {* foreach $childrenNodesFinal as $index => $child *}
+                      {set $child=$childrenNodesFinal[$index]}
+                      {* $childrenNodesFinal[$index][1][1]|attribute(show,1) *}
+
+                      {if $index|le($page_limit_navigator)}
+                        {if and( $view_parameters.offset|ge( 12 ), $childrenNodesFinal[$index][1][0]|ge(3) )}
+                          {node_view_gui view=line content_node=$childrenNodesFinal[$index][1][1] current_node=$node index=$index|inc}
+                        {else}
+                          {node_view_gui view=line content_node=$childrenNodesFinal[$index][1][1] current_node=$node index=$index|inc}
+                        {/if}
+                      {/if}
+
+                      {* if and( $index|lt( $page_limit_navigator ), $childrenNodesFinal[$index][1][0]|gt(3)) *}
+                      {* $index|attribute(show,1) *}
+                      {* cache-block keys=$childrenNodesFinal[$index][1][0] *}
+                      {* node_view_gui view=line content_node=$childrenNodesFinal[$index][1][1] current_node=$node *}
+                      {* /cache-block *}
+                      {undef $child}
+                      {* /if *}
+                      {delimiter}
+                      {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+                      {/delimiter}
+                    {/for}
+                  {else}<div style="border-top: 1px solid var(--border-accent);"></div>
+                    No stories have been voted to the homepage yet.
+                    <div style="border-top: 1px solid var(--border-accent);"></div>
+                  {/if}
+                {else}
+                  {if $children_count}
+                    {foreach $children as $child}
+                      {cache-block keys=$child}
+                      {node_view_gui view=line content_node=$child current_node=$node}
+                      {/cache-block}
+                      {delimiter}
+                      {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+                      {/delimiter}
+                    {/foreach}
+                  {/if}
+                {/if}
+
+
+                {* if gt( $node.depth, '1')}
+    {if $children_count}
+    {foreach $childrenNodes as $index => $child}
+         {cache-block keys=$child[0]}
+         {if $index|le($page_limit_navigator)}
+	   {if and( $view_parameters.offset|ge( 12 ), $child[0]|ge(3) )}
+	      {node_view_gui view=line content_node=$child[1] current_node=$node}
+	   {else}
+	      {node_view_gui view=line content_node=$child[1] current_node=$node}
+	   {/if}
+	 {/if}
+	 {/cache-block}
+         {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
+    {/foreach}
+    {/if}
+    {else}
+      {if $children_count}
+    {foreach $children as $child}
+         {cache-block keys=$child}
+         {node_view_gui view=line content_node=$child current_node=$node}
+	 {/cache-block}
+         {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
+    {/foreach}
+       {/if}
+    {/if *}
+
+              </div>
+
+              <div class="notice-more" style="padding-top: 1rem; padding-bottom: 1rem;">
+                Looking for more? Try submitting a new story to Hacker News Delta's <a
+                href="{if $node.depth|lt(2)}https://{ezsys( 'hostname' )}{else}https://{ezsys( 'hostname' )}/c#select-a-category-first{/if}"
+                style="text-decoration: underline;">categories</a> section which will apear in the <a
+                href="/all/(dir)/1" style="text-decoration: underline;">upcoming</a> section for voting to begin!
+            </div>
+
+            {*
+  <div class="content-view-children gallery-items-main">
+   {foreach $children as $child }
+      {node_view_gui view='line' content_node=$child}
+   {/foreach}
+  </div>
+*}
+            {include name=navigator
+              uri='design:navigator/google.tpl'
+                  page_uri=concat( $node.parent.url_alias )
+                  item_count=$children_count|sum(10)
+                  view_parameters=$view_parameters
+                  item_limit=$page_limit_navigator}
+
+            {/if}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="border-bl">
+    <div class="border-br">
+      <div class="border-bc"></div>
+    </div>
+  </div>
+</div>

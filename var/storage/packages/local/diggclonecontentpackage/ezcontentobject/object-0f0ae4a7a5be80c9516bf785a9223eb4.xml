@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4665" name="Download eZ Publish Here: ezpublish.se7enx.com" ezremote:section_id="1" ezremote:owner_id="863" ezremote:class_id="17" ezremote:published="Wed, 23 Oct 2024 10:21:56 GMT" ezremote:modified="Wed, 23 Oct 2024 10:21:56 GMT" remote_id="0f0ae4a7a5be80c9516bf785a9223eb4" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 10:21:20 GMT" ezremote:modified="Wed, 23 Oct 2024 10:21:56 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Download eZ Publish Here: ezpublish.se7enx.com">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37989" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Download eZ Publish Here: ezpublish.se7enx.com</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37990" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>kracker</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37991" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Download From The Project Home Page: https://ezpublish.se7enx.com</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="8168d1fbe7b2e24e190387faca2e9fb3" name="Download eZ Publish Here: ezpublish.se7enx.com" node-id="4531" remote-id="1bad046eaf86c3def96cfeb482f34af4" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

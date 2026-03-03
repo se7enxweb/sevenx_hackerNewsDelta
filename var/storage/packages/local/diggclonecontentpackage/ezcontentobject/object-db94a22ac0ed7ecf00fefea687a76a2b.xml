@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4619" name="open source" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="1" ezremote:published="Sun, 20 Oct 2024 16:16:01 GMT" ezremote:modified="Sun, 20 Oct 2024 16:22:00 GMT" remote_id="db94a22ac0ed7ecf00fefea687a76a2b" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Sun, 20 Oct 2024 16:17:09 GMT" ezremote:modified="Sun, 20 Oct 2024 16:22:00 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="open source">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37584" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>open source</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37585" ezremote:identifier="short_name" name="Short name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37586" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Digg.One, Digg [Sigma] is free software licensed under the gnu GPLv2 or later and released to the general public as DiggClone project.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Available now to everyone wanting to offer digg style content voting and interaction for their own website or community online.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Download: https://clone.digg.one/</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37587" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37588" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37589" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37590" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e74472eaa56fc0f7523ddb60a5290a33" name="open source" node-id="4497" remote-id="dd5122b6b431d08e0d5645a7589099ab" sort-field="path" sort-order="1" priority="43000"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://hackernewsdelta.com/rss/feed/news</id>
+  <title>Websites / HND / c / news</title>
+  <updated>2026-03-03T12:39:45+00:00</updated>
+  <author>
+    <name>admin</name>
+    <email>info@se7enx.com</email>
+  </author>
+  <link href="https://hackernewsdelta.com/"/>
+  <generator version="dev" uri="http://ezcomponents.org/docs/tutorials/Feed">eZ Components Feed</generator>
+  <logo>https://hackernewsdelta.com/</logo>
+  <subtitle>Feed of User Submitted Content Submitted to https://hackernewsdelta.com</subtitle>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/hackernewsdelta-com-released-to-general-public</id>
+    <title>HackerNewsDelta.com released to general public!</title>
+    <updated>2026-01-19T10:35:07+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/hackernewsdelta-com-released-to-general-public"/>
+    <summary>&lt;p&gt;Checkout the new social news and bookmarking news portal website!&lt;/p&gt;</summary>
+    <published>2026-01-19T10:35:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-on-hacker-news</id>
+    <title>Digg on Hacker News!</title>
+    <updated>2024-10-20T16:29:55+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-on-hacker-news"/>
+    <summary>&lt;p&gt;Digg Press : We shared a link today on Hacker News in an initial effort to promote Digg.&lt;/p&gt;</summary>
+    <published>2024-10-20T16:29:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-one-rest-api-now-alpha-and-in-development-and-already-working</id>
+    <title>Digg.one REST API now alpha and in development and already working</title>
+    <updated>2024-10-12T11:23:38+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-one-rest-api-now-alpha-and-in-development-and-already-working"/>
+    <summary>&lt;p&gt;Digg.one REST API now alpha and in development and already working.&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Read Only API v1 is Feature Complete&lt;/li&gt;
+
+&lt;li&gt;Write API v2 is Working and In active development.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;If your interested in using software to post to stories and images to digg.one new REST API (aka write bots to post on your behalf) then &lt;a href="https://hackernewsdelta.com/about/contact/contact-form" target="_self"&gt;contact us&lt;/a&gt; with your request for an OAUTH 2.0 Client Application Account.&lt;/p&gt;&lt;p&gt;Upon Application Approval you will receive basic instructions, the required authentication credentials and our platform documentation on how the software and process of using works in graphic detail. Don&amp;#039;t like it? Drop your suggestions for improving the process and features.&lt;/p&gt;</summary>
+    <published>2024-10-12T11:23:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-one-promotion-banner</id>
+    <title>Digg.One Promotion Banner</title>
+    <updated>2024-09-28T03:26:04+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-one-promotion-banner"/>
+    <summary>&lt;p&gt;Just sharing the new promotion banner&lt;/p&gt;</summary>
+    <published>2024-09-28T03:26:04+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-count-storage-option-development-finished</id>
+    <title>Digg Count Storage Option Development Finished</title>
+    <updated>2024-09-26T02:01:44+00:00</updated>
+    <author>
+      <name>admin</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-count-storage-option-development-finished"/>
+    <summary>&lt;p&gt;Today we completed migration of the database configuration to use the soon to be open sourced voting solution plugin required for the digg sigma / digg clone projects.&lt;/p&gt;&lt;p&gt;With sevenx_digg extension we will include the design templates and datatype needed to vote for content objects within our lamp php cms eZ Publish 6.&lt;/p&gt;&lt;p&gt;With the digg clone project we will be releasing our full current site sources and the full mysql database required to start people off with a reference platform to use to build their own digg clone based websites. The digg clone project home page is also coming soon to &lt;a href="https://clone.digg.one" target="_self"&gt;https://clone.digg.one&lt;/a&gt;&lt;/p&gt;</summary>
+    <published>2024-09-26T02:01:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads</id>
+    <title>Digg Sigma is now digg.one and available on GitHub for free downloads</title>
+    <updated>2024-09-22T13:11:29+00:00</updated>
+    <author>
+      <name>admin</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-sigma-is-now-digg-one-and-available-on-github-for-free-downloads"/>
+    <summary>&lt;p&gt;Digg Sigma is now digg.one and the software powering this platform is open source under the GNU GPLv2 (or later version) license and available on GitHub!&lt;/p&gt;</summary>
+    <published>2024-09-22T13:11:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-sigma-a-user-submitted-news-website</id>
+    <title>Digg Sigma a user submitted news website!</title>
+    <updated>2024-09-20T19:01:28+00:00</updated>
+    <author>
+      <name>admin</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-sigma-a-user-submitted-news-website"/>
+    <summary>&lt;p&gt;Thank you for joining us today as the Digg Sigma website is now available to the world and ready for your news stories.&lt;/p&gt;</summary>
+    <published>2024-09-20T19:01:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-sigma-the-new-digg</id>
+    <title>Digg Sigma the new digg</title>
+    <updated>2024-09-20T12:30:46+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-sigma-the-new-digg"/>
+    <summary>&lt;p&gt;Thank you for joining us today as the Digg Sigma website is now available to the world and ready for your news stories.&lt;/p&gt;</summary>
+    <published>2024-09-20T12:30:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://hackernewsdelta.com/c/news/digg-sigma-new-hosted-on-digg-one</id>
+    <title>Digg Sigma new hosted on digg.one</title>
+    <updated>2024-09-20T06:20:42+00:00</updated>
+    <author>
+      <name>graham</name>
+      <email>info@se7enx.com</email>
+    </author>
+    <link href="https://hackernewsdelta.com/c/news/digg-sigma-new-hosted-on-digg-one"/>
+    <summary>&lt;p&gt;Thank you for joining us today as the Digg Sigma website is now available to the world and ready for your news stories.&lt;/p&gt;</summary>
+    <published>2024-09-20T06:20:42+00:00</published>
+  </entry>
+</feed>

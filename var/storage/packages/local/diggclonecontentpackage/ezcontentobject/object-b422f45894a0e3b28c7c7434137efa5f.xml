@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="943" name="Digg.one REST API now alpha and in development and already working" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sat, 12 Oct 2024 11:23:38 GMT" ezremote:modified="Mon, 14 Oct 2024 12:53:26 GMT" remote_id="b422f45894a0e3b28c7c7434137efa5f" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="2" ezremote:status="1" ezremote:created="Mon, 14 Oct 2024 12:52:55 GMT" ezremote:modified="Mon, 14 Oct 2024 12:53:26 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Digg.one REST API now alpha and in development and already working">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9323" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Digg.one REST API now alpha and in development and already working</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9324" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9325" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="ff9e6a32f11ea1bfc77319c490b88ed1" is-valid="1" last-checked="0" created="1728732217" modified="1728732217">https%3A%2F%2Fdigg.one%2Fc%2Fnews</url>
+          <text>Digg.one REST API now alpha and in development and already working</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9332" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="7b092ccab552850aa7c1c824a3be0e19" is-valid="1" last-checked="0" created="1728732217" modified="1728732217">https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOmdaG0ZoWg8</url>
+          <text>Baby Goth &amp; Alone. - Missed Calls</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9326" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Digg.one REST API now alpha and in development and already working.</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Read Only API v1 is Feature Complete</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Write API v2 is Working and In active development.</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>If your interested in using software to post to stories and images to digg.one new REST API (aka write bots to post on your behalf) then <link node_remote_id="8b71347678fc370a2c8f32801c062b0a">contact us</link> with your request for an OAUTH 2.0 Client Application Account.</paragraph>
+            <paragraph>Upon Application Approval you will receive basic instructions, the required authentication credentials and our platform documentation on how the software and process of using works in graphic detail. Don't like it? Drop your suggestions for improving the process and features.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="9327" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Digg.one REST API is based on the eZ Publish v1 Rest API and again it's already working.</paragraph>
+            <paragraph>Tonight we posted our first in-place story update via Postman (Software Tool for Developers) and the digg.one rest api for story (node) update of datatype attributes. This is a generically built software solution. 7x will release a refined and stable and documented software package called 7x eZ ReST API (for eZ Publish CMS) to replace the previous limited to read only operation api with additional features to basically provide for CRUD operations via REST. This has been a missing piece in our system for many years and it's good we are providing a solid solution here with ezprestapi extension to eZ publish legacy. Previously one would require eZ Publish Platform 5 or eZ Platform (or Ibexa DXP / OSS) to gain access to a writable content api that was rich with features or write your own ie ggwebservices solution or even more from scratch.</paragraph>
+            <paragraph>This is the</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <embed view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="b570a356ff727847ab3e1d70f9a2e9bd"/>
+            </paragraph>
+            <paragraph>we updated to append - REST API to the title of the story.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9331" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9328" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9329" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9330" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9334" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9333" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9335" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9810" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="f354c78998b957b9a98f00572149b3ff" name="Digg.one REST API now alpha and in development and already working" node-id="834" remote-id="5e9dc0e6021d06d1309faa4ee1c8ac14" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

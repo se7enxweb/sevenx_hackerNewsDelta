@@ -1,0 +1,12 @@
+<?php
+// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 04:09:35 -0800
+$data = array(
+'rev' => 2,
+'created' => '2026-03-03T04:09:35-08:00',
+'charset' => "utf-8",
+'files' => array (0 => '/var/www/vhosts/portfolio.se7enx.com/public_html/hackernews.portfolio.se7enx.com/lib/ezutils/classes/../../../settings/admininterface.ini',1 => 'extension/ezchangeclass/settings/admininterface.ini.append.php',2 => 'extension/ezmultiupload/settings/admininterface.ini.append.php',3 => 'extension/ezodf/settings/admininterface.ini.append.php',4 => 'extension/ezownerchange/settings/admininterface.ini.append.php',
+),
+'file' => '/var/www/vhosts/portfolio.se7enx.com/public_html/hackernews.portfolio.se7enx.com/lib/ezutils/classes/../../../settings/admininterface.ini',
+'val' => array ('AdditionalMenuSettings' => array ('ContextMenuTemplateArray' => array (0 => 'popupmenu/classcontextmenu.tpl',1 => 'node/ezmucontextmenu.tpl',2 => 'node/oocontextmenu.tpl',3 => 'popupmenu/ownercontextmenu.tpl',),'SubitemsContextMenuTemplateArray' => array (0 => 'popupmenu/classsubitemscontextmenu.tpl',1 => 'node/ezmusubitemscontextmenu.tpl',2 => 'node/oosubitemscontextmenu.tpl',3 => 'popupmenu/ownersubitemscontextmenu.tpl',),'SubMenuTemplateArray' => array (0 => 'node/oocontextsubmenu.tpl',),'ClassMenuTemplateArray' => array (),'BookmarkMenuTemplateArray' => array (),'AdvancedMenuTemplateArray' => array (),),'SubItems' => array ('VisibleColumns' => array ('ezcontentnavigationpart' => 'checkbox;crank;name;published_date;translations;priority','ezmedianavigationpart' => 'checkbox;crank;thumbnail;name;hidden_status_string;class_name','ezusernavigationpart' => 'checkbox;crank;name;creator;published_date',),),'WindowControlsSettings' => array ('AdditionalTabs' => array (0 => 'roles',1 => 'policies',),),'AdditionalTab_roles' => array ('Title' => '','Description' => '','NavigationPartName' => 'ezusernavigationpart','HeaderTemplate' => 'user/roles_header.tpl','Template' => 'user/roles.tpl',),'AdditionalTab_policies' => array ('Title' => '','Description' => '','NavigationPartName' => 'ezusernavigationpart','HeaderTemplate' => 'user/policies_header.tpl','Template' => 'user/policies.tpl',),'ContentEditSettings' => array ('LeftMenuParts' => array (),),
+));
+?>

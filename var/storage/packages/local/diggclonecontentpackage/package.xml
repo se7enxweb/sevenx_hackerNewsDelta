@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.5.2" development="false" install_type="install">
+  <name>diggclonecontentpackage</name>
+  <summary>login, all, signup, stories, c, about, tools, contact</summary>
+  <description>This package contains the following nodes :&#13;
+login - subtree&#13;
+all - subtree&#13;
+signup - subtree&#13;
+stories - subtree&#13;
+c - subtree&#13;
+about - subtree&#13;
+tools - subtree&#13;
+contact - subtree&#13;
+</description>
+  <type value="contentobject"/>
+  <ezpublish>
+    <version>6.0.6stable</version>
+    <named-version>6.0stable</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>graham</name>
+      <email>graham@se7enx.com</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1729993546</timestamp>
+    <host>edit.digg.one</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE"/>
+  </documents>
+  <changelog>
+    <entry timestamp="1729993546" person="graham" email="graham@se7enx.com" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="1c685c3edc5f658147445bd9111dbe57" original-path="var/site/storage/images/digg/c/images/book-learning-ez-publish/37858-1-eng-US/book-learning-ez-publish.png" package-path="simplefiles/952c8ff7.png"/>
+    <simple-file key="26fe88bd52c88377fe5bc8d65504d15d" original-path="var/site/storage/images/digg/c/images/ez-publish-6-open-source-cms-banner-2024-09-21-1337/6957-1-eng-US/ez-publish-6-open-source-cms-banner-2024-09-21-1337.jpg" package-path="simplefiles/184947ea.jpg"/>
+    <simple-file key="5718dea185e004ca7a9cae6947d7d63f" original-path="var/site/storage/images/digg/c/images/7x-is-open-source-website-building-platform-experts-call-us-today-blish-6-open-source-cms-banner-2024-09-21-1337/6963-1-eng-US/7x-is-open-source-website-building-platform-experts-call-us-today-blish-6-open-source-cms-banner-2024-09-21-1337.jpg" package-path="simplefiles/93efc3c3.jpg"/>
+    <simple-file key="99baa8dd116353c054f345388ec04ed9" original-path="var/site/storage/images/digg/c/images/kracker-org-preview-box/6981-1-eng-US/kracker-org-preview-box.png" package-path="simplefiles/3ccd7d22.png"/>
+    <simple-file key="2421520ed57f2bd48f5299080fb4d198" original-path="var/site/storage/images/digg/c/images/digg/7119-2-eng-US/digg.webp" package-path="simplefiles/a9b82c8e.webp"/>
+    <simple-file key="65104adc7911c70c21ea46cd0184b138" original-path="var/site/storage/images/digg/c/images/theme/8785-1-eng-US/theme.png" package-path="simplefiles/2218e29b.png"/>
+    <simple-file key="250b7baa6649d8442dff1ad566701824" original-path="var/site/storage/images/digg/c/images/ez-digg/8899-1-eng-US/ez-digg.png" package-path="simplefiles/f0a44a97.png"/>
+    <simple-file key="4287b611fa898c33a38fc6b79639b20b" original-path="var/site/storage/images/media/images/community/digg-logo-1-1/8905-1-eng-US/digg-logo-1-1.png" package-path="simplefiles/c9240e0c.png"/>
+    <simple-file key="12260036df7d1af5d7de5aca386bea9d" original-path="var/site/storage/images/digg/c/images/terracons-logo/9010-1-eng-US/terracons-logo.jpg" package-path="simplefiles/b740e918.jpg"/>
+    <simple-file key="aea958b05b147b86b310cf0bf6a73e3c" original-path="var/site/storage/images/digg/c/images/7x-website-hosting/9151-1-eng-US/7x-website-hosting.png" package-path="simplefiles/568bba69.png"/>
+    <simple-file key="68f487c19189ede3eee3df355cdf42e0" original-path="var/site/storage/images/digg/c/images/sole/9287-1-eng-US/sole.png" package-path="simplefiles/2863bd4e.png"/>
+  </simple-files>
+  <version>
+    <number>1.0.1</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides>
+      <provide type="ezcontentclass" name="contentclass" value="link"/>
+      <provide type="ezcontentclass" name="contentclass" value="category"/>
+      <provide type="ezcontentclass" name="contentclass" value="folder"/>
+      <provide type="ezcontentclass" name="contentclass" value="story"/>
+      <provide type="ezcontentclass" name="contentclass" value="comment"/>
+      <provide type="ezcontentclass" name="contentclass" value="youtube_video"/>
+      <provide type="ezcontentclass" name="contentclass" value="image"/>
+      <provide type="ezcontentclass" name="contentclass" value="instagram_video"/>
+      <provide type="ezcontentclass" name="contentclass" value="article"/>
+      <provide type="ezcontentclass" name="contentclass" value="bug_report_form"/>
+      <provide type="ezcontentclass" name="contentclass" value="feedback_form"/>
+    </provides>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
+  </dependencies>
+  <install>
+    <item type="ezcontentclass" filename="class-link" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-category" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-folder" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-story" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-comment" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-youtube_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-image" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-instagram_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-article" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-bug_report_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-feedback_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
+  </install>
+  <uninstall>
+    <item type="ezcontentclass" filename="class-link" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-category" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-folder" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-story" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-comment" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-youtube_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-image" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-instagram_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-article" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-bug_report_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-feedback_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
+  </uninstall>
+</package>

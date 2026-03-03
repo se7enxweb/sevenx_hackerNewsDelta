@@ -1,0 +1,161 @@
+{* Category - Upcoming View Template - Full view *}
+
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
+{def $childNodes = array()}
+{def $fetch_limit = 460
+     $page_limit = 800
+     $page_limit_navigator = 12
+     $classes = array( 'story', 'youtube_video' )
+     $children = array()
+     $childrenNodes = array()
+     $children_count = ''
+     $total_count=0
+     $total_diggs=0
+     $parent_node_id=$node.node_id
+
+}
+                 
+{if gt( $node.depth, '3')}
+   {set $classes=array( 'story', 'youtube_video' )}
+{/if}
+
+{if $node.node_id|eq( 687 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 277 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 709 )}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq( 707 )}
+  {set $parent_node_id=687}
+{/if}
+
+{* $parent_node_id *}
+{* $classes.0|attribute(show,1) *}
+{* set $children=fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                 'offset', $view_parameters.offset,
+                                                 'class_filter_type', 'exclude',
+                                                 'class_filter_array', $classes,
+      						 'sort_by', array( 'attribute', false(), 382 ),
+                                                 'limit', $fetch_limit ) )*}
+
+{set $children=fetch( 'content', 'tree', hash( 'parent_node_id', $parent_node_id,
+                                               'offset', $view_parameters.offset,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', $classes,
+					       'sort_by', array( array( 'attribute' false(), 382 ),
+                                                          array( 'priority', false() ),
+                                                          array( 'published', true() ) ),
+                                               'limit', $page_limit ) )
+     $children_count=fetch( content, 'tree_count', hash( 'parent_node_id', $parent_node_id,
+                                                         'class_filter_type', 'include',
+                                                         'class_filter_array', $classes ) )}
+{* $children_count|attribute(show,1) *}
+
+{foreach $children as $index => $child}
+    {* <b>{$index}</b> *}
+     {set $total_count=fetch( 'contextual', 'collected_digg_info_count_list', hash( 'object_attribute_id', $child.data_map.diggs.id ) )
+          $total_diggs=$total_count[0]}
+     {set $childrenNodes=$childrenNodes|append( array( $total_diggs, $child ) )}
+     {if $index|eq($fetch_limit)}{break}{/if}
+{/foreach}
+
+{if $view_parameters.dir|eq(1)}
+    {set $childrenNodes=$childrenNodes|arsort(SORT_NUMERIC)|reverse}
+{else}
+    {set $childrenNodes=$childrenNodes|arsort(SORT_NUMERIC)}
+{/if}
+{* $children_count|attribute(show,1) *}
+
+{* include uri='design:parts/page_header_google_ads.tpl' *}
+
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
+
+<div class="content-view-full">
+    <div class="class-category">
+
+{* <b> {if $node.depth|gt(2)}submit{else}nosubmit-{$node.depth}{/if} </b><hr /> *}
+{* <div class="attribute-header">
+            <h1>{attribute_view_gui attribute=$node.data_map.name}</h1>
+        </div> *}
+
+        {include uri='design:parts/page_nav_sidebar.tpl'}
+
+	{if eq( ezini( 'folder', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+            {if $node.object.data_map.short_description.has_content}
+                <div class="attribute-short">
+                    {attribute_view_gui attribute=$node.data_map.short_description}
+                </div>
+            {/if}
+        {/if}
+
+        {if $node.object.data_map.description.has_content}
+            <div class="attribute-long">
+                {attribute_view_gui attribute=$node.data_map.description}
+            </div>
+        {/if}
+
+        {if $node.object.data_map.show_children.data_int}
+	<div class="content-view-children float-break">
+    	  <div class="direction-control">Direction: {*<a href={concat($node.url_alias,'/(dir)/1')|ezurl}>down</a> and <a href={concat($node.url_alias,'/(dir)/0')|ezurl}>up</a>*}<a href={concat($node.url_alias,'/(dir)/1')|ezurl}>upcoming</a> and <a href={concat($node.url_alias,'/(dir)/0')|ezurl}>top</a></div>
+
+	  {include name=navigator
+              uri='design:navigator/google.tpl'
+              page_uri=$node.url_alias
+              item_count=$children_count
+              view_parameters=$view_parameters
+              item_limit=$page_limit_navigator}
+
+    {if gt( $node.depth, '1')}
+    {if $children_count}
+    {foreach $childrenNodes as $index => $child}
+         {cache-block keys=$child[0]}
+         {if $index|le($page_limit_navigator)}{node_view_gui view=line content_node=$child[1] current_node=$node}{/if}
+	 {/cache-block}
+         {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
+    {/foreach}
+    {/if}
+    {else}
+      {if $children_count}
+    {foreach $children as $child}
+         {cache-block keys=$child}
+         {node_view_gui view=line content_node=$child current_node=$node}
+	 {/cache-block}
+         {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
+    {/foreach}
+       {/if}
+    {/if}
+    
+    </div>
+    
+    <div class="notice-more">
+     Looking for more? Try submitting a new story to digg's <a href="/c">categories</a> section which will apear in the <a href="/all/(dir)/1">upcoming</a> section for voting to begin!
+    </div>
+
+{*
+  <div class="content-view-children gallery-items-main">
+   {foreach $children as $child }
+      {node_view_gui view='line' content_node=$child}
+   {/foreach}
+  </div>
+*}
+     {include name=navigator
+              uri='design:navigator/google.tpl'
+              page_uri=$node.url_alias
+              item_count=$children_count
+              view_parameters=$view_parameters
+              item_limit=$page_limit_navigator}
+
+        {/if}
+    </div>
+</div>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
+</div>

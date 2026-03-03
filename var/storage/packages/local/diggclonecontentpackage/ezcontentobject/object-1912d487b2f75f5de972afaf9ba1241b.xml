@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4625" name="Saved by the Bell - Lil Xan" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="50" ezremote:published="Sun, 20 Oct 2024 22:35:59 GMT" ezremote:modified="Sun, 20 Oct 2024 22:35:59 GMT" remote_id="1912d487b2f75f5de972afaf9ba1241b" class_remote_id="cc50e5f9a9b7291fadcad6de2a6739c6" ezremote:class_identifier="youtube_video" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 20 Oct 2024 22:30:20 GMT" ezremote:modified="Sun, 20 Oct 2024 22:35:59 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Saved by the Bell - Lil Xan">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37654" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Saved by the Bell - Lil Xan</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37655" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37656" ezremote:identifier="link" name="Embed Video / Audio URL" type="ezurl">
+          <url original-url-md5="f19ff9e21ece3588904c22b86b56e87d" is-valid="1" last-checked="0" created="1729463701" modified="1729463701">https%3A%2F%2Fwww.youtube.com%2Fembed%2FAzJRLnOU9Sg</url>
+          <text>Saved by the Bell - Lil Xan</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37657" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl">
+          <url original-url-md5="fb49247f284fccfa02b5ee21c7ea8be4" is-valid="1" last-checked="0" created="1729463701" modified="1729463701">https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJUb9niQne-w</url>
+          <text>Don't Watch Me Fall Down - Lil Xan</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37658" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Saved by the Bell - Lil Xan is the first video embed on digg.one in a freak accident while working on digg today.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37659" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37660" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>Embeded Videos</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37661" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37662" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37663" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37664" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37665" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37666" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37667" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="90f43fcfd0ab1e9ddb7aeee8a2bbf1a6" name="Saved by the Bell - Lil Xan" node-id="4503" remote-id="67150c0d1cc670a1cdbc821d601707dd" sort-field="section" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

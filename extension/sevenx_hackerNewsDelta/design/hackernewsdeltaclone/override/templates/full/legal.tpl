@@ -1,0 +1,566 @@
+{* Folder - Full view *}
+
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
+{def $fetch_limit = 260
+     $page_limit = 30
+     $classes = array( 'link','category','article', 'image', 'user', 'folder' )
+     $children = array()
+     $children_count = ''
+     $childNodes = array()
+     $currentUserID=fetch( 'user', 'current_user' ).contentobject.id
+}
+
+{if le( $node.depth, '3')}
+  {set $classes=array( 'link','category','article','image', 'user', 'folder' )}
+{/if}
+{if and( $node.node_id|eq( 12 ), le( $node.depth, '3') )}
+  {set $classes=array( 'link', 'article', 'image', 'user' )}
+{/if}
+
+{def $parent_node_id=$node.node_id}
+
+{if $node.node_id|eq('687')}
+  {set $parent_node_id=687}
+{elseif $node.node_id|eq('277')}
+  {set $parent_node_id=687}
+{/if}
+
+{set $children=fetch( 'content', 'list', hash( 'parent_node_id', $parent_node_id,
+                                               'offset', $view_parameters.offset,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', $classes,
+                                               'sort_by', array( 'priority', false() ),
+                                               'limit', $page_limit ) )
+     $children_count=fetch( content, 'list_count', hash( 'parent_node_id', $parent_node_id,
+                                                         'class_filter_type', 'include',
+                                                         'class_filter_array', $classes ) )}
+{*
+{def $total_count=0
+     $total_diggs=0}
+
+    {foreach $children as $index => $child}
+<b>{$index}</b>
+     {set $total_count=fetch( 'contextual', 'collected_digg_info_count_list', hash( 'object_attribute_id', $child.data_map.diggs.attribute_original_id ) )
+          $total_diggs=$total_count[0]}
+     {set $childNodes=$childNodes|append( array( $total_diggs, $child ) )}
+     {if $index|eq($fetch_limit)}{break}{/if}
+    {/foreach}
+*}
+    {* set $childNodes=$childNodes|arsort(SORT_NUMERIC) *}
+
+{* include uri='design:parts/page_header_google_ads.tpl' *}
+
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
+
+<div class="content-view-full">
+    <div class="class-folder">
+
+        <div class="attribute-header">
+            <h1>{attribute_view_gui attribute=$node.data_map.name}</h1>
+        </div>
+
+	{* include uri='design:parts/page_nav_sidebar.tpl' *}
+
+	{if eq( ezini( 'folder', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+            {if and( is_set( $node.object.data_map.short_description ), $node.object.data_map.short_description.has_content)}
+                <div class="attribute-short">
+                    {attribute_view_gui attribute=$node.data_map.short_description}
+                </div>
+            {/if}
+        {/if}
+
+        {if $node.object.data_map.description.has_content}
+            <div class="attribute-long">
+                {attribute_view_gui attribute=$node.data_map.description}
+            </div>
+        {/if}
+
+	<div class="attribute-long">
+	
+      <section class="section generic-section">
+        <div class="container">
+          <p class="section-description">Information about legal terms and conditions.</p>
+
+          <hr class="divider" />
+
+          <div class="legal-content">
+            <div class="legal-content-wrapper">
+              <section id="privacy">
+                <h3 class="legal-content-title">Privacy Policy</h3>
+                <p class="legal-content-description">
+                  Last updated:
+                  <time datetime="2026-01-18">January 18, 2026</time>
+                </p>
+
+                <ul class="generic-content-list">
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Overview</h3>
+                    <ul>
+                      <li>
+                        Hacker News Delta operates a public discussion platform
+                        and is designed to collect as little personal
+                        information as possible.
+                      </li>
+                      <li>
+                        This policy explains what information is collected, how
+                        it is used, and how it is protected.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">
+                      Information We Collect
+                    </h3>
+                    <ul>
+                      <li>
+                        Basic account information, such as a username and email
+                        address
+                      </li>
+                      <li>
+                        User-submitted content, including posts, comments, and
+                        votes
+                      </li>
+                      <li>
+                        Technical data such as IP address, timestamps, and
+                        request headers for security and abuse prevention
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Public Information</h3>
+                    <ul>
+                      <li>
+                        Usernames, submissions, comments, and activity scores
+                        are public by design.
+                      </li>
+                      <li>
+                        Removing an account may anonymize personal identifiers
+                        but does not guarantee removal of public contributions.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Use of Information</h3>
+                    <ul>
+                      <li>Operate, maintain, and improve the service</li>
+                      <li>
+                        Detect, prevent, and respond to abuse or security
+                        incidents
+                      </li>
+                      <li>Communicate essential service or policy updates</li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Cookies</h3>
+                    <ul>
+                      <li>
+                        Cookies are used solely for authentication, session
+                        continuity, and basic preferences.
+                      </li>
+                      <li>
+                        Hacker News Delta does not use cookies for advertising
+                        or cross-site tracking.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Data Sharing</h3>
+                    <ul>
+                      <li>
+                        Personal information is not sold, rented, or shared for
+                        commercial purposes.
+                      </li>
+                      <li>
+                        Information may be disclosed if legally required or
+                        necessary to protect the platform and its users.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Data Retention</h3>
+                    <ul>
+                      <li>
+                        Data is retained only for as long as necessary for
+                        operational, security, or legal reasons.
+                      </li>
+                      <li>
+                        Backups may retain data for a limited time after
+                        deletion.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Account Security</h3>
+                    <ul>
+                      <li>
+                        Passwords are stored using modern, one-way cryptographic
+                        hashing.
+                      </li>
+                      <li>
+                        Users are responsible for maintaining the
+                        confidentiality of their credentials.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Third-Party Links</h3>
+                    <ul>
+                      <li>
+                        The service may link to third-party websites not
+                        operated by Hacker News Delta.
+                      </li>
+                      <li>
+                        External sites are governed by their own privacy
+                        policies.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Policy Changes</h3>
+                    <ul>
+                      <li>
+                        This policy may be updated periodically to reflect
+                        operational or legal changes.
+                      </li>
+                      <li>
+                        Continued use of the service indicates acceptance of the
+                        revised policy.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Contact</h3>
+                    <ul>
+                      <li>
+                        Privacy-related inquiries may be sent to
+                        <a href="mailto:info@hackernewsdelta.com" class="link">
+                          info@hackernewsdelta.com</a
+                        >.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+              <section id="terms">
+                <h3 class="legal-content-title">Terms of Use</h3>
+                <p class="legal-content-description">
+                  Last updated:
+                  <time datetime="2026-01-18">January 18, 2026</time>
+                </p>
+
+                <ul class="generic-content-list">
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Acceptance of Terms</h3>
+                    <ul>
+                      <li>
+                        By accessing or using Hacker News Delta, you agree to be
+                        bound by these Terms of Use.
+                      </li>
+                      <li>
+                        If you do not agree to these terms, you should not use
+                        the service.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">
+                      Purpose of the Service
+                    </h3>
+                    <ul>
+                      <li>
+                        Hacker News Delta provides a public forum for sharing
+                        and discussing links, ideas, and technical topics.
+                      </li>
+                      <li>
+                        The service is provided for informational and discussion
+                        purposes only.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">User Accounts</h3>
+                    <ul>
+                      <li>
+                        Some features require registration and an active user
+                        account.
+                      </li>
+                      <li>
+                        You are responsible for maintaining the security of your
+                        account and all activity conducted under it.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">User Conduct</h3>
+                    <ul>
+                      <li>
+                        Users must not submit unlawful, misleading, abusive, or
+                        malicious content.
+                      </li>
+                      <li>
+                        Attempts to interfere with the operation, security, or
+                        integrity of the service are prohibited.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">
+                      Content Responsibility
+                    </h3>
+                    <ul>
+                      <li>
+                        Users are solely responsible for the content they
+                        submit.
+                      </li>
+                      <li>
+                        Hacker News Delta does not endorse or verify
+                        user-submitted content.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Content License</h3>
+                    <ul>
+                      <li>
+                        By submitting content, you grant Hacker News Delta a
+                        non-exclusive, royalty-free license to display, store,
+                        and distribute that content as part of the service.
+                      </li>
+                      <li>
+                        This license is limited to operating and promoting the
+                        platform.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Moderation</h3>
+                    <ul>
+                      <li>
+                        Hacker News Delta may remove content or restrict
+                        accounts at its discretion to maintain community
+                        quality.
+                      </li>
+                      <li>
+                        Moderation decisions may be made without prior notice or
+                        explanation.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Availability</h3>
+                    <ul>
+                      <li>
+                        The service is provided on an “as is” and “as available”
+                        basis.
+                      </li>
+                      <li>
+                        Availability, features, or functionality may change at
+                        any time.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Third-Party Links</h3>
+                    <ul>
+                      <li>
+                        Links to external sites are provided for convenience and
+                        discussion.
+                      </li>
+                      <li>
+                        Hacker News Delta is not responsible for third-party
+                        content or practices.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">
+                      Limitation of Liability
+                    </h3>
+                    <ul>
+                      <li>
+                        Hacker News Delta shall not be liable for any indirect,
+                        incidental, or consequential damages arising from use of
+                        the service.
+                      </li>
+                      <li>Use of the service is at your own risk.</li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Changes to Terms</h3>
+                    <ul>
+                      <li>These terms may be updated from time to time.</li>
+                      <li>
+                        Continued use of the service constitutes acceptance of
+                        revised terms.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Contact</h3>
+                    <ul>
+                      <li>
+                        Questions regarding these terms may be sent to
+                        <a href="mailto:info@hackernewsdelta.com" class="link">
+                          info@hackernewsdelta.com</a
+                        >.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+              <section id="trademarks">
+                <h3 class="legal-content-title">Trademarks</h3>
+                <p class="legal-content-description">
+                  Last updated:
+                  <time datetime="2026-01-18">January 18, 2026</time>
+                </p>
+
+                <ul class="generic-content-list">
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Ownership</h3>
+                    <ul>
+                      <li>
+                        All trademarks, service marks, and logos displayed on
+                        Hacker News Delta are the property of their respective
+                        owners.
+                      </li>
+                      <li>
+                        Use of these marks does not imply any affiliation,
+                        sponsorship, or endorsement by their owners.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">Limited Use</h3>
+                    <ul>
+                      <li>
+                        You may not use Hacker News Delta trademarks without
+                        prior written permission, except to refer to the site in
+                        news articles, commentary, or educational content.
+                      </li>
+                      <li>
+                        Use must not be misleading, suggest endorsement, or
+                        dilute the value of the trademark.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">
+                      Reporting Infringement
+                    </h3>
+                    <ul>
+                      <li>
+                        If you believe your trademark rights have been violated
+                        on Hacker News Delta, please contact us at
+                        <a href="mailto:info@hackernewsdelta.com" class="link">
+                          info@hackernewsdelta.com</a
+                        >.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="generic-content-item">
+                    <h3 class="generic-content-title">No License Granted</h3>
+                    <ul>
+                      <li>
+                        Except as expressly stated, no rights or licenses are
+                        granted under any trademarks, copyrights, or other
+                        intellectual property rights of Hacker News Delta or its
+                        partners.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <div class="table-of-contents">
+              <h3 class="table-of-contents-title">Table of Contents</h3>
+              <ul class="table-of-contents-list">
+                <li class="table-of-contents-item">
+                  <a href="#privacy" class="table-of-contents-link">
+                    Privacy
+                  </a>
+                </li>
+                <li class="table-of-contents-item">
+                  <a href="#terms" class="table-of-contents-link">Terms</a>
+                </li>
+                <li class="table-of-contents-item">
+                  <a href="#trademarks" class="table-of-contents-link">
+                    Trademarks
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+
+
+	{*if $node.object.data_map.show_children.data_int *}
+
+    	<div class="content-view-children float-break">
+    	    {foreach $children as $index => $child}
+                {if and($node.node_id|eq( 828 ), $index|eq( 0 ) )}
+	 	    <form name="children" method="post" action={'content/action'|ezurl}>
+		    	 <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+			 <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id}" />
+	 		 <input type="hidden" name="NodeID" value="{$node.node_id}" />
+	 		 <input type="hidden" name="ClassID" value="31" />
+	 		 <input type="submit" name="NewButton" value="Upload New Story Image" id="btn-submit" style="width:70%"/>
+         	    </form>
+		{/if}
+                {node_view_gui view=line content_node=$child current_node=$node currentUserID=$currentUserID}
+ 		{delimiter}
+             	  {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         	{/delimiter}
+             {/foreach}
+	  </div>    
+
+
+    	    {*
+            <div class="content-view-children gallery-items-main">
+                {foreach $children as $child }
+                    {node_view_gui view='line' content_node=$child}
+                {/foreach}
+            </div>
+	    *}
+
+            {include name=navigator
+                     uri='design:navigator/google.tpl'
+                     page_uri=$node.url_alias
+                     item_count=$children_count
+                     view_parameters=$view_parameters
+                     item_limit=$page_limit}
+    </div>
+</div>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
+</div>

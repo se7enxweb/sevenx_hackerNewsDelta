@@ -1,0 +1,12 @@
+<?php
+// This is a auto generated ini cache file, time created:Tue, 03 Mar 26 04:09:26 -0800
+$data = array(
+'rev' => 2,
+'created' => '2026-03-03T04:09:26-08:00',
+'charset' => "utf-8",
+'files' => array (0 => '/var/www/vhosts/portfolio.se7enx.com/public_html/hackernews.portfolio.se7enx.com/lib/ezutils/classes/../../../settings/workflow.ini',1 => 'extension/bcwebsitestatistics/settings/workflow.ini.append.php',2 => 'extension/swark/settings/workflow.ini.append.php',3 => 'extension/autorss/settings/workflow.ini.append.php',4 => 'extension/sevenx_ssp/settings/workflow.ini.append.php',5 => 'extension/ezssp/settings/workflow.ini.append.php',6 => 'extension/createmultiplelocationruleevent/settings/workflow.ini.append.php',7 => 'extension/autonotifications/settings/workflow.ini.append.php',8 => 'settings/override/workflow.ini',
+),
+'file' => '/var/www/vhosts/portfolio.se7enx.com/public_html/hackernews.portfolio.se7enx.com/lib/ezutils/classes/../../../settings/workflow.ini',
+'val' => array ('EventSettings' => array ('RepositoryDirectories' => array (0 => 'kernel/classes/workflowtypes',1 => 'extension/bcwebsitestatistics/workflowtypes',),'ExtensionDirectories' => array (0 => 'bcwebsitestatistics',1 => 'swark',2 => 'autorss',3 => 'sevenx_ssp',4 => 'ezssp',5 => 'createmultiplelocationruleevent',6 => 'autonotifications',),'AvailableEventTypes' => array (0 => 'event_ezapprove',1 => 'event_ezwaituntildate',2 => 'event_ezsimpleshipping',3 => 'event_ezmultiplexer',4 => 'event_ezpaymentgateway',5 => 'event_ezfinishuserregister',6 => 'event_ezreceipt',7 => 'event_autopriority',8 => 'event_defertocron',9 => 'event_autorss',10 => 'event_sevenxsubtreeskeletonpublish',11 => 'event_subtreeskeletonpublish',12 => 'event_createmultiplelocationrule',13 => 'event_autonotifications',),),'OperationSettings' => array ('AvailableOperationList' => array (0 => 'content_publish',1 => 'before_shop_confirmorder',2 => 'shop_checkout',3 => 'shop_addtobasket',4 => 'shop_updatebasket',5 => 'content_publish',6 => 'user_register',7 => 'user_activation',8 => 'before_shop_confirmorder',9 => 'shop_checkout',10 => 'shop_addtobasket',11 => 'shop_updatebasket',),),'SimpleShippingWorkflow' => array ('ShippingCost' => '12','ShippingDescription' => 'Shipping',),
+));
+?>

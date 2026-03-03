@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="896" name="Digg Logo 1_1" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="31" ezremote:published="Sat, 28 Sep 2024 03:23:51 GMT" ezremote:modified="Sat, 28 Sep 2024 03:23:51 GMT" remote_id="5737104133665cc151092aa3c42c92a0" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sat, 28 Sep 2024 03:23:51 GMT" ezremote:modified="Sat, 28 Sep 2024 03:23:51 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Digg Logo 1_1">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8903" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Digg Logo 1_1</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8904" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8905" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4287b611fa898c33a38fc6b79639b20b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8906" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8907" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8908" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9189" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[diggs]]></name>
+            <options/>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="Digg Logo 1_1" node-id="816" remote-id="d5654609c815b3fd71379d470ce2e2c4" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

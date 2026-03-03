@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4648" name="(Book) Learning eZ Publish" ezremote:section_id="1" ezremote:owner_id="863" ezremote:class_id="31" ezremote:published="Wed, 23 Oct 2024 03:16:01 GMT" ezremote:modified="Wed, 23 Oct 2024 03:16:01 GMT" remote_id="de276307fc99bd8a5c6ff7d38edc3ade" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 03:14:09 GMT" ezremote:modified="Wed, 23 Oct 2024 03:16:01 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="(Book) Learning eZ Publish">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37856" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>(Book) Learning eZ Publish</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37857" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>(Book) Learning eZ Publish</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37858" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="1c685c3edc5f658147445bd9111dbe57" alternative-text="(Book) Learning eZ Publish"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37859" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>(Book) Learning eZ Publish, eZ Publish</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37860" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37861" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>(Book) Learning eZ Publish</title>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>0</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37862" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="71c7420e5f9025137dbf62e67dad0ba0" name="(Book) Learning eZ Publish" node-id="4513" remote-id="a7eed9b1183267ac1171c3719947b853" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

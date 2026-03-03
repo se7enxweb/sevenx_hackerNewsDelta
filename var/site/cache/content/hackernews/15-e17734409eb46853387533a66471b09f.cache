@@ -1,0 +1,82 @@
+a:8:{s:7:"content";s:2790:"<form method="post"
+      action="#"
+      name="loginform"
+      class="auth-form">
+
+<div class="warning">
+<h2>Access denied</h2>
+<p>You do not have permission to access (or submit a story) to this area of HND.</p>
+<p>&nbsp;</p>
+<p style="margin-bottom: 0.30rem;">Possible reasons for this are:</p>
+<ul style="list-style: disc; margin-left: 1.2rem;">
+    <li>You must navigate to a HND story category to submit a new story. Please navigate first instead to <a style="text-decoration: underline;" href="/c">/c</a> and then to a sub cateory available in the sidebar of the page.</li>
+        <li>You are <span style="text-decoration: underline;">not currently logged in to the site</span>, to get proper access create a new user or login with an existing user.</li>
+        <li>You misspelled some parts of your URL, try changing it.</li>
+</ul>
+<p>&nbsp;</p></div>
+
+    
+    
+
+<form method="post"
+      action="https://hackernewsdelta.com/user/login/"
+      name="loginform" 
+      class="auth-form">
+
+     <section class="section auth-section">
+	                  
+	    	    <div class="auth-form-header">
+              <h2 class="auth-form-title">Login to your account</h2>
+              <p>Enter your credentials to access your account.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="username" class="form-label">Username</label>
+              <input
+                type="text"
+                id="username"
+                name="Login"
+                class="form-control"
+                required
+              />
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-label-group">
+                <label for="password" class="form-label">Password</label>
+                <a href="/user/forgotpassword" class="link"
+                  >Forgot your password?</a
+                >
+              </div>
+              <input
+                type="password"
+                id="password"
+                name="Password"
+                class="form-control"
+                required
+              />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+	    	    </div>
+
+            <div class="form-actions">
+	      <input class="btn btn-primary defaultbutton" type="submit" name="LoginButton" value="Login" tabindex="1" />
+            </div>
+
+	                <div class="auth-form-footer">
+              <p>
+                Don't have an account?
+                <a href="/user/register" class="link">Create one</a>
+              </p>
+            </div>
+	                <input type="hidden" name="RedirectURI" value="users/administrator-users/admin" />
+	              </form>
+      </section>
+
+
+    
+</form>
+
+";s:4:"path";a:2:{i:0;a:2:{s:4:"text";s:5:"Error";s:3:"url";b:0;}i:1;a:2:{s:4:"text";s:10:"kernel (1)";s:3:"url";b:0;}}s:9:"errorCode";s:3:"401";s:12:"errorMessage";s:22:"Authorization Required";s:9:"errorType";s:6:"kernel";s:11:"errorNumber";i:1;s:15:"responseHeaders";a:2:{i:0;s:35:"HTTP/1.0 401 Authorization Required";i:1;s:34:"Status: 401 Authorization Required";}s:26:"is_default_navigation_part";b:1;}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="857" name="Thank you!" ezremote:section_id="1" ezremote:owner_id="10" ezremote:class_id="17" ezremote:published="Tue, 24 Sep 2024 16:55:25 GMT" ezremote:modified="Tue, 24 Sep 2024 16:55:25 GMT" remote_id="420445cb811fb757af2914cfe0c9349b" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 24 Sep 2024 16:54:52 GMT" ezremote:modified="Tue, 24 Sep 2024 16:55:25 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Thank you!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8371" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Thank you!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8372" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Anonymous Coward</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8373" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Thanks for your hard work.&#13;
+</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="6015ce2ef6b1d86ae32adcb67f667455" name="Thank you!" node-id="803" remote-id="9ac37667056aafa3093c3e82c6591b93" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

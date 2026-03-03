@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="980" name="First story posted via the new Digg Rest API!" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="17" ezremote:published="Tue, 15 Oct 2024 06:14:10 GMT" ezremote:modified="Tue, 15 Oct 2024 06:14:10 GMT" remote_id="3b816ccee9246e7518f6de8f31733f98" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 15 Oct 2024 06:13:43 GMT" ezremote:modified="Tue, 15 Oct 2024 06:14:10 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="First story posted via the new Digg Rest API!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9709" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>First story posted via the new Digg Rest API!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9710" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Graham Brookins</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9711" ezremote:identifier="message" name="Message" type="eztext">
+          <text>https://digg.one/c/mods/title-text-string-00001az27x1-3-1</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="5e9dc0e6021d06d1309faa4ee1c8ac14" name="First story posted via the new Digg Rest API!" node-id="851" remote-id="01dffcf3424f81da58874451abcc4caf" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

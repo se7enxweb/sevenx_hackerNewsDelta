@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="4660" name="email alerts" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="32" ezremote:published="Wed, 23 Oct 2024 08:00:05 GMT" ezremote:modified="Wed, 23 Oct 2024 08:05:44 GMT" remote_id="1a22bbad5955b632a215d261cf44cf4b" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Wed, 23 Oct 2024 08:05:36 GMT" ezremote:modified="Wed, 23 Oct 2024 08:05:44 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="email alerts">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37954" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>email alerts</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37955" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37956" ezremote:identifier="location" name="Location" type="ezurl">
+          <url original-url-md5="b9f296df1bbbb32a1eaf5a451848f7d3" is-valid="1" last-checked="0" created="1729670392" modified="1729670392">%2Fnotification%2Fsettings</url>
+          <text>email alerts</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37957" ezremote:identifier="open_in_new_window" name="Open in new window" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="37958" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="cdf4080e04a31f98f9bb2ec038735779" name="email alerts" node-id="4524" remote-id="1f8b1769bf3a7cf787eee66ce00331f0" sort-field="path" sort-order="1" priority="9970"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

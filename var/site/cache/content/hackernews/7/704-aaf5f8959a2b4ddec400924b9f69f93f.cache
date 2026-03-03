@@ -1,0 +1,517 @@
+a:11:{s:7:"content";s:18356:"
+    
+
+
+
+
+
+<!-- Article List -->
+<ul class="article-list">
+
+      
+            
+          
+            
+          
+            
+          
+            
+          
+            
+      
+  
+  
+
+  
+
+  <div class="border-box">
+    <div class="border-tl">
+      <div class="border-tr">
+        <div class="border-tc"></div>
+      </div>
+    </div>
+    <div class="border-ml">
+      <div class="border-mr">
+        <div class="border-mc float-break">
+          <div class="content-view-full">
+            <div class="class-category">
+              
+
+              
+
+                                                <div class="attribute-short">
+                    <p>Welcome to Hacker News [Delta] social networking news website where the news is user submitted
+                      and moderated. Start voting for your favorite stories on
+                      / <a href="/all" target="_self" class="link">
+                        all
+                      </a>
+                      /
+                      <a href="/all/upcoming" target="_self" class="link">
+                        upcoming
+                      </a>
+                    </p>
+                  </div>
+                              
+              
+                                                                    <ul class="article-list">
+                                                                      <li>
+                          
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">1.</span>      <form method="post" action="/contextual/action" name="digg857" id="digg857">
+  <input type="hidden" name="ContentNodeID" value="857" />
+  <input type="hidden" name="ContentObjectID" value="987" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation857').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/857"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_9772" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_9772" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation857"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose">How Digg helped invent the social internet aka digg web 2 2024 interview with the kevin rose</a><a
+            href="https://www.theverge.com/c/24209615/digg-internet-web-2-homepage-2004-kevin-rose-interview" class="article-source"
+            style="word-wrap: anywhere;">(www.theverge.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            10 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/graham">graham</a>
+
+                    <span class="article-time">504 days ago on
+            2024/10/15 @ 06:22 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/technology">
+            technology
+          </a>
+          |
+          <a href="/c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/technology/how-digg-helped-invent-the-social-internet-aka-digg-web-2-2024-interview-with-the-kevin-rose#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                        </li>
+                        
+                                                                                              <li>
+                          
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">0.</span>      <form method="post" action="/contextual/action" name="digg680" id="digg680">
+  <input type="hidden" name="ContentNodeID" value="680" />
+  <input type="hidden" name="ContentObjectID" value="705" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation680').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/680"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8688" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_8688" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation680"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts">Get the 7x Advantage in your business website! Get help from the experts!</a><a
+            href="https://my.se7enx.com" class="article-source"
+            style="word-wrap: anywhere;">(my.se7enx.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            8 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/administrator-users/admin">admin</a>
+
+                    <span class="article-time">528 days ago on
+            2024/09/21 @ 04:07 pm
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/technology">
+            technology
+          </a>
+          |
+          <a href="/c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/technology/get-the-7x-advantage-in-your-business-website-get-help-from-the-experts#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                        </li>
+                        
+                                                                                              <li>
+                          
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">3.</span>      <form method="post" action="/contextual/action" name="digg4561" id="digg4561">
+  <input type="hidden" name="ContentNodeID" value="4561" />
+  <input type="hidden" name="ContentObjectID" value="4996" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation4561').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/4561"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_40489" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_40489" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation4561"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/technology/can-digg-s-return-fix-what-ails-social-media-today-reddit-s-cofounder-is-betting-on-it">Can Digg&#039;s return fix what ails social media today? Reddit&#039;s cofounder is betting on it </a><a
+            href="https://www.zdnet.com/article/can-diggs-return-fix-what-ails-social-media-today-reddits-cofounder-is-betting-on-it/" class="article-source"
+            style="word-wrap: anywhere;">(www.zdnet.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            5 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/graham">graham</a>
+
+                    <span class="article-time">362 days ago on
+            2025/03/06 @ 11:22 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/technology">
+            technology
+          </a>
+          |
+          <a href="/c/technology/can-digg-s-return-fix-what-ails-social-media-today-reddit-s-cofounder-is-betting-on-it#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/technology/can-digg-s-return-fix-what-ails-social-media-today-reddit-s-cofounder-is-betting-on-it#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                        </li>
+                        
+                                                                                              <li>
+                          
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">2.</span>      <form method="post" action="/contextual/action" name="digg4559" id="digg4559">
+  <input type="hidden" name="ContentNodeID" value="4559" />
+  <input type="hidden" name="ContentObjectID" value="4995" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation4559').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/4559"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_40475" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_40475" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation4559"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/technology/kevin-rose-alexis-ohanian-acquire-digg">Kevin Rose, Alexis Ohanian Acquire Digg</a><a
+            href="https://techcrunch.com/2025/03/05/kevin-rose-and-alexis-ohanian-acquire-digg/" class="article-source"
+            style="word-wrap: anywhere;">(techcrunch.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            5 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/graham">graham</a>
+
+                    <span class="article-time">362 days ago on
+            2025/03/06 @ 09:21 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/technology">
+            technology
+          </a>
+          |
+          <a href="/c/technology/kevin-rose-alexis-ohanian-acquire-digg#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/technology/kevin-rose-alexis-ohanian-acquire-digg#comments" class="link">
+            0 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                        </li>
+                        
+                                                                                              <li>
+                          
+
+<ul class="article-list">
+  <li class="article-item">
+    <article class="article">
+      <span class="article-rank">4.</span>      <form method="post" action="/contextual/action" name="digg6683" id="digg6683">
+  <input type="hidden" name="ContentNodeID" value="6683" />
+  <input type="hidden" name="ContentObjectID" value="49573" />
+  <input type="hidden" name="ViewMode" value="full" />
+  <input type="hidden" name="collection_redirect"
+    value="/c/technology" />
+
+  <ul class="article-digg">
+          <li>
+        <a onClick="document.getElementById('ActionCollectDiggInformation6683').click(); return false;"
+          href="#" class="article-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M13 12V20H11V12H4L12 4L20 12H13Z"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href=          "/contextual/diggcollectedinfo/6683"  id="diggs0" class="article-icon circle">
+        
+        &#9959;
+      </a>
+    </li>
+      </ul>
+  <div class="content-diggs" style="display:none">
+        <div class="block">
+      <label>Diggs:</label>
+      
+        
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354493" value="0"
+                checked="checked"  />
+              digg
+            </label>
+                      <label>
+              <input type="radio" name="ContentObjectAttribute_data_option_value_354493" value="1"
+                 />
+              undigg
+            </label>
+          
+          
+                            </div>
+
+                  <input class="button" type="submit" id="ActionCollectDiggInformation6683"
+            name="ActionCollectDiggInformation" value="Digg it" />
+          <input class="button" type="submit" name="ActionCollectDiggInformation"
+            value="UnDigg it" />
+        
+      </div>
+    </form>      <div>
+        <h2 class="article-title">
+          <a href="/c/technology/the-power-of-technology">The Power of Technology</a><a
+            href="https://tetrawebsystems.com/" class="article-source"
+            style="word-wrap: anywhere;">(tetrawebsystems.com)</a>
+        </h2>
+        <div class="article-meta">
+          <span class="article-score">
+            3 points
+          </span> by
+          <a
+            class="link article-author"
+            href="/users/members/vincent-opar">vincent-opar</a>
+
+                    <span class="article-time">43 days ago on
+            2026/01/19 @ 09:41 am
+          </span>
+          <br>
+          category:
+          <a class="link" href="/c/technology">
+            technology
+          </a>
+          |
+          <a href="/c/technology/the-power-of-technology#report" class="link">
+            report
+          </a>
+          |
+          <a href="/c/technology/the-power-of-technology#comments" class="link">
+            1 comments
+          </a>
+        </div>
+      </div>
+    </article>
+  </li>
+</ul>                        </li>
+                        
+                                                                  </ul>
+                                                  
+
+    
+                                              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ul>";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:4:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:4:{s:4:"text";s:10:"technology";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"704";}}s:10:"title_path";a:4:{i:0;a:4:{s:4:"text";s:8:"Websites";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"hackernews";s:3:"url";s:22:"/content/view/full/710";s:9:"url_alias";s:0:"";s:7:"node_id";s:3:"710";}i:2;a:4:{s:4:"text";s:1:"c";s:3:"url";s:22:"/content/view/full/687";s:9:"url_alias";s:1:"c";s:7:"node_id";s:3:"687";}i:3;a:3:{s:4:"text";s:10:"technology";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"704";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:25:{s:9:"object_id";s:3:"738";s:7:"node_id";s:3:"704";s:14:"parent_node_id";s:3:"687";s:8:"class_id";s:2:"48";s:16:"class_identifier";s:8:"category";s:9:"remote_id";s:32:"f8423ff4fbc7326799913d4601eda78f";s:14:"node_remote_id";s:32:"54df0b71ec028314418a058beadc92f0";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"4";s:9:"url_alias";s:12:"c/technology";s:16:"current_language";s:6:"eng-US";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:3:"704";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:18:"section_identifier";s:8:"standard";s:15:"parent_class_id";s:1:"1";s:23:"parent_class_identifier";s:6:"folder";s:21:"parent_node_remote_id";s:32:"be73a7f524ee590b88729bba0b352efb";s:23:"parent_object_remote_id";s:32:"ec177e396efeab758e906b7343a49e0f";}s:13:"template_list";a:4:{i:0;s:49:"design/delta/override/templates/full/category.tpl";i:1;s:46:"design/delta/override/templates/line/story.tpl";i:2;s:67:"design/delta/templates/content/datatype/collect/ezdiggboxoption.tpl";i:3;s:43:"design/delta/templates/navigator/google.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

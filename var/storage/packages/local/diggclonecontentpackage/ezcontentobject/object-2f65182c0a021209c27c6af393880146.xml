@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="700" name="eZ Publish 6.0.4 Website Building Platform" ezremote:section_id="1" ezremote:owner_id="287" ezremote:class_id="47" ezremote:published="Sat, 21 Sep 2024 21:54:38 GMT" ezremote:modified="Mon, 07 Oct 2024 12:25:13 GMT" remote_id="2f65182c0a021209c27c6af393880146" class_remote_id="582a53737823d3d80e88bd317ab493bb" ezremote:class_identifier="story" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="4">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="4" ezremote:status="1" ezremote:created="Mon, 07 Oct 2024 12:25:06 GMT" ezremote:modified="Mon, 07 Oct 2024 12:25:13 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="eZ Publish 6.0.4 Website Building Platform">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6943" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>eZ Publish 6.0.4 Website Building Platform Is Easy To Learn and Build In Minutes</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6944" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text>eZ Publish 6.0.4 Website Building Platform</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6945" ezremote:identifier="link" name="Story Link URL" type="ezurl">
+          <url original-url-md5="bb592d664b037fd0caf88fe5636e8548" is-valid="1" last-checked="0" created="1726954734" modified="1726954734">https%3A%2F%2Fezpublish.se7enx.com</url>
+          <text>eZ Publish 6 Project HomePage + Tools</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8554" ezremote:identifier="theme_song" name="Post Theme Song" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6946" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>eZ Publish is an award-winning, enterprise-grade Open Source Content Management System and development framework with functionality for web publishing, media portals, intranets, e-commerce and extranets. eZ Publish has a flexible content engine that serves as the core for dynamic and personalized websites. eZ Publish comes with much functionality out-of-the-box, but its power lies in its award-winning customization capabilities. </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="6947" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph><embed align="right" view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="f396ee52af1b4f5554bdfb1e84c7b0c4"/>Welcome to eZ Publish maintained by 7x. This website provides information related to the continued development and support of the eZ Publish CMS software platform.</paragraph>
+            <paragraph>Here you can find the links to the <link target="_self" href="https://ezpublish.se7enx.com/contribute">activity centers</link> that eZ Publish end users visit for more information and activity.</paragraph>
+            <paragraph>We offer the very finest world renowned cms that has been installed worldwide tens of thousands of times by normal people to power their website using the a flexible content management system and generic web development framework eZ Publish provides by default.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6951" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>7x Maintains eZ Publish 6.x, New Features Daily, Help Drive Adoption, 2024.09, 7x Means Rapid Results, eZ Publish, Developer Friendly, General Use, Website Building CMS System, Made by 7x</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6948" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6949" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="c1756f2c1f1873d3f875240e15c6b3ab"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6950" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>7x Creates eZ Publish 6 Features Daily to Help Drive Adoption in 2024.09. Call 7x To Get A Quote For Your Next Website Project To Begin With A Bang!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6953" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>eZ Publish 6.0.4 Website Building Platform Is Easy To Learn. Get Started In Minutes!</title>
+            <keywords/>
+            <description>eZ Publish 6.0.4 Website Building Platform Is Easy To Learn and Build In Minutes</description>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="6952" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="8686" ezremote:identifier="diggs" name="Diggs" type="ezdiggboxoption">
+          <ezdiggboxoption>
+            <name><![CDATA[Diggs]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[digg]]></option>
+              <option id="1" additional_price="0"><![CDATA[undigg]]></option>
+            </options>
+          </ezdiggboxoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9776" ezremote:identifier="moderation" name="Moderation" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="164f38a74b2823b8bc98cee0f4efd844" name="eZ Publish 6.0.4 Website Building Platform" node-id="677" remote-id="1b3a4ad45eff73984530d2d4f78e05da" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

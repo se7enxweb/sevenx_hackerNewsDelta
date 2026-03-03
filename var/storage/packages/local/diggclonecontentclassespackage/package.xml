@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.5.2" development="false" install_type="install">
+  <name>diggclonecontentclassespackage</name>
+  <summary>Export of 8 content classes</summary>
+  <description>This package contains exported definitions of the following content classes:&#13;
+- Folder&#13;
+- User&#13;
+- Link&#13;
+- Story&#13;
+- Category&#13;
+- Bug Report Form&#13;
+- YouTube Video Embed&#13;
+- Instagram Video Embed&#13;
+</description>
+  <type value="contentclass"/>
+  <ezpublish>
+    <version>6.0.6stable</version>
+    <named-version>6.0stable</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>graham</name>
+      <email>graham@se7enx.com</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1729994053</timestamp>
+    <host>edit.digg.one</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE"/>
+  </documents>
+  <changelog>
+    <entry timestamp="1729994053" person="graham" email="graham@se7enx.com" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files/>
+  <version>
+    <number>1.0.1</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides>
+      <provide type="ezcontentclass" name="contentclass" value="folder"/>
+      <provide type="ezcontentclass" name="contentclass" value="user"/>
+      <provide type="ezcontentclass" name="contentclass" value="link"/>
+      <provide type="ezcontentclass" name="contentclass" value="story"/>
+      <provide type="ezcontentclass" name="contentclass" value="category"/>
+      <provide type="ezcontentclass" name="contentclass" value="bug_report_form"/>
+      <provide type="ezcontentclass" name="contentclass" value="youtube_video"/>
+      <provide type="ezcontentclass" name="contentclass" value="instagram_video"/>
+    </provides>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
+  </dependencies>
+  <install>
+    <item type="ezcontentclass" filename="class-folder" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-user" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-link" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-story" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-category" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-bug_report_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-youtube_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-instagram_video" sub-directory="ezcontentclass"/>
+  </install>
+  <uninstall>
+    <item type="ezcontentclass" filename="class-folder" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-user" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-link" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-story" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-category" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-bug_report_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-youtube_video" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-instagram_video" sub-directory="ezcontentclass"/>
+  </uninstall>
+</package>
