@@ -1,0 +1,328 @@
+[
+  {
+    "rank": 1,
+    "title": "The Rise of Open Source Programming",
+    "url": "https://theriseofcode.com/open-source",
+    "source": {
+      "name": "theriseofcode.com",
+      "url": "https://theriseofcode.com"
+    },
+    "score": 210,
+    "author": {
+      "username": "coder123",
+      "url": "https://theriseofcode.com/users/coder123"
+    },
+    "timeAgo": "2 hours ago",
+    "comments": {
+      "count": 54,
+      "url": "https://theriseofcode.com/open-source#comments"
+    }
+  },
+  {
+    "rank": 2,
+    "title": "Ethics in AI: Lessons from Real-World Deployments",
+    "url": "https://aiethics.org/lessons",
+    "source": { "name": "aiethics.org", "url": "https://aiethics.org" },
+    "score": 185,
+    "author": {
+      "username": "ai_guru",
+      "url": "https://aiethics.org/users/ai_guru"
+    },
+    "timeAgo": "5 hours ago",
+    "comments": { "count": 32, "url": "https://aiethics.org/lessons#comments" }
+  },
+  {
+    "rank": 3,
+    "title": "Top 10 JavaScript Performance Pitfalls",
+    "url": "https://jsperformance.com/performance-pitfalls",
+    "source": {
+      "name": "jsperformance.com",
+      "url": "https://jsperformance.com"
+    },
+    "score": 220,
+    "author": {
+      "username": "dev_master",
+      "url": "https://jsperformance.com/users/dev_master"
+    },
+    "timeAgo": "1 day ago",
+    "comments": {
+      "count": 61,
+      "url": "https://jsperformance.com/performance-pitfalls#comments"
+    }
+  },
+  {
+    "rank": 4,
+    "title": "Quantum Computing: How It Will Change the Internet",
+    "url": "https://quantumnews.net/quantum-internet",
+    "source": { "name": "quantumnews.net", "url": "https://quantumnews.net" },
+    "score": 140,
+    "author": {
+      "username": "quantum_queen",
+      "url": "https://quantumnews.net/users/quantum_queen"
+    },
+    "timeAgo": "3 hours ago",
+    "comments": {
+      "count": 35,
+      "url": "https://quantumnews.net/quantum-internet#comments"
+    }
+  },
+  {
+    "rank": 5,
+    "title": "CSS Grid vs Flexbox: When to Use Which",
+    "url": "https://css-tricks.com/css-grid-vs-flexbox",
+    "source": { "name": "css-tricks.com", "url": "https://css-tricks.com" },
+    "score": 120,
+    "author": {
+      "username": "css_wizard",
+      "url": "https://css-tricks.com/users/css_wizard"
+    },
+    "timeAgo": "6 hours ago",
+    "comments": {
+      "count": 25,
+      "url": "https://css-tricks.com/css-grid-vs-flexbox#comments"
+    }
+  },
+  {
+    "rank": 6,
+    "title": "React 18: Everything You Need to Know About Concurrent Features",
+    "url": "https://react.dev/react-18-concurrent",
+    "source": { "name": "react.dev", "url": "https://react.dev" },
+    "score": 195,
+    "author": {
+      "username": "reactfan",
+      "url": "https://react.dev/users/reactfan"
+    },
+    "timeAgo": "12 hours ago",
+    "comments": {
+      "count": 48,
+      "url": "https://react.dev/react-18-concurrent#comments"
+    }
+  },
+  {
+    "rank": 7,
+    "title": "Node.js Event Loop Explained With Diagrams",
+    "url": "https://nodejs.org/en/docs/guides/event-loop",
+    "source": { "name": "nodejs.org", "url": "https://nodejs.org" },
+    "score": 160,
+    "author": {
+      "username": "node_ninja",
+      "url": "https://nodejs.org/users/node_ninja"
+    },
+    "timeAgo": "8 hours ago",
+    "comments": {
+      "count": 30,
+      "url": "https://nodejs.org/en/docs/guides/event-loop#comments"
+    }
+  },
+  {
+    "rank": 8,
+    "title": "Top 10 VS Code Extensions for Web Developers in 2026",
+    "url": "https://vscode.blog/top-10-extensions",
+    "source": { "name": "vscode.blog", "url": "https://vscode.blog" },
+    "score": 110,
+    "author": {
+      "username": "dev_tools",
+      "url": "https://vscode.blog/users/dev_tools"
+    },
+    "timeAgo": "1 day ago",
+    "comments": {
+      "count": 20,
+      "url": "https://vscode.blog/top-10-extensions#comments"
+    }
+  },
+  {
+    "rank": 9,
+    "title": "Making Your Website Accessible: A Practical Guide",
+    "url": "https://a11yproject.com/accessible-guide",
+    "source": { "name": "a11yproject.com", "url": "https://a11yproject.com" },
+    "score": 145,
+    "author": {
+      "username": "accessibility_pro",
+      "url": "https://a11yproject.com/users/accessibility_pro"
+    },
+    "timeAgo": "2 days ago",
+    "comments": {
+      "count": 38,
+      "url": "https://a11yproject.com/accessible-guide#comments"
+    }
+  },
+  {
+    "rank": 10,
+    "title": "Python Tips and Tricks Every Developer Should Know",
+    "url": "https://python.org/dev-tips",
+    "source": { "name": "python.org", "url": "https://python.org" },
+    "score": 230,
+    "author": {
+      "username": "pycoder",
+      "url": "https://python.org/users/pycoder"
+    },
+    "timeAgo": "3 days ago",
+    "comments": { "count": 65, "url": "https://python.org/dev-tips#comments" }
+  },
+  {
+    "rank": 11,
+    "title": "Docker Basics: A Beginner’s Guide to Containers",
+    "url": "https://docker.com/basics-guide",
+    "source": { "name": "docker.com", "url": "https://docker.com" },
+    "score": 130,
+    "author": {
+      "username": "container_king",
+      "url": "https://docker.com/users/container_king"
+    },
+    "timeAgo": "4 hours ago",
+    "comments": {
+      "count": 23,
+      "url": "https://docker.com/basics-guide#comments"
+    }
+  },
+  {
+    "rank": 12,
+    "title": "Kubernetes for Beginners: Deploy Your First App",
+    "url": "https://kubernetes.io/docs/tutorials/first-app",
+    "source": { "name": "kubernetes.io", "url": "https://kubernetes.io" },
+    "score": 115,
+    "author": {
+      "username": "kube_master",
+      "url": "https://kubernetes.io/users/kube_master"
+    },
+    "timeAgo": "6 hours ago",
+    "comments": {
+      "count": 16,
+      "url": "https://kubernetes.io/docs/tutorials/first-app#comments"
+    }
+  },
+  {
+    "rank": 13,
+    "title": "Deep Dive into TypeScript: Advanced Patterns",
+    "url": "https://typescriptlang.org/advanced-patterns",
+    "source": {
+      "name": "typescriptlang.org",
+      "url": "https://typescriptlang.org"
+    },
+    "score": 190,
+    "author": {
+      "username": "ts_dev",
+      "url": "https://typescriptlang.org/users/ts_dev"
+    },
+    "timeAgo": "9 hours ago",
+    "comments": {
+      "count": 42,
+      "url": "https://typescriptlang.org/advanced-patterns#comments"
+    }
+  },
+  {
+    "rank": 14,
+    "title": "Serverless Architecture: How to Scale Without Servers",
+    "url": "https://serverless.com/architecture-guide",
+    "source": { "name": "serverless.com", "url": "https://serverless.com" },
+    "score": 170,
+    "author": {
+      "username": "cloud_guru",
+      "url": "https://serverless.com/users/cloud_guru"
+    },
+    "timeAgo": "10 hours ago",
+    "comments": {
+      "count": 37,
+      "url": "https://serverless.com/architecture-guide#comments"
+    }
+  },
+  {
+    "rank": 15,
+    "title": "GraphQL vs REST: Choosing the Right API Design",
+    "url": "https://graphql.org/blog/graphql-vs-rest",
+    "source": { "name": "graphql.org", "url": "https://graphql.org" },
+    "score": 155,
+    "author": {
+      "username": "api_master",
+      "url": "https://graphql.org/users/api_master"
+    },
+    "timeAgo": "1 day ago",
+    "comments": {
+      "count": 30,
+      "url": "https://graphql.org/blog/graphql-vs-rest#comments"
+    }
+  },
+  {
+    "rank": 16,
+    "title": "Learning Rust in 2026: A Modern Systems Programming Guide",
+    "url": "https://rust-lang.org/learn/2026-guide",
+    "source": { "name": "rust-lang.org", "url": "https://rust-lang.org" },
+    "score": 140,
+    "author": {
+      "username": "rustacean",
+      "url": "https://rust-lang.org/users/rustacean"
+    },
+    "timeAgo": "2 days ago",
+    "comments": {
+      "count": 26,
+      "url": "https://rust-lang.org/learn/2026-guide#comments"
+    }
+  },
+  {
+    "rank": 17,
+    "title": "Modern Web Security Practices Every Developer Should Follow",
+    "url": "https://owasp.org/web-security-practices",
+    "source": { "name": "owasp.org", "url": "https://owasp.org" },
+    "score": 135,
+    "author": {
+      "username": "security_expert",
+      "url": "https://owasp.org/users/security_expert"
+    },
+    "timeAgo": "3 days ago",
+    "comments": {
+      "count": 31,
+      "url": "https://owasp.org/web-security-practices#comments"
+    }
+  },
+  {
+    "rank": 18,
+    "title": "AI-Powered Productivity Tools That Actually Work",
+    "url": "https://aiproductivity.com/tools",
+    "source": {
+      "name": "aiproductivity.com",
+      "url": "https://aiproductivity.com"
+    },
+    "score": 200,
+    "author": {
+      "username": "ai_tools",
+      "url": "https://aiproductivity.com/users/ai_tools"
+    },
+    "timeAgo": "5 hours ago",
+    "comments": {
+      "count": 45,
+      "url": "https://aiproductivity.com/tools#comments"
+    }
+  },
+  {
+    "rank": 19,
+    "title": "WebAssembly in Action: Faster Web Apps",
+    "url": "https://webassembly.org/articles/in-action",
+    "source": { "name": "webassembly.org", "url": "https://webassembly.org" },
+    "score": 125,
+    "author": {
+      "username": "wasm_dev",
+      "url": "https://webassembly.org/users/wasm_dev"
+    },
+    "timeAgo": "6 hours ago",
+    "comments": {
+      "count": 22,
+      "url": "https://webassembly.org/articles/in-action#comments"
+    }
+  },
+  {
+    "rank": 20,
+    "title": "Progressive Web Apps: A Complete Guide for 2026",
+    "url": "https://web.dev/pwa-guide-2026",
+    "source": { "name": "web.dev", "url": "https://web.dev" },
+    "score": 180,
+    "author": {
+      "username": "pwa_guru",
+      "url": "https://web.dev/users/pwa_guru"
+    },
+    "timeAgo": "12 hours ago",
+    "comments": {
+      "count": 40,
+      "url": "https://web.dev/pwa-guide-2026#comments"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{* Folder - Line view *}
+
+<div class="content-view-line generic-content-item">
+    <div class="class-folder">
+
+        <h3 class="generic-content-title" style="text-transform: capitalize;"><a href={$node.url_alias|ezurl} class="link">{$node.name|wash()}</a></h3>
+
+        {section show=$node.data_map.short_description.content.is_empty|not}
+            <div class="attribute-short">
+                {attribute_view_gui attribute=$node.data_map.short_description}
+            </div>
+        {/section}
+        {*
+        <div class="attribute-link">
+            <p><a href={$node.url_alias|ezurl}>{"View list"|i18n("design/base")}</a></p>
+        </div>
+*}
+    </div>
+</div>

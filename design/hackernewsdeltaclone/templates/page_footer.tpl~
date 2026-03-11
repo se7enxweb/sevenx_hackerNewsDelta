@@ -1,0 +1,135 @@
+{def $startyear=2025}
+
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="container">
+      <nav class="nav">
+        <ul>
+          <li><a href="/lists">Lists</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/about/faq/guidelines">Guidlines</a></li>
+          <li><a href="/about/faq">FAQ</a></li>
+          <li><a href="/about/faq/security">Security</a></li>
+          <li><a href="/about/faq/api">API</a></li>
+          <li><a href="/about/legal">Legal</a></li>
+          <li><a href="/tools">Tools</a></li>
+          {* <li><a href="#">Apply to YC</a></li> *}
+          <li><a href="/about/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <form method="post" action="/content/search" class="search-box">
+        <label for="search" class="form-label"> Search: </label>
+        <div class="btn-group">
+          <input type="text" id="search" name="SearchText" class="form-control" />
+          <input class="btn" name="SearchButton" type="submit" value="Search">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="poweredby-text">
+        <div>
+          <a href="/" class="brand-logo">
+            Hacker News <span class="text-accent">Delta</span>
+          </a>
+          is Powered by
+          <a href="/ezinfo/about" title="Exponential CMS Open Source Web Content Management" class="link">
+            Exponential
+          </a>
+        </div>
+        <div class="attribute-image-powered-by">
+          <a href="https://exponential.earth">
+            <img src={"images/content/logos/powered-by-logo-exponential.png"|ezdesign} width="339" height="106"
+              style="height: 3rem; width: 10rem; margin-top: 0.21rem; border: 0px;" alt="Powered By: Exponential"
+              title="Powered By: Exponential">
+          </a>
+        </div>
+      </div>
+      <div class="hosting-sponsor">
+        <p>Proudly hosted by:</p>
+        <p><a href="https://se7enx.com" title="se7enx.com">se7enx.com</a></p>
+        <a href="https://se7enx.com" class="footer-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="7x-icon"
+            data-name="7x Icon" viewBox="0 0 400 400" width="65" height="65">
+            <defs>
+              <style>
+                {literal}
+                  .cls-1 {
+                    filter: url(#drop-shadow-1);
+                  }
+
+                  .cls-2 {
+                    fill: #ec7324;
+                  }
+
+                {/literal}
+              </style>
+              <filter id="drop-shadow-1" x="6.55" y="31.27" width="388.56" height="344.16" filterUnits="userSpaceOnUse">
+                <feOffset dx=".8" dy="3.21" />
+                <feGaussianBlur result="blur" stdDeviation="2.3" />
+                <feFlood flood-color="#010101" flood-opacity=".3" />
+                <feComposite in2="blur" operator="in" />
+                <feComposite in="SourceGraphic" />
+              </filter>
+            </defs>
+            <g class="cls-1">
+              <g>
+                <path class="cls-2" d="M12.73,222.3L200,35.03l187.27,187.27h-42.06L199.15,76.24,53.21,222.3H12.73Z" />
+                <path class="cls-2"
+                  d="M202.55,364.97l142.67-142.55h-40.85l-102.3,102.3-102.3-102.42h-45.21l148,142.67Z" />
+                <path class="cls-2" d="M202.55,121.82l101.21,101.21H100l102.55-101.21Z" />
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="tooltip">
+      <span class="icon">π</span>
+      <span class="content">
+        {def $hostname  = ezsys( 'hostname' )
+    	     $timestamp = currentdate()
+    	     $version   = '6.0.12gh'
+    	     $language  = ezini( 'RegionalSettings', 'Locale', 'site.ini' )}
+
+Rendered on {$hostname}
+at {$timestamp|datetime( 'custom', '%Y-%m-%d %H:%i:%s %T' )}
+running Exponential {$version}
+language code: {$language}
+
+{undef $hostname $timestamp $version $language}
+{*
+	Rendered by PID 100 on
+        reddit-service-r2-loggedout-7b89d9bc67-l8jtx at 2026-01-24 06:43:03.516146+00:00 running 664479f country code:
+        US.
+	*}
+      </span>
+    </div>
+  </div>
+</footer>
+
+{* <footer class="footer-main">
+  <div class="container">
+
+
+<div id="footer">
+<ul>
+<li><a href="/">home</a></li>
+<li><a href="/about">about digg</a></li>
+<li><a href="/all/(dir)/1">digg for stories</a></li>
+<li><a onclick="{if $current_node.depth|lt(2)}document.getElementById('btn-submit').click(); return false;{else}{/if}" href="{if $current_node.depth|lt(2)}https://{$current_node.depth}{ezsys( 'hostname' )}/submit{else}https://{ezsys( 'hostname' )}/c#select-a-category-first{/if}">submit a link</a>
+</li>
+<li><a href="/contact">contact us</a></li>
+<li><span class="copyright">© {$startyear} - {currentdate()|datetime( 'custom', '%Y' )} {ezsys( 'hostname' )} - all rights reserved</span></li>
+</ul>
+</div>
+
+
+
+
+
+  </div>
+</footer> *}

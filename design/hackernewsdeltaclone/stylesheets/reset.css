@@ -1,0 +1,98 @@
+/* ==========================================================
+   CSS Reset / Normalize
+   ========================================================== */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Improve text rendering */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.hnd {
+  /* Media elements */
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* Form elements inherit typography */
+  input,
+  button,
+  textarea,
+  select {
+    /* font: inherit; */
+    color: inherit;
+  }
+
+  /* Remove button styles */
+  button {
+    background: none;
+    border: none;
+  }
+
+  /* Remove list styles */
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  /* Remove default link styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th,
+  td {
+    text-align: left;
+    vertical-align: top;
+  }
+
+  /* Prevent text overflow */
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* Root stacking context */
+  #root,
+  #__next {
+    isolation: isolate;
+  }
+}
